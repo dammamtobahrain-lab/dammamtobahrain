@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 60">
+  <!-- Car Icon -->
+  <path d="M10 35 L20 20 L50 20 L60 35 L70 35 L70 45 L60 45 L60 50 L50 50 L50 45 L20 45 L20 50 L10 50 L10 45 L0 45 L0 35 Z M15 35 L20 25 L50 25 L55 35 Z" fill="black"/>
+  <!-- Text -->
+  <text x="80" y="38" font-family="'Times New Roman', serif" font-weight="bold" font-size="28" fill="black">DAMMAM TO BAHRAIN</text>
+  <text x="80" y="52" font-family="Arial, sans-serif" font-size="10" fill="gray" letter-spacing="2">EXECUTIVE TRANSPORT</text>
+</svg>
