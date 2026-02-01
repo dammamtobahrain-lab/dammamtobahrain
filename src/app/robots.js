@@ -3,7 +3,7 @@ export default function robots() {
         rules: {
             userAgent: '*',
             allow: '/',
-            disallow: '/private/',
+            disallow: ['/admin/', '/api/', '/private/'],
         },
         sitemap: 'https://dammamtobahrain.com/sitemap.xml',
     }
