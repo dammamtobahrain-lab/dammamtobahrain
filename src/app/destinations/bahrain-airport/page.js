@@ -1,59 +1,71 @@
 import Link from 'next/link';
+import destinationData from '@/data/destinationData';
+import PageFAQ from '@/components/sections/PageFAQ';
+import CityReviews from '@/components/sections/CityReviews';
+import ExpertInsight from '@/components/sections/ExpertInsight';
+import TrustBar from '@/components/sections/TrustBar';
+import UrgencyBanner from '@/components/sections/UrgencyBanner';
+import LastUpdated from '@/components/sections/LastUpdated';
+import LocalMarketData from '@/components/sections/LocalMarketData';
+import LocalGuide from '@/components/sections/LocalGuide';
+import NearbyAreas from '@/components/sections/NearbyAreas';
+import SchemaMarkup from '@/components/sections/SchemaMarkup';
+
+const data = destinationData['bahrain-airport'];
 
 export const metadata = {
-    title: "Bahrain Airport (BAH) Transfers | KSA to BAH Taxi",
-    description: "Reliable airport transfer taxi from Saudi Arabia to Bahrain International Airport (BAH). On-time flight drop-offs and pickups.",
+    title: data.metaTitle,
+    description: data.metaDescription,
 };
 
 export default function BahrainAirportPage() {
     return (
         <div className="section">
             <div className="container">
-                <h1 className="section-title">DESTINATION: BAHRAIN AIRPORT (BAH)</h1>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '3rem' }}>
+                {/* Hero Section */}
+                <div className="destination-hero">
+                    <h1 className="section-title">{data.title}</h1>
+                    <p className="destination-description">{data.description}</p>
+                </div>
 
-                    <div style={{ border: '2px solid #000', padding: '3rem' }}>
-                        <p style={{ fontSize: '1.2rem', fontFamily: 'Georgia, serif', lineHeight: '1.8' }}>
-                            <strong>Flying out of Bahrain?</strong> Bahrain International Airport (BAH) offers connections to destinations often not served directly by Dammam. We ensure you make your flight on time, every time.
-                        </p>
+                {/* Main 2-Column Layout */}
+                <div className="content-layout">
 
-                        <hr style={{ margin: '2rem 0', border: 'none', borderTop: '1px solid #000' }} />
+                    <div className="content-main">
+                        {/* Long-form Content */}
+                        <div
+                            className="destination-content"
+                            dangerouslySetInnerHTML={{ __html: data.longText }}
+                        />
 
-                        <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.1rem', lineHeight: '1.8' }}>
-
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', marginTop: '2rem', marginBottom: '1rem', textTransform: 'uppercase' }}>Departure Transfers (KSA ➔ BAH)</h2>
-                            <p>The drive from Al Khobar to BAH typically takes 60-75 minutes. However, causeway delays are unpredictable. We recommend the following buffer times:</p>
-                            <ul style={{ paddingLeft: '20px', marginBottom: '1.5rem', listStyle: 'square' }}>
-                                <li><strong>Weekday Flights:</strong> Pickup 4 hours before flight time.</li>
-                                <li><strong>Weekend Flights (Thu-Sat):</strong> Pickup 5-6 hours before flight time.</li>
+                        {/* Features List */}
+                        <div className="destination-features">
+                            <h3>Why Choose Our Airport Transfer Service</h3>
+                            <ul>
+                                {data.features.map((feature, i) => (
+                                    <li key={i}>{feature}</li>
+                                ))}
                             </ul>
-                            <p>We drop you directly at the "Departures" curb, assisting with luggage unloading.</p>
-
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', marginTop: '2rem', marginBottom: '1rem', textTransform: 'uppercase' }}>Arrival Pickups (BAH ➔ KSA)</h2>
-                            <p>Landing in Bahrain and heading to Saudi? Our driver will meet you at <strong>Arrivals Exit 2</strong>. We track your flight status in real-time to adjust for delays. Please ensure your Saudi Visa is valid before boarding your flight to Bahrain.</p>
-
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', marginTop: '2rem', marginBottom: '1rem', textTransform: 'uppercase' }}>Excess Luggage</h2>
-                            <p>International flights often mean big bags. If you are a family of 4+ with 8 suitcases, a standard SUV might be tight. We can arrange a <Link href="/fleet/hyundai-staria" style={{ textDecoration: 'underline' }}>Hyundai Staria Van</Link> or a secondary luggage vehicle upon request.</p>
-
                         </div>
 
-                        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+                        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
                             <Link href="/booking" className="btn btn-primary" style={{ padding: '15px 50px', fontSize: '1.2rem' }}>
                                 BOOK AIRPORT RIDE
                             </Link>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="content-sidebar">
                         <div style={{ border: '2px solid #000', padding: '2rem', background: '#f9f9f9', position: 'sticky', top: '20px' }}>
                             <h3 style={{ borderBottom: '1px solid #000', paddingBottom: '10px', marginBottom: '1rem' }}>AIRPORT DATA</h3>
                             <ul style={{ listStyle: 'none', lineHeight: '2' }}>
                                 <li><strong>Code:</strong> BAH</li>
                                 <li><strong>Terminal:</strong> New Terminal</li>
-                                <li><strong>From Khobar:</strong> ~60 KM</li>
-                                <li><strong>Avg Time:</strong> 70 Mins</li>
-                                <li><strong>Toll:</strong> Included</li>
+                                <li><strong>Avg Fare:</strong> {data.marketData.avgFare}</li>
+                                <li><strong>Duration:</strong> {data.marketData.avgDuration}</li>
+                                <li><strong>Peak:</strong> {data.marketData.peakHours}</li>
+                                <li><strong>Demand:</strong> {data.marketData.demandTrend}</li>
                             </ul>
                             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
                                 <Link href="/booking" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '1rem', width: '100%', display: 'block' }}>
@@ -64,6 +76,19 @@ export default function BahrainAirportPage() {
                     </div>
 
                 </div>
+
+                {/* SEO Authority Sections */}
+                <TrustBar clientsServed={data.socialProof.clientsServed} cityName="Bahrain Airport" />
+                <LocalMarketData data={data.marketData} cityName="Bahrain Airport" />
+                <NearbyAreas areas={data.nearbyAreas} cityName="Bahrain Airport" />
+                <LocalGuide landmarks={data.landmarks} neighborhoods={data.neighborhoods} cityName="Bahrain Airport" />
+                <CityReviews reviews={data.reviews} cityName="Bahrain Airport" />
+                <ExpertInsight text={data.expertOpinion} cityName="Bahrain Airport" />
+                <PageFAQ faqs={data.faqs} cityName="Bahrain Airport" />
+                <UrgencyBanner message={data.urgency.message} slots={data.urgency.slots} cityName="Bahrain Airport" />
+                <LastUpdated date={data.lastUpdated} />
+                <SchemaMarkup type="location" data={{ coordinates: data.coordinates, faqs: data.faqs }} />
+
             </div>
         </div>
     );

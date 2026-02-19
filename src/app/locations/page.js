@@ -1,20 +1,40 @@
 import LocationsGrid from '@/components/LocationsGrid';
+import PageHero from '@/components/ui/PageHero';
+import TrustBar from '@/components/sections/TrustBar';
+import SchemaMarkup from '@/components/sections/SchemaMarkup';
+import LastUpdated from '@/components/sections/LastUpdated';
 
 export const metadata = {
-    title: "Service Locations | Dammam to Bahrain Taxi",
-    description: "Complete list of pickup locations across Saudi Arabia. From major cities to remote oil fields.",
+    title: "All Service Locations | 47+ Pickup Points | Dammam to Bahrain Taxi",
+    description: "Complete list of 47+ pickup locations across Saudi Arabia. Al Khobar, Dammam, Jubail, Riyadh, Dhahran, Qatif, Hofuf, and remote oil field locations. All routes to Bahrain.",
 };
 
 export default function LocationsIndex() {
     return (
-        <div className="section">
-            <div className="container">
-                <h1 className="section-title">SERVICE LOCATIONS</h1>
-                <p style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                    We cover the entire Eastern Province and beyond. Select your pickup point.
-                </p>
-                <LocationsGrid />
+        <>
+            <SchemaMarkup type="home" data={{
+                breadcrumbs: [
+                    { name: 'Home', href: '/' },
+                    { name: 'Locations', href: '/locations/' },
+                ],
+            }} />
+
+            <PageHero
+                title="Service Locations"
+                subtitle="We cover the entire Eastern Province and beyond. Select your pickup point."
+                label="AREA COVERAGE"
+            />
+            <div className="section">
+                <div className="container">
+                    <LocationsGrid />
+                </div>
             </div>
-        </div>
+
+            <TrustBar clientsServed="500+" />
+
+            <div className="container">
+                <LastUpdated date="February 19, 2026" />
+            </div>
+        </>
     );
 }

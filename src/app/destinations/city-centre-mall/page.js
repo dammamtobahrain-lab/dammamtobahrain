@@ -1,66 +1,71 @@
 import Link from 'next/link';
+import destinationData from '@/data/destinationData';
+import PageFAQ from '@/components/sections/PageFAQ';
+import CityReviews from '@/components/sections/CityReviews';
+import ExpertInsight from '@/components/sections/ExpertInsight';
+import TrustBar from '@/components/sections/TrustBar';
+import UrgencyBanner from '@/components/sections/UrgencyBanner';
+import LastUpdated from '@/components/sections/LastUpdated';
+import LocalMarketData from '@/components/sections/LocalMarketData';
+import LocalGuide from '@/components/sections/LocalGuide';
+import NearbyAreas from '@/components/sections/NearbyAreas';
+import SchemaMarkup from '@/components/sections/SchemaMarkup';
+
+const data = destinationData['city-centre-mall'];
 
 export const metadata = {
-    title: "Taxi to Bahrain City Centre | Shopping Trips",
-    description: "Direct taxi transfers to Bahrain City Centre Mall, Seef Mall, and The Avenues. Enjoy a day of shopping without the parking hassle.",
+    title: data.metaTitle,
+    description: data.metaDescription,
 };
 
 export default function CityCentrePage() {
     return (
         <div className="section">
             <div className="container">
-                <h1 className="section-title">DESTINATION: CITY CENTRE BAHRAIN</h1>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '3rem' }}>
+                {/* Hero Section */}
+                <div className="destination-hero">
+                    <h1 className="section-title">{data.title}</h1>
+                    <p className="destination-description">{data.description}</p>
+                </div>
 
-                    <div style={{ border: '2px solid #000', padding: '3rem' }}>
-                        <p style={{ fontSize: '1.2rem', fontFamily: 'Georgia, serif', lineHeight: '1.8' }}>
-                            <strong>The ultimate shopping destination.</strong> Bahrain City Centre is the largest shopping, leisure, and entertainment complex in Bahrain. It is the top weekend destination for Saudi families. We provide door-to-door transport so you don't have to worry about finding parking in the crowded multi-story garage.
-                        </p>
+                {/* Main 2-Column Layout */}
+                <div className="content-layout">
 
-                        <hr style={{ margin: '2rem 0', border: 'none', borderTop: '1px solid #000' }} />
+                    <div className="content-main">
+                        {/* Long-form Content */}
+                        <div
+                            className="destination-content"
+                            dangerouslySetInnerHTML={{ __html: data.longText }}
+                        />
 
-                        <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.1rem', lineHeight: '1.8' }}>
-
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', marginTop: '2rem', marginBottom: '1rem', textTransform: 'uppercase' }}>Nearby Malls</h2>
-                            <p>Our "Shopping Trip" service can drop you off at City Centre, but we also cover the entire Seef retail district:</p>
-                            <ul style={{ paddingLeft: '20px', marginBottom: '1.5rem', listStyle: 'square' }}>
-                                <li><strong>Seef Mall:</strong> The classic family favorite.</li>
-                                <li><strong>The Avenues:</strong> Waterfront dining and luxury shopping.</li>
-                                <li><strong>Moda Mall:</strong> High-end fashion brands (World Trade Center).</li>
+                        {/* Features List */}
+                        <div className="destination-features">
+                            <h3>Why Choose Our City Centre Transfer Service</h3>
+                            <ul>
+                                {data.features.map((feature, i) => (
+                                    <li key={i}>{feature}</li>
+                                ))}
                             </ul>
-
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', marginTop: '2rem', marginBottom: '1rem', textTransform: 'uppercase' }}>Day Trip Itinerary</h2>
-                            <p>Common itinerary for our clients:</p>
-                            <ol>
-                                <li>10:00 AM Pickup from Al Khobar.</li>
-                                <li>11:30 AM Arrival at City Centre (Gate 1).</li>
-                                <li>lunch & Shopping.</li>
-                                <li>8:00 PM Pickup from City Centre (Gate 1 or Saks Fifth Avenue entrance).</li>
-                                <li>9:30 PM Drop-off back in Al Khobar.</li>
-                            </ol>
-
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', marginTop: '2rem', marginBottom: '1rem', textTransform: 'uppercase' }}>Shopping Space</h2>
-                            <p>Planning to buy electronics or heavy items? Let us know. We recommend the <Link href="/fleet/gmc-yukon" style={{ textDecoration: 'underline' }}>GMC Yukon</Link> for serious shoppers, as it has ample cargo space for boxes and bags.</p>
-
                         </div>
 
-                        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+                        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
                             <Link href="/booking" className="btn btn-primary" style={{ padding: '15px 50px', fontSize: '1.2rem' }}>
                                 BOOK SHOPPING TRIP
                             </Link>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="content-sidebar">
                         <div style={{ border: '2px solid #000', padding: '2rem', background: '#f9f9f9', position: 'sticky', top: '20px' }}>
                             <h3 style={{ borderBottom: '1px solid #000', paddingBottom: '10px', marginBottom: '1rem' }}>MALL DETAILS</h3>
                             <ul style={{ listStyle: 'none', lineHeight: '2' }}>
                                 <li><strong>Location:</strong> Seef District</li>
                                 <li><strong>Features:</strong> Cinema, Waterpark, Hotel</li>
-                                <li><strong>Best Drop-off:</strong> Gate 3 (Kempinski)</li>
-                                <li><strong>Peak Hours:</strong> Thu & Fri Evening</li>
-                                <li><strong>Return:</strong> Pre-book to avoid wait</li>
+                                <li><strong>Avg Fare:</strong> {data.marketData.avgFare}</li>
+                                <li><strong>Duration:</strong> {data.marketData.avgDuration}</li>
+                                <li><strong>Peak:</strong> {data.marketData.peakHours}</li>
+                                <li><strong>Demand:</strong> {data.marketData.demandTrend}</li>
                             </ul>
                             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
                                 <Link href="/booking" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '1rem', width: '100%', display: 'block' }}>
@@ -71,6 +76,19 @@ export default function CityCentrePage() {
                     </div>
 
                 </div>
+
+                {/* SEO Authority Sections */}
+                <TrustBar clientsServed={data.socialProof.clientsServed} cityName="City Centre Bahrain" />
+                <LocalMarketData data={data.marketData} cityName="City Centre Bahrain" />
+                <NearbyAreas areas={data.nearbyAreas} cityName="City Centre Bahrain" />
+                <LocalGuide landmarks={data.landmarks} neighborhoods={data.neighborhoods} cityName="City Centre Bahrain" />
+                <CityReviews reviews={data.reviews} cityName="City Centre Bahrain" />
+                <ExpertInsight text={data.expertOpinion} cityName="City Centre Bahrain" />
+                <PageFAQ faqs={data.faqs} cityName="City Centre Bahrain" />
+                <UrgencyBanner message={data.urgency.message} slots={data.urgency.slots} cityName="City Centre Bahrain" />
+                <LastUpdated date={data.lastUpdated} />
+                <SchemaMarkup type="location" data={{ coordinates: data.coordinates, faqs: data.faqs }} />
+
             </div>
         </div>
     );

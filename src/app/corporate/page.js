@@ -1,8 +1,12 @@
 import LocationsGrid from '@/components/LocationsGrid';
+import TrustBar from '@/components/sections/TrustBar';
+import ExpertInsight from '@/components/sections/ExpertInsight';
+import LastUpdated from '@/components/sections/LastUpdated';
+import SchemaMarkup from '@/components/sections/SchemaMarkup';
 
 export const metadata = {
-    title: "Corporate Accounts | Business Taxi Services",
-    description: "Corporate transport solutions for companies in KSA and Bahrain. Monthly invoicing, priority causeway dispatch, and executive chauffeur services.",
+    title: "Corporate Taxi Accounts | Business Transport Saudi-Bahrain 2026",
+    description: "Corporate transport solutions for companies in KSA and Bahrain. Monthly invoicing, priority causeway dispatch, executive chauffeur fleet. Serving Aramco, SABIC, and 50+ corporate clients.",
 };
 
 export default function CorporatePage() {
@@ -91,7 +95,33 @@ export default function CorporatePage() {
                     </div>
                 </div>
             </div>
+            {/* Expert Insight */}
+            <div className="section" style={{ padding: '0 0 2rem' }}>
+                <div className="container" style={{ maxWidth: '800px' }}>
+                    <ExpertInsight
+                        text="We serve over 50 corporate clients across the Eastern Province, from multinational energy companies to boutique consultancy firms. The key to corporate transport is consistency — same high standard, every single trip. Our corporate clients value our monthly invoicing system, which eliminates petty cash hassles and provides clean audit trails for expense reporting."
+                        cityName="Corporate"
+                        author="Corporate Sales Manager, Dammam to Bahrain Taxi"
+                    />
+                </div>
+            </div>
+
+            <TrustBar clientsServed="50+ companies" />
+
             <LocationsGrid />
+
+            <SchemaMarkup type="service" data={{
+                serviceName: 'Corporate Taxi Service',
+                serviceDescription: 'Corporate transport solutions with monthly invoicing, priority dispatch, and executive fleet access.',
+                breadcrumbs: [
+                    { name: 'Home', href: '/' },
+                    { name: 'Corporate', href: '/corporate/' },
+                ],
+            }} />
+
+            <div className="container">
+                <LastUpdated date="February 19, 2026" />
+            </div>
         </>
     );
 }

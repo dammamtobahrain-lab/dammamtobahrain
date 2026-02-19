@@ -1,10 +1,22 @@
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import StickyCTA from "@/components/sections/StickyCTA";
 import Script from "next/script";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  display: "swap",
+});
 
 export const metadata = {
   metadataBase: new URL('https://dammamtobahrain.com'),
@@ -44,7 +56,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.variable}>
+      <body className={`${inter.variable} ${playfair.variable}`}>
         <Script id="clarity-script" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){
@@ -68,10 +80,12 @@ export default function RootLayout({ children }) {
           `}
         </Script>
         <Navbar />
-        <main style={{ minHeight: '80vh', paddingTop: 'var(--header-height)' }}>
+        <Breadcrumbs />
+        <main style={{ minHeight: '80vh' }}>
           {children}
         </main>
         <Footer />
+        <StickyCTA />
       </body>
     </html>
   );

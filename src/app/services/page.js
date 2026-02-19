@@ -1,4 +1,8 @@
 import LocationsGrid from '@/components/LocationsGrid';
+import PageHero from '@/components/ui/PageHero';
+import SchemaMarkup from '@/components/sections/SchemaMarkup';
+import TrustBar from '@/components/sections/TrustBar';
+import LastUpdated from '@/components/sections/LastUpdated';
 
 export const metadata = {
     title: "Services & Rates | Dammam to Bahrain Taxi",
@@ -8,10 +12,13 @@ export const metadata = {
 export default function Services() {
     return (
         <>
+            <PageHero
+                title="Official 2026 Tariff & Rates"
+                subtitle="Transparent pricing for all destinations across Saudi Arabia and Bahrain. No hidden fees."
+                label="SERVICE RATES"
+            />
             <div className="section">
                 <div className="container">
-                    <h1 className="section-title">OFFICIAL RATE CARD (2026)</h1>
-
                     <p style={{ textAlign: 'center', marginBottom: '3rem', fontStyle: 'italic' }}>
                         Fixed rates for direct transfers. All prices include Toll Fees.
                     </p>
@@ -106,7 +113,28 @@ export default function Services() {
 
                 </div>
             </div>
+
+            <TrustBar clientsServed="10,000+" />
+
+            <div className="section">
+                <div className="container">
+                    <LastUpdated date="February 19, 2026" />
+                </div>
+            </div>
+
             <LocationsGrid />
+
+            <SchemaMarkup
+                type="service"
+                data={{
+                    serviceName: 'Dammam to Bahrain Taxi — Services & Rates',
+                    serviceDescription: 'Official 2026 tariff for taxi services from all Eastern Province locations to Bahrain. Fixed rates, no hidden fees.',
+                    breadcrumbs: [
+                        { name: 'Home', href: '/' },
+                        { name: 'Services & Rates', href: '/services' },
+                    ],
+                }}
+            />
         </>
     );
 }

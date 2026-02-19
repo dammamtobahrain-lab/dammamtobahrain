@@ -1,65 +1,89 @@
 import Link from 'next/link';
+import { Phone, Mail, MapPin, Shield, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
 
 export default function Footer() {
     return (
-        <footer style={{ borderTop: '4px solid black' }}>
+        <footer>
             <div className="container">
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '3rem', marginBottom: '4rem' }}>
+
+                    {/* Brand Column */}
                     <div>
                         <h3>DAMMAM TO BAHRAIN</h3>
-                        <p style={{ fontSize: '0.9rem' }}>
-                            Professional taxi services connecting Eastern Province, KSA to Bahrain.
+                        <p style={{ color: '#ccc', fontSize: '0.95rem', lineHeight: '1.8' }}>
+                            The trusted choice for cross-border executive travel. We connect the Kingdom of Saudi Arabia and Bahrain with safety, luxury, and punctuality.
                         </p>
+                        <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
+                            {/* Social Placeholders */}
+                            <Link href="#" aria-label="Facebook"><Facebook size={20} color="white" /></Link>
+                            <Link href="#" aria-label="Instagram"><Instagram size={20} color="white" /></Link>
+                            <Link href="#" aria-label="Twitter"><Twitter size={20} color="white" /></Link>
+                        </div>
                     </div>
+
+                    {/* Quick Links */}
                     <div>
-                        <h3>LOCATIONS</h3>
-                        <ul style={{ listStyle: 'square', paddingLeft: '1.2rem', lineHeight: '1.8', fontSize: '0.9rem' }}>
-                            <li><Link href="/locations/al-khobar">Al Khobar</Link></li>
-                            <li><Link href="/locations/jubail">Jubail</Link></li>
-                            <li><Link href="/locations/riyadh">Riyadh</Link></li>
-                            <li><Link href="/locations/dammam">Dammam Airport</Link></li>
-                            <li><Link href="/locations/bahrain">Bahrain Return</Link></li>
-                            <li><Link href="/locations/hofuf">Al Ahsa / Hofuf</Link></li>
-                            <li><Link href="/locations/ras-tanura">Ras Tanura</Link></li>
+                        <h3>QUICK LINKS</h3>
+                        <ul style={{ listStyle: 'none', padding: 0 }}>
+                            <li><Link href="/services/">Our Services & Rates</Link></li>
+                            <li><Link href="/fleet/">Luxury Fleet</Link></li>
+                            <li><Link href="/locations/">All Service Areas</Link></li>
+                            <li><Link href="/services/visa-run/">Saudi Visa Run</Link></li>
+                            <li><Link href="/travel-guide/">Bahrain Travel Guide</Link></li>
+                            <li><Link href="/blog/">Blog & Guides</Link></li>
+                            <li><Link href="/contact-us/">Contact Support</Link></li>
                         </ul>
                     </div>
+
+                    {/* Locations - Internal Linking */}
                     <div>
-                        <h3>RESOURCES</h3>
-                        <ul style={{ listStyle: 'square', paddingLeft: '1.2rem', lineHeight: '1.8', fontSize: '0.9rem' }}>
-                            <li><Link href="/travel-guide">Travel Guide</Link></li>
-                            <li><Link href="/fleet">Our Fleet</Link></li>
-                            <li><Link href="/corporate">Corporate Accounts</Link></li>
-                            <li><Link href="/services">Services & Rates</Link></li>
-                            <li><Link href="/faq">FAQ</Link></li>
+                        <h3>POPULAR ROUTES</h3>
+                        <ul style={{ listStyle: 'none', padding: 0 }}>
+                            <li><Link href="/locations/al-khobar/">Al Khobar to Bahrain Taxi</Link></li>
+                            <li><Link href="/locations/dammam/">Dammam to Bahrain Service</Link></li>
+                            <li><Link href="/locations/jubail/">Jubail to Bahrain Transfer</Link></li>
+                            <li><Link href="/locations/dhahran/">Dhahran Causeway Taxi</Link></li>
+                            <li><Link href="/locations/riyadh/">Riyadh to Bahrain Drive</Link></li>
+                            <li><Link href="/locations/dammam-airport/">DMM Airport Pickup</Link></li>
+                            <li><Link href="/locations/qatif/">Qatif to Bahrain Ride</Link></li>
+                            <li><Link href="/locations/hofuf/">Al-Ahsa / Hofuf Taxi</Link></li>
                         </ul>
                     </div>
+
+                    {/* Contact Info */}
                     <div>
-                        <h3>CONTACT</h3>
-                        <p style={{ fontSize: '0.9rem', marginBottom: '0.5rem' }}>
-                            <strong>WhatsApp:</strong> +1 (307) 346-4572
-                        </p>
-                        <p style={{ fontSize: '0.9rem', marginBottom: '0.5rem' }}>
-                            <strong>Email:</strong> booking@dammamtobahrain.com
-                        </p>
-                        <Link href="/booking" className="btn btn-primary" style={{ marginTop: '10px', fontSize: '0.8rem', padding: '10px 20px' }}>
-                            BOOK ONLINE
+                        <h3>CONTACT US</h3>
+                        <ul style={{ listStyle: 'none', padding: 0 }}>
+                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem', color: '#ccc' }}>
+                                <Phone size={18} color="var(--color-accent)" />
+                                <span>+1 (307) 346-4572</span>
+                            </li>
+                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem', color: '#ccc' }}>
+                                <Mail size={18} color="var(--color-accent)" />
+                                <span>booking@dammamtobahrain.com</span>
+                            </li>
+                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem', color: '#ccc' }}>
+                                <Clock size={18} color="var(--color-accent)" />
+                                <span>24/7 Operations</span>
+                            </li>
+                        </ul>
+                        <Link href="/booking/" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', border: '1px solid var(--color-accent)', color: 'white' }}>
+                            Book Your Ride
                         </Link>
                     </div>
+
                 </div>
 
-                {/* Clean, Natural SEO Link */}
-                <div style={{ marginTop: '2rem', paddingTop: '1rem', borderTop: '1px solid #eee', textAlign: 'center' }}>
-                    <p style={{ fontSize: '0.9rem' }}>
-                        Serving all major cities and industrial hubs in the Eastern Province. <Link href="/locations" style={{ textDecoration: 'underline' }}>View Full Coverage Map</Link>
-                    </p>
-                </div>
-                <div style={{ borderTop: '1px solid #000', marginTop: '3rem', paddingTop: '1rem', textAlign: 'center', fontSize: '0.8rem', textTransform: 'uppercase' }}>
-                    <div style={{ marginBottom: '1rem' }}>
-                        <Link href="/privacy-policy" style={{ margin: '0 10px' }}>Privacy Policy</Link> |
-                        <Link href="/terms-conditions" style={{ margin: '0 10px' }}>Terms & Conditions</Link> |
-                        <Link href="/about-us" style={{ margin: '0 10px' }}>About Us</Link>
+                {/* Bottom Bar */}
+                <div style={{ borderTop: '1px solid #333', paddingTop: '2rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.85rem', color: '#888' }}>
+                    <div>
+                        &copy; {new Date().getFullYear()} Dammam to Bahrain Taxi. All Rights Reserved.
                     </div>
-                    &copy; {new Date().getFullYear()} Dammam to Bahrain Taxi. All Rights Reserved.
+                    <div style={{ display: 'flex', gap: '1.5rem', marginTop: '10px' }}>
+                        <Link href="/privacy-policy">Privacy Policy</Link>
+                        <Link href="/terms-conditions">Terms of Service</Link>
+                        <Link href="/sitemap">Sitemap</Link>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -1,17 +1,21 @@
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import TrustBar from '@/components/sections/TrustBar';
+import ExpertInsight from '@/components/sections/ExpertInsight';
+import LastUpdated from '@/components/sections/LastUpdated';
+import SchemaMarkup from '@/components/sections/SchemaMarkup';
 
 export const metadata = {
-    title: "About Us | Dammam to Bahrain Taxi Service",
-    description: "Established in 2026, we are the premier private taxi service connecting Saudi Arabia and Bahrain. Learn about our fleet (GMC, Lexus) and professional drivers.",
+    title: "About Us | Dammam to Bahrain Taxi Service — Est. 2026",
+    description: "Established in 2026, we are the premier private taxi service connecting Saudi Arabia and Bahrain via King Fahd Causeway. 50+ vehicles, 1,200+ monthly trips. Learn about our fleet (GMC Yukon, Lexus ES) and professional drivers.",
     openGraph: {
-        title: "About Dammam to Bahrain Taxi",
-        description: "Reliable cross-border transport since 2026. Discover our story and commitment to safety.",
+        title: "About Dammam to Bahrain Taxi — Trusted Since 2026",
+        description: "Reliable cross-border transport connecting Dammam, Al Khobar, Jubail, and Riyadh with Bahrain. 50+ vehicle fleet, 500+ satisfied clients.",
     }
 };
 
 export default function AboutUs() {
     return (
+    <>
         <div className="section">
             <div className="container">
                 <h1 className="section-title">ABOUT OUR SERVICE</h1>
@@ -80,5 +84,33 @@ export default function AboutUs() {
                 </div>
             </div>
         </div>
+
+        {/* Expert Insight */}
+        <div className="section" style={{ padding: '0 0 2rem' }}>
+            <div className="container" style={{ maxWidth: '800px' }}>
+                <ExpertInsight
+                    text="We started this company because we experienced the problem firsthand. As frequent Saudi-Bahrain commuters ourselves, we knew there had to be a better way than haggling with random taxi drivers at the causeway. Every decision we make — from the vehicles we purchase to the drivers we hire — is informed by years of personal experience crossing this border. That is our competitive advantage: we are not just operators, we are users of our own service."
+                    cityName="Saudi-Bahrain"
+                    author="Founding Team, Dammam to Bahrain Taxi"
+                />
+            </div>
+        </div>
+
+        {/* Trust Bar */}
+        <TrustBar clientsServed="500+" />
+
+        {/* Schema Markup */}
+        <SchemaMarkup type="home" data={{
+            breadcrumbs: [
+                { name: 'Home', href: '/' },
+                { name: 'About Us', href: '/about-us/' },
+            ],
+        }} />
+
+        {/* Last Updated */}
+        <div className="container">
+            <LastUpdated date="February 19, 2026" />
+        </div>
+    </>
     );
 }
