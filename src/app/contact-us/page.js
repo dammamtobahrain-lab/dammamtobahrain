@@ -74,37 +74,19 @@ export default function ContactUs() {
                             <p style={{ marginTop: '1rem' }}>
                                 For immediate assistance, please click the button below to chat with our operations team.
                             </p>
-                            <a href="https://wa.me/13073464572" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', borderRadius: '0' }}>
+                            <a href="https://wa.me/923080628195" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', borderRadius: '0' }}>
                                 OPEN WHATSAPP CHAT
                             </a>
                         </div>
 
-                        <div style={{ border: '2px solid #000', padding: '2rem', background: '#fcfcfc' }}>
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', textAlign: 'center', marginBottom: '2rem' }}>Send a Message</h2>
-                            <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                                <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', marginBottom: '0.5rem', fontFamily: 'Arial, sans-serif', fontSize: '0.9rem' }}>YOUR NAME</label>
-                                    <input type="text" style={{ width: '100%', padding: '10px', border: '1px solid #000', borderRadius: '0', background: 'white' }} />
-                                </div>
-                                <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', marginBottom: '0.5rem', fontFamily: 'Arial, sans-serif', fontSize: '0.9rem' }}>EMAIL ADDRESS</label>
-                                    <input type="email" style={{ width: '100%', padding: '10px', border: '1px solid #000', borderRadius: '0', background: 'white' }} />
-                                </div>
-                                <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', marginBottom: '0.5rem', fontFamily: 'Arial, sans-serif', fontSize: '0.9rem' }}>SUBJECT</label>
-                                    <select style={{ width: '100%', padding: '10px', border: '1px solid #000', borderRadius: '0', background: 'white' }}>
-                                        <option>General Inquiry</option>
-                                        <option>Corporate Partnership</option>
-                                        <option>Employment</option>
-                                        <option>Complaint/Feedback</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', marginBottom: '0.5rem', fontFamily: 'Arial, sans-serif', fontSize: '0.9rem' }}>MESSAGE</label>
-                                    <textarea rows="6" style={{ width: '100%', padding: '10px', border: '1px solid #000', borderRadius: '0', background: 'white' }}></textarea>
-                                </div>
-                                <button type="button" className="btn btn-primary" style={{ width: '100%', padding: '15px' }}>SEND MESSAGE</button>
-                            </form>
+                        <div style={{ background: '#000', color: 'white', padding: '3rem', textAlign: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                            <h2 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', marginBottom: '1.5rem', color: 'white' }}>Quick Booking via WhatsApp</h2>
+                            <p style={{ marginBottom: '2rem', fontSize: '1.1rem', lineHeight: '1.6' }}>
+                                We have moved to a direct WhatsApp booking system for faster responses and real-time coordination. Our team is available 24/7.
+                            </p>
+                            <a href="https://wa.me/923080628195" className="btn btn-primary" style={{ padding: '1.2rem 2.5rem', fontSize: '1.1rem', background: '#25D366', borderColor: '#25D366' }}>
+                                CHAT ON WHATSAPP
+                            </a>
                         </div>
 
                     </div>

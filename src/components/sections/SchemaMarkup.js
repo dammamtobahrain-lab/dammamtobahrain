@@ -10,7 +10,7 @@ export default function SchemaMarkup({ type, data }) {
             name: 'Dammam to Bahrain Taxi',
             description: 'Premium executive taxi service connecting Saudi Arabia and Bahrain via the King Fahd Causeway.',
             url: 'https://dammamtobahrain.com',
-            telephone: '+13073464572',
+            telephone: '+923080628195',
             priceRange: '$$',
             address: {
                 '@type': 'PostalAddress',

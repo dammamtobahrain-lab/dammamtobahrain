@@ -56,7 +56,7 @@ export default function Footer() {
                         <ul style={{ listStyle: 'none', padding: 0 }}>
                             <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem', color: '#ccc' }}>
                                 <Phone size={18} color="var(--color-accent)" />
-                                <span>+1 (307) 346-4572</span>
+                                <span>+92 308 0628195</span>
                             </li>
                             <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem', color: '#ccc' }}>
                                 <Mail size={18} color="var(--color-accent)" />
@@ -67,8 +67,8 @@ export default function Footer() {
                                 <span>24/7 Operations</span>
                             </li>
                         </ul>
-                        <Link href="/booking/" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', border: '1px solid var(--color-accent)', color: 'white' }}>
-                            Book Your Ride
+                        <Link href="https://wa.me/923080628195" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', border: '1px solid var(--color-accent)', color: 'white' }}>
+                            Book via WhatsApp
                         </Link>
                     </div>
 

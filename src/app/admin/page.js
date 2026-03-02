@@ -1,13 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { createClient } from '@supabase/supabase-js';
 import { useRouter } from 'next/navigation';
-
-// Initialize Supabase Client
-const supabaseUrl = 'https://iqmpstetmarfrzoibyby.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlxbXBzdGV0bWFyZnJ6b2lieWJ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk4ODk0ODIsImV4cCI6MjA4NTQ2NTQ4Mn0.yrH08o0TnIlqoLwXQDlx9UAr3YpbQdiVpMfRYhMeltU';
-const supabase = createClient(supabaseUrl, supabaseAnonKey);
+import { supabase } from '@/utils/supabase/client';
 
 export default function AdminDashboard() {
     const [bookings, setBookings] = useState([]);
