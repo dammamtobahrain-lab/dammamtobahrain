@@ -7,7 +7,7 @@ export default function ComparisonTable({ title, headers, rows, highlightRow, ci
                 <span style={{ display: 'block', color: 'var(--color-accent)', fontWeight: 'bold', fontSize: '0.8rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
                     Route Comparison
                 </span>
-                <h2 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>
+                <h2 style={{ marginBottom: '0.5rem' }}>
                     {title || `How ${cityName} Compares to Nearby Routes`}
                 </h2>
             </div>

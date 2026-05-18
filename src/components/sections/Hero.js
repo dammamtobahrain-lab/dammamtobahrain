@@ -1,75 +1,83 @@
+import { CheckCircle, ShieldCheck, ArrowRight, Star, Zap, Clock } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
-import Button from "@/components/ui/Button";
 
 export default function Hero() {
     return (
-        <section className="section" style={{ paddingBottom: '0' }}>
+        <section className="hero">
+            {/* Background Mesh */}
+            <div className="hero-bg-mesh"></div>
+
             <div className="container">
-                <div className="grid-hero">
-
-                    {/* Left Content */}
-                    <div style={{ maxWidth: '600px' }}>
-                        <div className="section-title" style={{ textAlign: 'left', margin: '0 0 2rem 0' }}>
-                            <span className="animate-fade-up" style={{ display: 'block', color: 'var(--color-text-muted)', fontWeight: 'bold', marginBottom: '0.5rem', letterSpacing: '0.1em' }}>EST. 2026 — EXECUTIVE TRANSPORT</span>
-
-                            <h1 className="animate-fade-up delay-100" style={{ marginBottom: '1rem' }}>
-                                The Premier Taxi Service: <br />
-                                Saudi Arabia to <span className="text-gradient-gold">Bahrain</span>
-                            </h1>
-
-                            <p className="animate-fade-up delay-200" style={{ fontSize: '1.25rem', color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
-                                Skip the border stress. We provide seamless, 24/7 VIP transfers between Dammam, Khobar, and Bahrain in absolute luxury.
-                            </p>
-                        </div>
-
-                        <div className="hero-cta-group animate-fade-up delay-300">
-                            <Button href="/contact-us">
-                                Book Your Ride
-                            </Button>
-                            <button className="btn btn-outline" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.8rem 1.5rem', background: 'transparent', border: '1px solid var(--color-border)' }}>
-                                <span style={{ display: 'inline-block', width: '0', height: '0', borderTop: '6px solid transparent', borderBottom: '6px solid transparent', borderLeft: '10px solid currentColor' }}></span>
-                                Watch Experience
-                            </button>
-                        </div>
-                        <div style={{ marginTop: '1rem', fontSize: '0.9rem' }} className="animate-fade-up delay-300">
-                            <Link href="/blog/cost-guide-2026" style={{ textDecoration: 'underline', color: 'var(--color-text-muted)' }}>
-                                View 2026 Taxi Fares & Cost Guide →
-                            </Link>
-                        </div>
-
-                        <ul className="feature-list animate-fade-up delay-300" style={{ marginTop: '3rem', columns: 2 }}>
-                            <li>VIP Causeway Lane Entitlement</li>
-                            <li>24/7 Airport Transfers (DMM/BAH)</li>
-                            <li>Luxury Lexus & GMC Fleet</li>
-                            <li>Professional Vetted Drivers</li>
-                        </ul>
-
-                        {/* Social Proof - Principle #2 */}
-                        <div className="animate-fade-up delay-300" style={{ marginTop: '2.5rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                            <div style={{ display: 'flex' }}>
-                                {[1, 2, 3, 4, 5].map((star) => (
-                                    <span key={star} style={{ color: '#FFD700', fontSize: '1.2rem' }}>★</span>
-                                ))}
+                <div className="hero-grid">
+                    
+                    {/* H1-Heavy Optimized Content */}
+                    <div className="hero-content">
+                        <div className="hero-badge-row">
+                            <span className="hero-badge">#1 RATED SERVICE IN KSA</span>
+                            <div className="hero-stars">
+                                <Star size={16} fill="var(--color-accent)" /><Star size={16} fill="var(--color-accent)" /><Star size={16} fill="var(--color-accent)" /><Star size={16} fill="var(--color-accent)" /><Star size={16} fill="var(--color-accent)" />
+                                <span className="hero-rating">4.95 Google Rating</span>
                             </div>
-                            <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--color-text-muted)', fontWeight: '600' }}>
-                                Trusted by 500+ Executives
-                            </p>
+                        </div>
+                        
+                        <h1 className="hero-h1">
+                             <span className="text-gradient-gold">Dammam to Bahrain</span><br />
+                             Taxi, Private Transfer <br />
+                             & Chauffeur Service
+                        </h1>
+
+                        <p className="hero-subtitle">
+                            <strong>Stop the Border Stress.</strong> Skip the 2-hour queue with the fastest cross-border clearance. Experience fixed pricing, dedicated drivers, and a <strong>zero-waiting guarantee</strong>.
+                        </p>
+
+                        <div className="hero-features">
+                            <div className="hero-feature">
+                                <Zap size={22} color="var(--color-accent)" strokeWidth={3} />
+                                <span>Fastest Border Clearance</span>
+                            </div>
+                            <div className="hero-feature">
+                                <Clock size={22} color="var(--color-accent)" strokeWidth={3} />
+                                <span>Zero Waiting Guarantee</span>
+                            </div>
+                            <div className="hero-feature">
+                                <ShieldCheck size={22} color="var(--color-accent)" strokeWidth={3} />
+                                <span>Fixed Rates - No Surge</span>
+                            </div>
+                        </div>
+
+                        <div className="hero-cta-row">
+                            <Link href="https://wa.me/966569487569" className="btn btn-primary hero-cta-btn">
+                                SECURE YOUR DRIVER NOW — PAY AT ARRIVAL
+                            </Link>
+                            <div className="hero-driver-status">
+                                <div className="hero-pulse-dot"></div>
+                                <span>14 Drivers Available Near Causeway</span>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Right Image - Principle #1 Mirroring (Happy/Relaxed Passenger) */}
-                    <div style={{ position: 'relative' }}>
-                        <div style={{ position: 'absolute', top: '-20px', right: '-20px', width: '200px', height: '200px', background: 'var(--color-background-alt)', borderRadius: '50%', zIndex: -1 }}></div>
-                        {/* Ideally this image should show a relaxed executive in the back seat to trigger 'mirroring' of comfort */}
-                        <Image
-                            src="/images/hero.png"
-                            alt="Relaxed Professional in Luxury Taxi"
-                            width={800}
-                            height={600}
-                            style={{ borderRadius: '8px', boxShadow: 'var(--shadow-lg)' }}
-                            priority
-                        />
+                    {/* Highly Visible Price & Benefit Card */}
+                    <div className="hero-card-col">
+                        <div className="hero-price-card hover-scale">
+                            <span className="hero-card-label">EXECUTIVE CAUSEWAY CHAUFFEUR</span>
+                            
+                            <div className="hero-price-block">
+                                <div className="hero-price-row">
+                                    <span className="hero-price-number" style={{ fontSize: '2rem' }}>Get Local Quote</span>
+                                </div>
+                                <span className="hero-price-context">CUSTOMIZED RATES VIA WHATSAPP</span>
+                            </div>
+
+                            <div className="hero-card-includes">
+                                <p className="hero-includes-title">EVERY TRIP INCLUDES:</p>
+                                <ul className="hero-includes-list">
+                                    <li>✓ Chauffeur Handles all Border Fees</li>
+                                    <li>✓ No Waiting at Causeway Protocol</li>
+                                    <li>✓ Pay Only After Destination is Reached</li>
+                                    <li>✓ Free Flight Monitoring (DMM Transfers)</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -77,4 +85,3 @@ export default function Hero() {
         </section>
     );
 }
-

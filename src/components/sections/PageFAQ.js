@@ -18,7 +18,7 @@ export default function PageFAQ({ faqs, cityName }) {
                 <span style={{ display: 'block', color: 'var(--color-accent)', fontWeight: 'bold', fontSize: '0.8rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
                     Frequently Asked
                 </span>
-                <h2 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>
+                <h2 style={{ marginBottom: '0.5rem' }}>
                     {cityName ? `Common Questions About ${cityName} Transfers` : 'Frequently Asked Questions'}
                 </h2>
             </div>

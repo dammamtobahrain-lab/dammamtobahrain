@@ -15,7 +15,7 @@ export default function PageHero({
     label = "PREMIUM TRANSPORT",
     image = "/images/hero.png", // Default image if none provided
     ctaText = "Book Now",
-    ctaLink = "https://wa.me/923080628195"
+    ctaLink = "https://wa.me/966569487569"
 }) {
     return (
         <section className="section" style={{ paddingBottom: '0', background: '#fafafa' }}>
@@ -36,11 +36,11 @@ export default function PageHero({
                                 {label}
                             </span>
 
-                            <h1 className="animate-fade-up delay-100" style={{ marginBottom: '1rem', fontSize: '3rem', lineHeight: '1.2' }}>
+                            <h1 className="animate-fade-up delay-100" style={{ marginBottom: '1rem', fontSize: 'clamp(1.75rem, 4vw, 2.75rem)', lineHeight: '1.2', fontWeight: '800' }}>
                                 {title}
                             </h1>
 
-                            <p className="animate-fade-up delay-200" style={{ fontSize: '1.2rem', color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
+                            <p className="animate-fade-up delay-200" style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.65' }}>
                                 {subtitle}
                             </p>
                         </div>

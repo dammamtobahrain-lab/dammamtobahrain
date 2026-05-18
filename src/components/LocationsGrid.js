@@ -54,7 +54,7 @@ export default function LocationsGrid() {
     return (
         <section className="section" style={{ background: '#f9f9f9', borderTop: '2px solid #000' }}>
             <div className="container">
-                <h3 className="section-title" style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>AREAS WE SERVE</h3>
+                <h3 className="section-title" style={{ fontSize: '1.15rem', marginBottom: '2rem', textAlign: 'center' }}>AREAS WE SERVE</h3>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '1rem', textAlign: 'center' }}>
                     {locations.map((loc) => (
                         <Link key={loc.url} href={loc.url} style={{

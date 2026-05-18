@@ -163,8 +163,8 @@ export default function CausewayGuidePage() {
                     </div>
 
                     <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-                        <Link href="/booking/" className="btn btn-primary" style={{ padding: '15px 40px', fontSize: '1.1rem' }}>
-                            BOOK A HASSLE-FREE RIDE
+                        <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '15px 40px', fontSize: '1.2rem', background: '#25D366', borderColor: '#25D366' }}>
+                            BOOK ON WHATSAPP
                         </Link>
                         <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#666' }}>
                             Available 24/7 from Dammam, Khobar, Dhahran, and Jubail.

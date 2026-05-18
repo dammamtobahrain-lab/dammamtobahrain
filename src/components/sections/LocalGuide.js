@@ -8,7 +8,7 @@ export default function LocalGuide({ landmarks, neighborhoods, highways, cityNam
             <span style={{ display: 'block', color: 'var(--color-accent)', fontWeight: 'bold', fontSize: '0.8rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
                 Local Area Guide
             </span>
-            <h2 style={{ fontSize: '1.75rem', marginBottom: '1.5rem' }}>
+            <h2 style={{ marginBottom: '1.5rem' }}>
                 Know Your Area: {cityName}
             </h2>
 

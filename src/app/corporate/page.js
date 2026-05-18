@@ -14,81 +14,66 @@ export default function CorporatePage() {
         <>
             <div className="section">
                 <div className="container">
-                    <h1 className="section-title">CORPORATE SOLUTIONS</h1>
+                    <div className="section-title">
+                        <span style={{ color: 'var(--color-accent)', fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', fontSize: '0.7rem' }}>B2B Logistics</span>
+                        <h1 style={{ fontSize: 'clamp(1.5rem, 4vw, 2.4rem)', fontWeight: '800', marginTop: '0.5rem', letterSpacing: '-1px' }}>CORPORATE SOLUTIONS</h1>
+                        <p style={{ maxWidth: '650px', margin: '0.75rem auto 0 auto', fontSize: '0.9rem' }}>Tailored cross-border mobility for the Gulf's leading enterprises.</p>
+                    </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '3rem' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '4rem', marginTop: '3rem' }}>
 
-                        <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.1rem', lineHeight: '1.8' }}>
-                            <p>
+                        <div style={{ fontSize: '0.95rem', lineHeight: '1.7' }}>
+                            <p style={{ marginBottom: '1.5rem' }}>
                                 Business between the Eastern Province and Bahrain is the economic engine of the region. We understand that for corporate clients, reliability is not a luxury—it is an operational necessity. We offer customized transport solutions for companies requiring frequent cross-border mobility.
                             </p>
 
-                            <h3 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', marginTop: '2rem', borderBottom: '1px solid #000', paddingBottom: '5px' }}>The Corporate Advantage</h3>
-                            <p>
+                            <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '1px solid var(--color-border)', paddingBottom: '0.5rem' }}>The Corporate Advantage</h3>
+                            <p style={{ marginBottom: '1rem' }}>
                                 By opening a corporate account with Dammam to Bahrain Taxi, your organization gains access to:
                             </p>
-                            <ul style={{ listStyle: 'disc', paddingLeft: '20px', margin: '1rem 0' }}>
-                                <li><strong>Monthly Invoicing:</strong> Reduce petty cash handling. We provide a single consolidated invoice at the end of the month with detailed trip logs.</li>
-                                <li><strong>Priority Dispatch:</strong> During peak times (Thursday evenings), corporate bookings take precedence in our allocation system.</li>
-                                <li><strong>Fixed Rate Cards:</strong> Inflation-proof pricing locked in for the contract duration.</li>
-                                <li><strong>VIP Lane Access:</strong> For eligible executives, we utilize the VIP causeway lanes (subject to individual diplomatic eligibility).</li>
+                            <ul style={{ listStyle: 'none', padding: 0, margin: '1.5rem 0' }}>
+                                <li style={{ marginBottom: '12px', display: 'flex', gap: '10px' }}><span style={{ color: 'var(--color-accent)' }}>●</span> <div><strong>Monthly Invoicing:</strong> Consolidated billing with detailed trip logs for clean audits.</div></li>
+                                <li style={{ marginBottom: '12px', display: 'flex', gap: '10px' }}><span style={{ color: 'var(--color-accent)' }}>●</span> <div><strong>Priority Dispatch:</strong> Corporate bookings take precedence during peak causeway hours.</div></li>
+                                <li style={{ marginBottom: '12px', display: 'flex', gap: '10px' }}><span style={{ color: 'var(--color-accent)' }}>●</span> <div><strong>Fixed Rate Cards:</strong> Inflation-proof pricing locked for your contract duration.</div></li>
+                                <li style={{ marginBottom: '12px', display: 'flex', gap: '10px' }}><span style={{ color: 'var(--color-accent)' }}>●</span> <div><strong>VIP Lane Access:</strong> Expedited crossing for eligible executives.</div></li>
                             </ul>
 
-                            <h3 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', marginTop: '2rem', borderBottom: '1px solid #000', paddingBottom: '5px' }}>Who We Serve</h3>
-                            <p>
-                                Our current portfolio includes:
+                            <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginTop: '2.5rem', marginBottom: '1rem', borderBottom: '1px solid var(--color-border)', paddingBottom: '0.5rem' }}>Open an Account</h3>
+                            <p style={{ marginBottom: '1.5rem' }}>
+                                To onboard your company, please provide your Commercial Registration (CR) and an authorized signatory letter. Our sales team will finalize your custom rate card within 24 hours.
                             </p>
-                            <ul>
-                                <li><strong>Oil & Gas Service Companies:</strong> Transporting engineers from Al Khobar to rigs/offices in Bahrain.</li>
-                                <li><strong>Consultancy Firms:</strong> Moving consultants between Riyadh and Manama.</li>
-                                <li><strong>Event Organizers:</strong> Shuttle services for conferences and exhibitions at the Bahrain Exhibition World.</li>
-                            </ul>
-
-                            <h3 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', marginTop: '2rem', borderBottom: '1px solid #000', paddingBottom: '5px' }}>Open an Account</h3>
-                            <p>
-                                To onboard your company, we require:
-                            </p>
-                            <ol>
-                                <li>Commercial Registration (CR) Copy.</li>
-                                <li>Authorized Signatory Letter.</li>
-                                <li>Estimated Monthly Volume.</li>
-                            </ol>
-                            <p>
-                                Contact our sales manager directly at <strong style={{ fontFamily: 'Arial, sans-serif' }}>corporate@dammamtobahrain.com</strong> to discuss rates.
-                            </p>
-
-                            <div style={{ marginTop: '2rem', padding: '1.5rem', border: '1px dashed #000', textAlign: 'center' }}>
-                                <h4 style={{ fontFamily: 'Arial, sans-serif', marginBottom: '0.5rem' }}>IMMEDIATE BUSINESS REQUEST?</h4>
-                                <p style={{ margin: 0 }}>You can book a "Guest Trip" instantly without an account.</p>
-                                <a href="/booking" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block' }}>BOOK BUSINESS RIDE</a>
+                            
+                            <div style={{ background: 'var(--color-background-alt)', padding: '2rem', borderRadius: '16px', border: '1px solid var(--color-border)', textAlign: 'center' }}>
+                                <h4 style={{ fontSize: '0.9rem', textTransform: 'uppercase', fontWeight: '800', marginBottom: '0.5rem' }}>IMMEDIATE BUSINESS REQUEST?</h4>
+                                <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>Book a guest trip instantly while your account is being processed.</p>
+                                <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '12px 24px' }}>BOOK BUSINESS RIDE</Link>
                             </div>
-
                         </div>
 
-                        <div style={{ border: '2px solid #000', padding: '2rem', background: '#f9f9f9', height: 'fit-content' }}>
-                            <h3 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', textAlign: 'center', marginBottom: '1.5rem' }}>Service Inquiry</h3>
-                            <form style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                        <div style={{ background: 'white', padding: '2.5rem', borderRadius: '16px', border: '1px solid var(--color-border)', boxShadow: '0 10px 30px rgba(0,0,0,0.03)', height: 'fit-content' }}>
+                            <h3 style={{ fontSize: '1.1rem', fontWeight: '800', textAlign: 'center', marginBottom: '1.5rem' }}>Corporate Inquiry</h3>
+                            <form style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
                                 <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', fontSize: '0.8rem', fontFamily: 'Arial, sans-serif' }}>COMPANY NAME</label>
-                                    <input type="text" style={{ width: '100%', padding: '10px', border: '1px solid #000' }} />
+                                    <label style={{ display: 'block', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase', marginBottom: '0.5rem', color: 'var(--color-text-muted)' }}>Company Name</label>
+                                    <input type="text" style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1px solid var(--color-border)', fontSize: '0.9rem' }} />
                                 </div>
                                 <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', fontSize: '0.8rem', fontFamily: 'Arial, sans-serif' }}>CONTACT PERSON</label>
-                                    <input type="text" style={{ width: '100%', padding: '10px', border: '1px solid #000' }} />
+                                    <label style={{ display: 'block', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase', marginBottom: '0.5rem', color: 'var(--color-text-muted)' }}>Contact Person</label>
+                                    <input type="text" style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1px solid var(--color-border)', fontSize: '0.9rem' }} />
                                 </div>
                                 <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', fontSize: '0.8rem', fontFamily: 'Arial, sans-serif' }}>BUSINESS EMAIL</label>
-                                    <input type="email" style={{ width: '100%', padding: '10px', border: '1px solid #000' }} />
+                                    <label style={{ display: 'block', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase', marginBottom: '0.5rem', color: 'var(--color-text-muted)' }}>Business Email</label>
+                                    <input type="email" style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1px solid var(--color-border)', fontSize: '0.9rem' }} />
                                 </div>
                                 <div>
-                                    <label style={{ display: 'block', fontWeight: 'bold', fontSize: '0.8rem', fontFamily: 'Arial, sans-serif' }}>EST. TRIPS PER MONTH</label>
-                                    <select style={{ width: '100%', padding: '10px', border: '1px solid #000' }}>
+                                    <label style={{ display: 'block', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase', marginBottom: '0.5rem', color: 'var(--color-text-muted)' }}>Volume Per Month</label>
+                                    <select style={{ width: '100%', padding: '12px', borderRadius: '8px', border: '1px solid var(--color-border)', fontSize: '0.9rem', appearance: 'none' }}>
                                         <option>1 - 5 Trips</option>
                                         <option>5 - 20 Trips</option>
                                         <option>20+ Trips</option>
                                     </select>
                                 </div>
-                                <button className="btn btn-primary" style={{ marginTop: '1rem' }}>REQUEST PROPOSAL</button>
+                                <button className="btn btn-primary" style={{ width: '100%', marginTop: '0.5rem', padding: '14px', borderRadius: '8px', border: 'none' }}>REQUEST PROPOSAL</button>
                             </form>
                         </div>
 

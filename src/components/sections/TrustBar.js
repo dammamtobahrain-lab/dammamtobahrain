@@ -1,3 +1,5 @@
+"use client";
+
 import { Shield, Star, Clock, CheckCircle } from 'lucide-react';
 
 export default function TrustBar({ clientsServed, cityName }) {

@@ -43,9 +43,9 @@ export default function ContactUs() {
             <div className="section">
                 <div className="container">
 
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem' }}>
+                    <div className="responsive-grid-equal" style={{ gap: '4rem' }}>
 
-                        <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.2rem', lineHeight: '1.8' }}>
+                        <div style={{ fontFamily: 'var(--font-body)', fontSize: '1rem', lineHeight: '1.65', color: 'var(--color-text-main)' }}>
                             <p>
                                 We value clear, direct communication. Whether you have a specific inquiry about a route, need to modify an existing reservation, or simply wish to speak with a representative, we are at your disposal.
                             </p>
@@ -53,7 +53,7 @@ export default function ContactUs() {
                                 Our office operates 24 hours a day, 7 days a week, 365 days a year. We monitor all channels continuously to ensure no client is left waiting.
                             </p>
 
-                            <h3 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', marginTop: '2rem', borderBottom: '1px solid #000', paddingBottom: '5px' }}>Headquarters</h3>
+                            <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: '1.8rem', borderBottom: '1px solid var(--color-border)', paddingBottom: '8px', color: 'var(--color-text-main)' }}>Headquarters</h3>
                             <p style={{ marginTop: '1rem' }}>
                                 King Fahd Road<br />
                                 Al Khobar 31952<br />
@@ -70,21 +70,21 @@ export default function ContactUs() {
                                 <span style={{ fontFamily: 'Courier New, monospace' }}>booking@dammamtobahrain.com</span>
                             </p>
 
-                            <h3 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', marginTop: '2rem', borderBottom: '1px solid #000', paddingBottom: '5px' }}>WhatsApp Support</h3>
+                            <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: '1.8rem', borderBottom: '1px solid var(--color-border)', paddingBottom: '8px', color: 'var(--color-text-main)' }}>WhatsApp Support</h3>
                             <p style={{ marginTop: '1rem' }}>
                                 For immediate assistance, please click the button below to chat with our operations team.
                             </p>
-                            <a href="https://wa.me/923080628195" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', borderRadius: '0' }}>
+                            <a href="https://wa.me/966569487569" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', borderRadius: '0' }}>
                                 OPEN WHATSAPP CHAT
                             </a>
                         </div>
 
-                        <div style={{ background: '#000', color: 'white', padding: '3rem', textAlign: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                            <h2 style={{ fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', marginBottom: '1.5rem', color: 'white' }}>Quick Booking via WhatsApp</h2>
-                            <p style={{ marginBottom: '2rem', fontSize: '1.1rem', lineHeight: '1.6' }}>
+                        <div style={{ background: 'var(--color-primary)', color: 'white', padding: '2rem', textAlign: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', borderRadius: '16px', boxShadow: '0 10px 25px rgba(0,0,0,0.1)' }}>
+                            <h2 style={{ fontFamily: 'var(--font-heading)', textTransform: 'uppercase', marginBottom: '1.2rem', color: 'white', fontSize: '1.3rem', letterSpacing: '0.05em' }}>Quick Booking via WhatsApp</h2>
+                            <p style={{ marginBottom: '1.5rem', fontSize: '1rem', lineHeight: '1.6', opacity: '0.9' }}>
                                 We have moved to a direct WhatsApp booking system for faster responses and real-time coordination. Our team is available 24/7.
                             </p>
-                            <a href="https://wa.me/923080628195" className="btn btn-primary" style={{ padding: '1.2rem 2.5rem', fontSize: '1.1rem', background: '#25D366', borderColor: '#25D366' }}>
+                            <a href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '1.2rem 2.5rem', fontSize: '1.1rem', background: '#25D366', borderColor: '#25D366' }}>
                                 CHAT ON WHATSAPP
                             </a>
                         </div>

@@ -1,2 +1,2 @@
-// Admin Dashboard removed.
-export default function AdminDashboard() { return null; }
+import { notFound } from 'next/navigation';
+export default function AdminDashboard() { notFound(); }

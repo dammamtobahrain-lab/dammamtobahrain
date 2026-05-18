@@ -44,8 +44,7 @@ export default function FleetPageContent() {
                                         <li>🚗 <strong>Models:</strong> Toyota Camry, Lexus ES</li>
                                     </ul>
                                     <div className="card-actions">
-                                        <Link href="/fleet/camry" className="btn-outline">View Camry</Link>
-                                        <Link href="/fleet/lexus" className="btn-outline">View Lexus</Link>
+                                        <Link href="https://wa.me/966569487569" className="btn btn-primary">Book Sedan on WhatsApp</Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +65,7 @@ export default function FleetPageContent() {
                                         <li>🚙 <strong>Models:</strong> GMC Yukon XL, Chevy Tahoe</li>
                                     </ul>
                                     <div className="card-actions">
-                                        <Link href="/fleet/gmc-yukon" className="btn-outline">View Yukon Details</Link>
+                                        <Link href="https://wa.me/966569487569" className="btn btn-primary">Book SUV on WhatsApp</Link>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +86,7 @@ export default function FleetPageContent() {
                                         <li>🚍 <strong>Models:</strong> Hyundai Staria</li>
                                     </ul>
                                     <div className="card-actions">
-                                        <Link href="/fleet/hyundai-staria" className="btn-outline">View Staria Details</Link>
+                                        <Link href="https://wa.me/966569487569" className="btn btn-primary">Book Staria on WhatsApp</Link>
                                     </div>
                                 </div>
                             </div>
@@ -157,95 +156,7 @@ export default function FleetPageContent() {
 
             <LocationsGrid />
 
-            <style jsx>{`
-                .intro-text {
-                    font-family: Georgia, serif;
-                    font-size: 1.25rem;
-                    line-height: 1.8;
-                    margin-bottom: 4rem;
-                    text-align: center;
-                    color: #444;
-                }
-                .fleet-grid {
-                    display: grid;
-                    gap: 3rem;
-                }
-                .fleet-card {
-                    background: #fff;
-                    border: 1px solid #e2e8f0;
-                    border-radius: 12px;
-                    overflow: hidden;
-                    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-                    transition: transform 0.2s, box-shadow 0.2s;
-                }
-                .fleet-card:hover {
-                    transform: translateY(-5px);
-                    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
-                }
-                .card-header {
-                    background: #f8fafc;
-                    padding: 2rem;
-                    border-bottom: 1px solid #e2e8f0;
-                }
-                .card-header h2 {
-                    font-size: 1.5rem;
-                    margin: 0 0 0.5rem 0;
-                    color: #1e293b;
-                }
-                .subtitle {
-                    text-transform: uppercase;
-                    font-size: 0.85rem;
-                    letter-spacing: 0.1em;
-                    color: #64748b;
-                    font-weight: 600;
-                }
-                .card-body {
-                    padding: 2rem;
-                }
-                .card-body p {
-                    font-size: 1.1rem;
-                    color: #475569;
-                    margin-bottom: 1.5rem;
-                    line-height: 1.7;
-                }
-                .specs-list {
-                    list-style: none;
-                    padding: 0;
-                    margin: 0 0 2rem 0;
-                    display: flex;
-                    flex-wrap: wrap;
-                    gap: 1.5rem;
-                }
-                .specs-list li {
-                    font-size: 1rem;
-                    color: #334155;
-                    display: flex;
-                    align-items: center;
-                    gap: 0.5rem;
-                }
-                .card-actions {
-                    display: flex;
-                    gap: 1rem;
-                }
-                .btn-outline {
-                    display: inline-block;
-                    padding: 0.8rem 1.5rem;
-                    border: 1px solid var(--color-primary);
-                    color: var(--color-primary);
-                    text-decoration: none;
-                    border-radius: 4px;
-                    font-weight: 600;
-                    transition: all 0.2s;
-                }
-                .btn-outline:hover {
-                    background: var(--color-primary);
-                    color: #fff;
-                }
-                .bg-light {
-                    background: #f8f9fa;
-                    padding: 5rem 0;
-                }
-            `}</style>
         </>
+
     );
 }

@@ -79,6 +79,23 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-GTFGEH023H');
           `}
         </Script>
+        <Script id="whatsapp-tracking" strategy="afterInteractive">
+          {`
+            document.addEventListener('click', function(e) {
+              var el = e.target.closest('a[href*="wa.me"]');
+              if (!el) return;
+              var page = window.location.pathname;
+              var label = el.textContent.trim().slice(0, 50) || 'WhatsApp Button';
+              if (typeof gtag !== 'undefined') {
+                gtag('event', 'whatsapp_click', {
+                  event_category: 'Lead',
+                  event_label: label,
+                  page_location: page
+                });
+              }
+            });
+          `}
+        </Script>
         <Navbar />
         <Breadcrumbs />
         <main style={{ minHeight: '80vh' }}>

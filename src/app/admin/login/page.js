@@ -1,2 +1,2 @@
-// Admin Login removed.
-export default function AdminLogin() { return null; }
+import { notFound } from 'next/navigation';
+export default function AdminLogin() { notFound(); }

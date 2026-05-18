@@ -19,13 +19,13 @@ export default function PrivacyPolicy() {
                 <div className="container">
                     <h1 className="section-title">PRIVACY POLICY</h1>
 
-                    <div style={{ maxWidth: '800px', margin: '0 auto', fontFamily: 'Georgia, serif', fontSize: '1.1rem', lineHeight: '1.8', textAlign: 'justify' }}>
+                    <div style={{ maxWidth: '800px', margin: '0 auto', fontFamily: 'var(--font-body)', fontSize: '1rem', lineHeight: '1.65', color: 'var(--color-text-main)' }}>
 
                         <p>
                             At <strong>Dammam to Bahrain Taxi</strong>, we are committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard the data you provide to us when using our transportation services.
                         </p>
 
-                        <h3 style={{ marginTop: '2rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase' }}>1. Information We Collect</h3>
+                        <h3 style={{ marginTop: '1.8rem', marginBottom: '0.8rem', fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-text-main)' }}>1. Information We Collect</h3>
                         <p>
                             We collect only the information necessary to facilitate your travel booking. This typically includes:
                         </p>
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
                             We do <strong>NOT</strong> store credit card information on our servers. Any electronic payments are processed through secure third-party payment gateways compliant with PCI-DSS standards.
                         </p>
 
-                        <h3 style={{ marginTop: '2rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase' }}>2. How We Use Your Information</h3>
+                        <h3 style={{ marginTop: '1.8rem', marginBottom: '0.8rem', fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-text-main)' }}>2. How We Use Your Information</h3>
                         <p>
                             Your data is used strictly for operational purposes:
                         </p>
@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
                             <li>To comply with legal obligations required by Saudi or Bahraini transport authorities.</li>
                         </ul>
 
-                        <h3 style={{ marginTop: '2rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase' }}>3. Data Sharing</h3>
+                        <h3 style={{ marginTop: '1.8rem', marginBottom: '0.8rem', fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-text-main)' }}>3. Data Sharing</h3>
                         <p>
                             We adhere to a strict non-disclosure policy. We do not sell, trade, or rent your personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners for analytical purposes.
                         </p>
@@ -57,17 +57,17 @@ export default function PrivacyPolicy() {
                             However, we may disclose your information if required by law enforcement or government agencies in Saudi Arabia or Bahrain for security or immigration purposes associated with your cross-border travel.
                         </p>
 
-                        <h3 style={{ marginTop: '2rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase' }}>4. Data Security</h3>
+                        <h3 style={{ marginTop: '1.8rem', marginBottom: '0.8rem', fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-text-main)' }}>4. Data Security</h3>
                         <p>
                             We implement appropriate data collection, storage, and processing practices and security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information.
                         </p>
 
-                        <h3 style={{ marginTop: '2rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase' }}>5. Your Rights</h3>
+                        <h3 style={{ marginTop: '1.8rem', marginBottom: '0.8rem', fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-text-main)' }}>5. Your Rights</h3>
                         <p>
                             You have the right to request access to the personal data we hold about you. You also have the right to request the correction of inaccurate data or the deletion of your data from our records, provided it does not conflict with our legal data retention obligations.
                         </p>
 
-                        <h3 style={{ marginTop: '2rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase' }}>6. Contact Us</h3>
+                        <h3 style={{ marginTop: '1.8rem', marginBottom: '0.8rem', fontFamily: 'var(--font-heading)', fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-text-main)' }}>6. Contact Us</h3>
                         <p>
                             If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:privacy@dammamtobahrain.com" style={{ textDecoration: 'underline' }}>privacy@dammamtobahrain.com</a>.
                         </p>

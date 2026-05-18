@@ -43,17 +43,17 @@ export default function FAQ() {
                     <div className="section-title">
                         <span>Help Center</span>
                         <h1>Frequently Asked Questions</h1>
-                        <p>Everything you need to know about our Saudi Arabia to Bahrain taxi service. Can't find your answer? Contact us at booking@dammamtobahrain.com.</p>
+                        <p>Everything you need to know about our Saudi Arabia to Bahrain taxi service. Can't find your answer? Chat with us on <a href="https://wa.me/966569487569" style={{ color: '#25D366', fontWeight: 'bold' }}>WhatsApp</a> for an instant reply.</p>
                     </div>
 
                     <PageFAQ faqs={allFaqs} />
 
                     <div style={{ border: '1px solid var(--color-primary)', padding: '2rem', marginTop: '2rem', textAlign: 'center', borderRadius: '8px' }}>
                         <p style={{ fontWeight: '600', marginBottom: '0.5rem', color: 'var(--color-primary)' }}>Still have questions?</p>
-                        <p style={{ marginBottom: '1rem' }}>Contact us directly — we respond within minutes during business hours.</p>
+                        <p style={{ marginBottom: '1rem' }}>Contact us directly — we respond within seconds on WhatsApp.</p>
                         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                            <a href="https://wa.me/966569487569" className="btn btn-primary" style={{ background: '#25D366', borderColor: '#25D366' }}>Chat on WhatsApp</a>
                             <a href="mailto:booking@dammamtobahrain.com" className="btn btn-outline">Email Us</a>
-                            <Link href="/booking/" className="btn btn-primary">Book a Ride</Link>
                         </div>
                     </div>
                 </div>

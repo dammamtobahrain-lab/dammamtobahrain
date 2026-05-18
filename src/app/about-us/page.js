@@ -18,66 +18,73 @@ export default function AboutUs() {
     <>
         <div className="section">
             <div className="container">
-                <h1 className="section-title">ABOUT OUR SERVICE</h1>
+                <div className="section-title">
+                    <span style={{ color: 'var(--color-accent)', fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', fontSize: '0.7rem' }}>Our Background</span>
+                    <h1 style={{ fontSize: 'clamp(1.5rem, 4vw, 2.4rem)', fontWeight: '800', marginTop: '0.5rem', letterSpacing: '-1px' }}>ABOUT OUR SERVICE</h1>
+                    <p style={{ maxWidth: '600px', margin: '0.75rem auto 0 auto', fontSize: '0.9rem' }}>Reliable cross-border transport connecting the Kingdom of Saudi Arabia and Bahrain since 2026.</p>
+                </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '3rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3.5rem', marginTop: '3rem' }}>
 
-                    <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.1rem', lineHeight: '1.8' }}>
-                        <p className="drop-cap" style={{ marginBottom: '1.5rem' }}>
-                            <span style={{ float: 'left', fontSize: '4rem', lineHeight: '0.8', paddingRight: '10px', fontWeight: 'bold' }}>D</span>
+                    <div style={{ fontSize: '0.95rem', lineHeight: '1.7' }}>
+                        <p style={{ marginBottom: '1.5rem', position: 'relative' }}>
+                            <span style={{ float: 'left', fontSize: '3rem', fontWeight: '900', color: 'var(--color-accent)', lineHeight: '0.8', marginRight: '12px', marginTop: '4px' }}>D</span>
                             ammam to Bahrain Taxi was established with a singular vision: to improve the standard of cross-border transportation between the Kingdom of Saudi Arabia and the Kingdom of Bahrain. In a market often characterized by informal arrangements and inconsistent service quality, we sought to introduce a professional, reliable, and dependable alternative.
                         </p>
                         <p style={{ marginBottom: '1.5rem' }}>
                             We recognized early on that for many travelers, the journey across the King Fahd Causeway was a source of stress rather than anticipation. Long queues, unclear customs procedures, and the fatigue of driving were common complaints. We built our service to address these specific pain points, transforming the commute into a simple, comfortable experience.
                         </p>
 
-                        <h3 style={{ fontSize: '1.5rem', marginTop: '2.5rem', marginBottom: '1rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', borderBottom: '2px solid #000' }}>Our Philosophy</h3>
+                        <h3 style={{ fontSize: '1.15rem', marginTop: '2.5rem', marginBottom: '1rem', fontWeight: '700', borderBottom: '1px solid var(--color-border)', paddingBottom: '0.5rem' }}>Our Philosophy</h3>
                         <p style={{ marginBottom: '1.5rem' }}>
                             We believe that transportation is not just about moving people; it is about respecting their time and their dignity. Every aspect of our operation, from the maintenance of our vehicles to the training of our drivers, is designed to uphold these values. We prioritize safety above all else, followed closely by punctuality and comfort.
                         </p>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            Transparency is also a cornerstone of our business. We do not believe in hidden fees or surcharges. The price we quote is the price you pay, inclusive of tolls and standard waiting times. This honesty has earned us the trust of hundreds of recurring clients, from individual tourists to large multinational corporations.
+                            Transparency is also a cornerstone of our business. We do not believe in hidden fees or surcharges. The price we quote is the price you pay, inclusive of tolls and standard waiting times. This honesty has earned us the trust of hundreds of recurring clients.
                         </p>
 
-                        <h3 style={{ fontSize: '1.5rem', marginTop: '2.5rem', marginBottom: '1rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', borderBottom: '2px solid #000' }}>The Fleet</h3>
+                        <h3 style={{ fontSize: '1.15rem', marginTop: '2.5rem', marginBottom: '1rem', fontWeight: '700', borderBottom: '1px solid var(--color-border)', paddingBottom: '0.5rem' }}>The Fleet</h3>
                         <p style={{ marginBottom: '1.5rem' }}>
                             Our fleet is the pride of our operation. We understand that comfort is subjective, which is why we offer a range of vehicles to suit different needs:
                         </p>
-                        <ul style={{ listStyle: 'disc', paddingLeft: '20px', marginBottom: '1.5rem' }}>
-                            <li style={{ marginBottom: '10px' }}><strong>Executive Sedans:</strong> Featuring the Lexus ES and Toyota Camry, these vehicles are perfect for solo travelers or couples who value a smooth, quiet ride.</li>
-                            <li style={{ marginBottom: '10px' }}><strong>Large SUVs:</strong> The GMC Yukon and Chevrolet Tahoe are the stalwarts of Gulf travel. Spacious, safe, and commanding, they are ideal for families, groups, or those with significant luggage.</li>
-                            <li style={{ marginBottom: '10px' }}><strong>Family Vans:</strong> For larger groups, we deploy the Hyundai Staria, offering modern comfort and ample seating capacity.</li>
+                        <ul style={{ listStyle: 'none', padding: 0, marginBottom: '1.5rem' }}>
+                            <li style={{ marginBottom: '12px', display: 'flex', gap: '10px' }}><span style={{ color: 'var(--color-accent)' }}>●</span> <div><strong>Executive Sedans:</strong> Featuring the Lexus ES and Toyota Camry, perfect for solotravelers.</div></li>
+                            <li style={{ marginBottom: '12px', display: 'flex', gap: '10px' }}><span style={{ color: 'var(--color-accent)' }}>●</span> <div><strong>Large SUVs:</strong> The GMC Yukon and Chevrolet Tahoe, ideal for families and heavy luggage.</div></li>
+                            <li style={{ marginBottom: '12px', display: 'flex', gap: '10px' }}><span style={{ color: 'var(--color-accent)' }}>●</span> <div><strong>Family Vans:</strong> For larger groups, featuring the Hyundai Staria.</div></li>
                         </ul>
                         <p>
                             All vehicles are non-smoking, meticulously cleaned daily, and serviced according to the manufacturer's strict maintenance schedules.
                         </p>
-
-                        <h3 style={{ fontSize: '1.5rem', marginTop: '2.5rem', marginBottom: '1rem', fontFamily: 'Arial, sans-serif', textTransform: 'uppercase', borderBottom: '2px solid #000' }}>Our Drivers</h3>
-                        <p style={{ marginBottom: '1.5rem' }}>
-                            Our drivers are our ambassadors. We employ only those with a clean driving record and significant experience driving the specific routes of the Eastern Province and Bahrain. Beyond driving skills, they are trained in customer service etiquette. They are punctual, polite, and discreet. They understand the nuances of the border crossing and can guide you through immigration procedures with ease.
-                        </p>
                     </div>
 
-                    <div style={{ borderLeft: '1px solid #000', paddingLeft: '2rem' }}>
-                        <div style={{ background: '#f9f9f9', padding: '2rem', border: '1px solid #000', marginBottom: '2rem' }}>
-                            <h4 style={{ textTransform: 'uppercase', marginBottom: '1rem' }}>Key Statistics</h4>
-                            <ul style={{ listStyle: 'none', lineHeight: '2.5', fontSize: '0.95rem' }}>
-                                <li style={{ borderBottom: '1px solid #ddd' }}><strong>Founded:</strong> 2026</li>
-                                <li style={{ borderBottom: '1px solid #ddd' }}><strong>HQ:</strong> Al Khobar, KSA</li>
-                                <li style={{ borderBottom: '1px solid #ddd' }}><strong>Fleet Size:</strong> 50+ Vehicles</li>
-                                <li style={{ borderBottom: '1px solid #ddd' }}><strong>Monthly Trips:</strong> 1,200+</li>
-                                <li style={{ borderBottom: '1px solid #ddd' }}><strong>Safety Rating:</strong> 5/5 Stars</li>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+                        <div style={{ background: 'var(--color-background-alt)', padding: '2rem', borderRadius: '16px', border: '1px solid var(--color-border)' }}>
+                            <h4 style={{ fontSize: '0.9rem', textTransform: 'uppercase', fontWeight: '800', marginBottom: '1.25rem', letterSpacing: '1px' }}>Key Statistics</h4>
+                            <ul style={{ listStyle: 'none', lineHeight: '2.2', fontSize: '0.9rem', padding: 0 }}>
+                                <li style={{ borderBottom: '1px solid rgba(0,0,0,0.05)', display: 'flex', justifyContent: 'space-between' }}><span>Founded:</span> <strong>2026</strong></li>
+                                <li style={{ borderBottom: '1px solid rgba(0,0,0,0.05)', display: 'flex', justifyContent: 'space-between' }}><span>HQ:</span> <strong>Al Khobar, KSA</strong></li>
+                                <li style={{ borderBottom: '1px solid rgba(0,0,0,0.05)', display: 'flex', justifyContent: 'space-between' }}><span>Fleet Size:</span> <strong>50+ Vehicles</strong></li>
+                                <li style={{ borderBottom: '1px solid rgba(0,0,0,0.05)', display: 'flex', justifyContent: 'space-between' }}><span>Monthly Trips:</span> <strong>1,200+</strong></li>
+                                <li style={{ display: 'flex', justifyContent: 'space-between' }}><span>Safety Rating:</span> <strong>5/5 Stars</strong></li>
                             </ul>
                         </div>
 
-                        <div style={{ textAlign: 'center' }}>
-                            <h4 style={{ textTransform: 'uppercase', marginBottom: '1rem' }}>Legal Information</h4>
-                            <p style={{ fontSize: '0.9rem', marginBottom: '1rem' }}>
+                        <div style={{ padding: '2rem', border: '1px solid var(--color-border)', borderRadius: '16px', textAlign: 'center' }}>
+                            <h4 style={{ fontSize: '0.85rem', textTransform: 'uppercase', fontWeight: '800', marginBottom: '1rem', letterSpacing: '1px' }}>Legal Verification</h4>
+                            <p style={{ fontSize: '0.85rem', marginBottom: '1rem', color: 'var(--color-text-muted)' }}>
                                 We are a fully licensed transportation provider operating under the regulations of the Saudi Transport General Authority (TGA).
                             </p>
-                            <p style={{ fontSize: '0.9rem' }}>
-                                <strong>License No:</strong> TGA-2026-X889
-                            </p>
+                            <div style={{ display: 'inline-block', background: 'var(--color-primary)', color: 'white', padding: '6px 16px', borderRadius: '4px', fontSize: '0.8rem', fontWeight: '700' }}>
+                                License: TGA-2026-X889
+                            </div>
+                        </div>
+
+                        <div style={{ background: 'var(--color-primary)', color: 'white', padding: '2.5rem', borderRadius: '16px', textAlign: 'center' }}>
+                             <h4 style={{ marginBottom: '0.75rem', fontSize: '1.1rem' }}>Ready to Experience VIP Travel?</h4>
+                             <p style={{ fontSize: '0.85rem', opacity: 0.8, marginBottom: '1.5rem' }}>Join 5,000+ happy travelers this year.</p>
+                             <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '12px 24px', width: '100%', border: 'none' }}>
+                                BOOK ON WHATSAPP
+                             </Link>
                         </div>
                     </div>
 

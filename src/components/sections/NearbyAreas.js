@@ -10,7 +10,7 @@ export default function NearbyAreas({ areas, cityName }) {
                 <span style={{ display: 'block', color: 'var(--color-accent)', fontWeight: 'bold', fontSize: '0.8rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
                     Nearby Routes
                 </span>
-                <h2 style={{ fontSize: '1.75rem', marginBottom: '0.5rem' }}>
+                <h2 style={{ marginBottom: '0.5rem' }}>
                     Also Serving Areas Near {cityName}
                 </h2>
                 <p style={{ fontSize: '0.95rem' }}>

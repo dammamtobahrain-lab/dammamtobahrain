@@ -98,13 +98,13 @@ export default function LocationPage({ params }) {
                         {/* Main Content */}
                         <div>
                             <div className="content-main">
-                                <p style={{ fontSize: '1.2rem', marginBottom: '2rem', fontFamily: 'Georgia, serif', borderBottom: '1px solid #eee', paddingBottom: '2rem' }}>
+                                <p style={{ fontSize: '0.95rem', marginBottom: '2rem', borderBottom: '1px solid var(--color-border)', paddingBottom: '1.5rem', color: 'var(--color-primary)', lineHeight: '1.6' }}>
                                     {location.description}
                                 </p>
 
                                 {/* Long Form Content */}
                                 <div
-                                    style={{ fontFamily: 'Georgia, serif', fontSize: '1.05rem', lineHeight: '1.8', marginBottom: '2rem' }}
+                                    style={{ fontSize: '0.95rem', lineHeight: '1.7', marginBottom: '2rem' }}
                                     dangerouslySetInnerHTML={{ __html: location.longText }}
                                 />
 
@@ -137,8 +137,8 @@ export default function LocationPage({ params }) {
                                     <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
                                         100% satisfaction guarantee · No hidden fees · Free cancellation up to 24hrs
                                     </p>
-                                    <Link href="/booking/" className="btn btn-primary" style={{ padding: '15px 40px', fontSize: '1.1rem' }}>
-                                        BOOK THIS ROUTE
+                                    <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '14px 32px', fontSize: '1rem' }}>
+                                        BOOK ON WHATSAPP
                                     </Link>
                                 </div>
                             </div>
@@ -158,8 +158,8 @@ export default function LocationPage({ params }) {
                                     <li><strong>Price:</strong> {location.sidebarStats?.price}</li>
                                 </ul>
                                 <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
-                                    <Link href="/booking/" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem', width: '100%', display: 'block' }}>
-                                        BOOK NOW
+                                    <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem', width: '100%', display: 'block' }}>
+                                        BOOK ON WHATSAPP
                                     </Link>
                                 </div>
                                 <p style={{ fontSize: '0.75rem', textAlign: 'center', marginTop: '0.75rem', color: 'var(--color-text-muted)' }}>
@@ -180,7 +180,7 @@ export default function LocationPage({ params }) {
 
             {/* Nearby Areas */}
             {location.nearbyAreas && location.nearbyAreas.length > 0 && (
-                <div className="section" style={{ padding: '4rem 0' }}>
+                <div className="section" style={{ padding: '3.5rem 0' }}>
                     <div className="container">
                         <NearbyAreas areas={location.nearbyAreas} cityName={displayCity} />
                     </div>
@@ -188,7 +188,7 @@ export default function LocationPage({ params }) {
             )}
 
             {/* Local Guide */}
-            <div className="section" style={{ padding: '0 0 4rem' }}>
+            <div className="section" style={{ padding: '0 0 3.5rem' }}>
                 <div className="container">
                     <LocalGuide
                         landmarks={location.landmarks}

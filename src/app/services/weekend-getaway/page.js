@@ -23,33 +23,33 @@ export default function WeekendGetawayPage() {
             <div className="container">
                 <h1 className="section-title">SERVICE: {data.title}</h1>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '3rem' }}>
+                <div className="responsive-grid-2-1">
 
-                    <div style={{ border: '2px solid #000', padding: '3rem' }}>
-                        <p style={{ fontSize: '1.2rem', fontFamily: 'Georgia, serif', lineHeight: '1.8' }}>
+                    <div style={{ border: '1px solid var(--color-border)', padding: '2rem', borderRadius: '12px', background: '#fff' }}>
+                        <p style={{ fontSize: '1rem', fontFamily: 'var(--font-body)', lineHeight: '1.65', color: 'var(--color-text-main)' }}>
                             {data.description}
                         </p>
 
-                        <hr style={{ margin: '2rem 0', border: 'none', borderTop: '1px solid #000' }} />
+                        <hr style={{ margin: '1.5rem 0', border: 'none', borderTop: '1px solid var(--color-border)' }} />
 
                         <div
-                            style={{ fontFamily: 'Georgia, serif', fontSize: '1.1rem', lineHeight: '1.8' }}
+                            style={{ fontFamily: 'var(--font-body)', fontSize: '0.9rem', lineHeight: '1.65', color: '#444' }}
                             dangerouslySetInnerHTML={{ __html: data.longText }}
                         />
 
-                        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-                            <Link href="/booking" className="btn btn-primary" style={{ padding: '15px 50px', fontSize: '1.2rem' }}>
+                        <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
+                            <Link href="/booking" className="btn btn-primary" style={{ padding: '12px 36px', fontSize: '1rem' }}>
                                 BOOK WEEKEND RIDE
                             </Link>
                         </div>
                     </div>
 
                     <div>
-                        <div style={{ border: '2px solid #000', padding: '2rem', background: '#f9f9f9', position: 'sticky', top: '20px' }}>
-                            <h3 style={{ borderBottom: '1px solid #000', paddingBottom: '10px', marginBottom: '1rem' }}>WEEKEND PROTOCOL</h3>
-                            <ul style={{ listStyle: 'none', lineHeight: '2' }}>
+                        <div style={{ border: '1px solid var(--color-border)', padding: '1.5rem', background: '#f9f9f9', position: 'sticky', top: '20px', borderRadius: '12px' }}>
+                            <h3 style={{ borderBottom: '1px solid var(--color-border)', paddingBottom: '8px', marginBottom: '1rem', fontSize: '1rem' }}>WEEKEND PROTOCOL</h3>
+                            <ul style={{ listStyle: 'none', lineHeight: '1.8', fontSize: '0.85rem' }}>
                                 {data.features.map((feature, i) => (
-                                    <li key={i}><strong>&#10003;</strong> {feature}</li>
+                                    <li key={i} style={{ marginBottom: '0.5rem' }}><strong>&#10003;</strong> {feature}</li>
                                 ))}
                             </ul>
                             <div style={{ textAlign: 'center', marginTop: '2rem' }}>

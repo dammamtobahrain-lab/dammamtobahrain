@@ -10,7 +10,7 @@ export default function Footer() {
                     {/* Brand Column */}
                     <div>
                         <h3>DAMMAM TO BAHRAIN</h3>
-                        <p style={{ color: '#ccc', fontSize: '0.95rem', lineHeight: '1.8' }}>
+                        <p style={{ color: '#ccc', fontSize: '0.9rem', lineHeight: '1.65' }}>
                             The trusted choice for cross-border executive travel. We connect the Kingdom of Saudi Arabia and Bahrain with safety, luxury, and punctuality.
                         </p>
                         <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
@@ -56,7 +56,7 @@ export default function Footer() {
                         <ul style={{ listStyle: 'none', padding: 0 }}>
                             <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem', color: '#ccc' }}>
                                 <Phone size={18} color="var(--color-accent)" />
-                                <span>+92 308 0628195</span>
+                                <span>+966 56 948 7569</span>
                             </li>
                             <li style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1rem', color: '#ccc' }}>
                                 <Mail size={18} color="var(--color-accent)" />
@@ -67,7 +67,7 @@ export default function Footer() {
                                 <span>24/7 Operations</span>
                             </li>
                         </ul>
-                        <Link href="https://wa.me/923080628195" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', border: '1px solid var(--color-accent)', color: 'white' }}>
+                        <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', border: '1px solid var(--color-accent)', color: 'white' }}>
                             Book via WhatsApp
                         </Link>
                     </div>
@@ -75,8 +75,8 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div style={{ borderTop: '1px solid #333', paddingTop: '2rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.85rem', color: '#888' }}>
-                    <div>
+                <div style={{ borderTop: '1px solid #333', paddingTop: '2rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem', alignItems: 'center', fontSize: '0.85rem', color: '#888', textAlign: 'center' }}>
+                    <div style={{ width: '100%' }}>
                         &copy; {new Date().getFullYear()} Dammam to Bahrain Taxi. All Rights Reserved.
                     </div>
                     <div style={{ display: 'flex', gap: '1.5rem', marginTop: '10px' }}>

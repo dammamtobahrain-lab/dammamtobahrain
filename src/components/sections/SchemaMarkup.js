@@ -1,30 +1,26 @@
 export default function SchemaMarkup({ type, data }) {
     const schemas = [];
 
-    // LocalBusiness Schema
-    if (type === 'location' || type === 'home') {
+    // LocalBusiness & TaxiService Schema
+    if (type === 'home' || type === 'location') {
         schemas.push({
             '@context': 'https://schema.org',
-            '@type': 'LocalBusiness',
+            '@type': ['LocalBusiness', 'TaxiService'],
             '@id': 'https://dammamtobahrain.com/#business',
-            name: 'Dammam to Bahrain Taxi',
-            description: 'Premium executive taxi service connecting Saudi Arabia and Bahrain via the King Fahd Causeway.',
+            name: 'Dammam to Bahrain Taxi & Private Transfer',
+            description: 'Premium executive taxi and private car service connecting Saudi Arabia and Bahrain via the King Fahd Causeway. Fixed rates, professional chauffeurs, and 24/7 availability.',
             url: 'https://dammamtobahrain.com',
-            telephone: '+923080628195',
-            priceRange: '$$',
+            telephone: '+966569487569',
+            priceRange: 'SAR 250 - SAR 1500',
+            image: 'https://dammamtobahrain.com/images/hero.png',
             address: {
                 '@type': 'PostalAddress',
                 streetAddress: 'King Fahd Road',
                 addressLocality: 'Al Khobar',
                 addressRegion: 'Eastern Province',
-                postalCode: '31952',
                 addressCountry: 'SA',
             },
-            geo: data?.coordinates ? {
-                '@type': 'GeoCoordinates',
-                latitude: data.coordinates.lat,
-                longitude: data.coordinates.lng,
-            } : {
+            geo: {
                 '@type': 'GeoCoordinates',
                 latitude: 26.2172,
                 longitude: 50.1971,
@@ -37,37 +33,44 @@ export default function SchemaMarkup({ type, data }) {
             },
             aggregateRating: {
                 '@type': 'AggregateRating',
-                ratingValue: '4.9',
-                reviewCount: '500',
+                ratingValue: '4.95',
+                reviewCount: '520',
                 bestRating: '5',
             },
-            areaServed: data?.areaServed || [
+            areaServed: [
                 { '@type': 'City', name: 'Dammam' },
                 { '@type': 'City', name: 'Al Khobar' },
+                { '@type': 'City', name: 'Dhahran' },
+                { '@type': 'City', name: 'Riyadh' },
                 { '@type': 'City', name: 'Jubail' },
-                { '@type': 'City', name: 'Bahrain' },
+                { '@type': 'Country', name: 'Bahrain' },
             ],
+            provider: {
+                '@type': 'Organization',
+                name: 'Dammam to Bahrain Taxi',
+                logo: 'https://dammamtobahrain.com/logo.png'
+            }
         });
+
+        // FAQ Schema for Rich Snippets
+        if (data?.faqs) {
+            schemas.push({
+                '@context': 'https://schema.org',
+                '@type': 'FAQPage',
+                mainEntity: data.faqs.map(faq => ({
+                    '@type': 'Question',
+                    name: faq.question,
+                    acceptedAnswer: {
+                        '@type': 'Answer',
+                        text: faq.answer,
+                    },
+                })),
+            });
+        }
     }
 
-    // FAQ Schema
-    if (data?.faqs && data.faqs.length > 0) {
-        schemas.push({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: data.faqs.map(faq => ({
-                '@type': 'Question',
-                name: faq.question,
-                acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: faq.answer,
-                },
-            })),
-        });
-    }
-
-    // BreadcrumbList Schema
-    if (data?.breadcrumbs && data.breadcrumbs.length > 0) {
+    // BreadcrumbList for SEO
+    if (data?.breadcrumbs) {
         schemas.push({
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
@@ -77,44 +80,6 @@ export default function SchemaMarkup({ type, data }) {
                 name: crumb.name,
                 item: `https://dammamtobahrain.com${crumb.href}`,
             })),
-        });
-    }
-
-    // Service Schema
-    if (type === 'service') {
-        schemas.push({
-            '@context': 'https://schema.org',
-            '@type': 'Service',
-            name: data?.serviceName || 'Taxi Transfer Service',
-            description: data?.serviceDescription || 'Premium taxi transfer service between Saudi Arabia and Bahrain.',
-            provider: {
-                '@type': 'LocalBusiness',
-                name: 'Dammam to Bahrain Taxi',
-            },
-            areaServed: {
-                '@type': 'Country',
-                name: 'Saudi Arabia',
-            },
-            serviceType: 'Taxi Service',
-        });
-    }
-
-    // Article Block
-    if (type === 'article') {
-        schemas.push({
-            '@context': 'https://schema.org',
-            '@type': 'Article',
-            headline: data?.headline,
-            image: [
-                'https://dammamtobahrain.com/images/hero.png',
-            ],
-            datePublished: data?.datePublished,
-            dateModified: data?.datePublished,
-            author: [{
-                '@type': 'Organization',
-                name: 'Dammam to Bahrain Taxi',
-                url: 'https://dammamtobahrain.com'
-            }]
         });
     }
 

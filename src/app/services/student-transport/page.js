@@ -38,8 +38,8 @@ export default function StudentTransportPage() {
                         />
 
                         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-                            <Link href="/booking/" className="btn btn-primary btn-large">
-                                BOOK STUDENT RIDE
+                            <Link href="https://wa.me/966569487569" className="btn btn-primary btn-large">
+                                BOOK ON WHATSAPP
                             </Link>
                         </div>
                     </div>
@@ -53,8 +53,8 @@ export default function StudentTransportPage() {
                                 ))}
                             </ul>
                             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-                                <Link href="/booking/" className="btn btn-primary btn-full-width">
-                                    BOOK NOW
+                                <Link href="https://wa.me/966569487569" className="btn btn-primary btn-full-width">
+                                    BOOK ON WHATSAPP
                                 </Link>
                             </div>
                         </div>

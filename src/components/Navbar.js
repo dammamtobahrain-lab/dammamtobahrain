@@ -45,23 +45,23 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="nav-links desktop-only" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+          <nav className="desktop-only" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
             <Link href="/" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Home</Link>
             <Link href="/services" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Services</Link>
             <Link href="/fleet" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Fleet</Link>
             <Link href="/locations" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Locations</Link>
-            <Link href="/contact-us" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
-            <Link href="/booking/" className="btn btn-primary" style={{ padding: '0.6rem 1.25rem' }}>
+            <Link href="https://wa.me/966569487569" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
+            <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '0.6rem 1.25rem' }}>
               Book Now
             </Link>
           </nav>
 
           {/* Mobile Toggle */}
           <button
-            className="mobile-menu-btn desktop-hidden"
+            className="mobile-only"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle Menu"
-            style={{ background: 'none', border: 'none', cursor: 'pointer', display: 'none' }} // Hidden on desktop via CSS
+            style={{ background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -87,9 +87,9 @@ export default function Navbar() {
             <Link href="/services" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Services</Link>
             <Link href="/fleet" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Fleet</Link>
             <Link href="/locations" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Locations</Link>
-            <Link href="/contact-us" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Contact</Link>
-            <Link href="/booking/" className="btn btn-primary" onClick={() => setIsOpen(false)} style={{ textAlign: 'center' }}>
-              Book Online
+            <Link href="https://wa.me/966569487569" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Contact</Link>
+            <Link href="https://wa.me/966569487569" className="btn btn-primary" onClick={() => setIsOpen(false)} style={{ textAlign: 'center' }}>
+              Book Now
             </Link>
           </div>
         )}
@@ -97,7 +97,7 @@ export default function Navbar() {
 
       {/* Secondary Info Bar - Elegant & Minimal */}
       <div style={{ background: '#111', color: 'rgba(255,255,255,0.8)', padding: '0.4rem 0', fontSize: '0.75rem', letterSpacing: '0.5px' }}>
-        <div className="container" style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
+        <div className="container" style={{ display: 'flex', justifyContent: 'center', gap: '2rem', textAlign: 'center' }}>
           <span><MapPin size={12} style={{ display: 'inline', marginRight: '4px', color: 'var(--color-accent)' }} /> Serving Dammam, Khobar, Jubail & Bahrain</span>
           <span className="desktop-only"><Phone size={12} style={{ display: 'inline', marginRight: '4px', color: 'var(--color-accent)' }} /> 24/7 Support</span>
         </div>
