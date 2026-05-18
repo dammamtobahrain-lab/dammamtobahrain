@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import BookingForm from '../../components/BookingForm';
 import TrustBar from '@/components/sections/TrustBar';
 import SchemaMarkup from '@/components/sections/SchemaMarkup';

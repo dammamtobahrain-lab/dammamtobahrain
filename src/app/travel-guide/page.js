@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import TrustBar from '@/components/sections/TrustBar';
 import ExpertInsight from '@/components/sections/ExpertInsight';
 import LastUpdated from '@/components/sections/LastUpdated';

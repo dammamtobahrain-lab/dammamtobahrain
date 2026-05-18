@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import LocationsGrid from '@/components/LocationsGrid';
 import TrustBar from '@/components/sections/TrustBar';
 import ExpertInsight from '@/components/sections/ExpertInsight';
