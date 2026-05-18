@@ -81,45 +81,37 @@ img {
   display: block;
 }
 
-/* Typography Hierarchy — Google-style compact */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* =========================================
+   TYPOGRAPHY HIERARCHY — Single Source of Truth
+   ========================================= */
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   color: var(--color-primary);
-  line-height: 1.25;
   margin-bottom: 1rem;
-  letter-spacing: -0.015em;
-}
-
-h1 {
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  letter-spacing: -0.02em;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
-h2 {
-  font-size: clamp(1.4rem, 3vw, 2.1rem);
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-
-h4 {
-  font-size: 1rem;
-  font-weight: 600;
-}
+h1 { font-size: clamp(2rem, 4.5vw, 3.5rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); font-weight: 600; }
+h3 { font-size: clamp(1.15rem, 2vw, 1.4rem); font-weight: 600; }
+h4 { font-size: 1.05rem; font-weight: 600; }
+h5 { font-size: 0.95rem; font-weight: 600; }
+h6 { font-size: 0.875rem; font-weight: 600; }
 
 p {
   margin-bottom: 1.25rem;
   color: var(--color-text-muted);
-  line-height: 1.65;
+  line-height: 1.7;
+}
+
+/* Mobile typography */
+@media (max-width: 768px) {
+  h1 { font-size: clamp(1.6rem, 7vw, 2.2rem); }
+  h2 { font-size: clamp(1.25rem, 5vw, 1.75rem); }
+  h3 { font-size: 1.1rem; }
+  h4 { font-size: 1rem; }
 }
 
 /* =========================================
@@ -1099,19 +1091,6 @@ footer a:hover {
     font-size: 14px;
   }
 
-  h1 {
-    font-size: clamp(1.5rem, 6vw, 2rem);
-  }
-
-  h2 {
-    font-size: clamp(1.2rem, 5vw, 1.6rem) !important;
-    letter-spacing: -0.3px !important;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
   .hero-h1 {
     font-size: 1.75rem !important;
     letter-spacing: -1px !important;
@@ -1149,11 +1128,6 @@ footer a:hover {
 }
 
 
-/* Typography Refinement */
-h1, h2, h3 {
-  letter-spacing: -0.01em;
-  font-weight: 700;
-}
 
 .text-gradient-gold {
   background: linear-gradient(135deg, #d4af37 0%, #f3e5ab 50%, #b5952f 100%);
@@ -1865,31 +1839,6 @@ body {
     text-align: center;
   }
 
-  /* -- Typography Hierarchy (Google-style Refined) -- */
-  h1, .hero h1, .hero-h1 {
-    font-size: clamp(1.8rem, 6vw, 2.2rem) !important;
-    line-height: 1.15 !important;
-    letter-spacing: -0.8px !important;
-    margin-bottom: 1rem !important;
-  }
-
-  h2, .section-title h2 {
-    font-size: clamp(1.35rem, 5vw, 1.6rem) !important;
-    line-height: 1.2 !important;
-    letter-spacing: -0.4px !important;
-  }
-
-  h3, .card h3 {
-    font-size: 1.15rem !important;
-    font-weight: 700 !important;
-  }
-
-  p, .hero p, .section-title p {
-    font-size: 0.95rem !important;
-    line-height: 1.65 !important;
-    margin-bottom: 1.25rem !important;
-  }
-
   /* -- Component Specific Refinements -- */
   
   /* Hero Section */
@@ -1988,14 +1937,6 @@ body {
 @media (max-width: 480px) {
   .container {
     padding: 0 1rem;
-  }
-
-  h1, .hero h1 {
-    font-size: 1.65rem !important;
-  }
-
-  h2 {
-    font-size: 1.3rem !important;
   }
 
   .hero-price-number {
