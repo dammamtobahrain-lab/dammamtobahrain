@@ -5,6 +5,9 @@ export default function sitemap() {
     return [
         { url: baseUrl, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
         { url: `${baseUrl}/booking`, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
+        { url: `${baseUrl}/fare-calculator`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
+        { url: `${baseUrl}/causeway-traffic`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+        { url: `${baseUrl}/drivers`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${baseUrl}/routes/riyadh-to-bahrain-airport`, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
 
         // Services
@@ -98,6 +101,9 @@ export default function sitemap() {
         { url: `${baseUrl}/blog/cost-guide-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${baseUrl}/blog/dammam-to-bahrain-taxi-guide`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${baseUrl}/blog/dammam-to-bahrain-bus-vs-taxi`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${baseUrl}/blog/eid-travel-bahrain`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+        { url: `${baseUrl}/blog/bahrain-grand-prix-travel`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+        { url: `${baseUrl}/blog/expat-guide-bahrain`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
 
         // Info Pages
         { url: `${baseUrl}/about-us`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },

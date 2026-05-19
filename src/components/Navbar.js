@@ -45,10 +45,11 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="desktop-only" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+          <nav className="desktop-only" style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
             <Link href="/" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Home</Link>
             <Link href="/services" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Services</Link>
-            <Link href="/fleet" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Fleet</Link>
+            <Link href="/fare-calculator" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Prices</Link>
+            <Link href="/causeway-traffic" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Traffic</Link>
             <Link href="/locations" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Locations</Link>
             <Link href="https://wa.me/966569487569" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
             <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '0.6rem 1.25rem' }}>
@@ -85,8 +86,11 @@ export default function Navbar() {
           }}>
             <Link href="/" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Home</Link>
             <Link href="/services" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Services</Link>
+            <Link href="/fare-calculator" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Prices</Link>
+            <Link href="/causeway-traffic" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Traffic Guide</Link>
             <Link href="/fleet" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Fleet</Link>
             <Link href="/locations" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Locations</Link>
+            <Link href="/drivers" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Our Drivers</Link>
             <Link href="https://wa.me/966569487569" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Contact</Link>
             <Link href="https://wa.me/966569487569" className="btn btn-primary" onClick={() => setIsOpen(false)} style={{ textAlign: 'center' }}>
               Book Now
