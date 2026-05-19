@@ -122,6 +122,17 @@ export default function EidTravelPage() {
                                 </Link>
                             </div>
 
+                            <div style={{ marginTop: '2rem', padding: '1.5rem', background: '#f9f9f9', borderRadius: '12px', border: '1px solid #e5e7eb' }}>
+                                <h3 style={{ fontSize: '0.9rem', fontWeight: '800', textTransform: 'uppercase', marginBottom: '1rem' }}>Related Guides</h3>
+                                <ul style={{ listStyle: 'none', padding: 0, lineHeight: 2.5 }}>
+                                    <li><Link href="/blog/causeway-traffic-guide/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Causeway Traffic: Best Eid Crossing Times →</Link></li>
+                                    <li><Link href="/blog/top-hotels-bahrain/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Top Hotels for Eid Weekend in Bahrain →</Link></li>
+                                    <li><Link href="/blog/visa-requirements/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Iqama & Visa Rules for Causeway Crossing →</Link></li>
+                                    <li><Link href="/services/family-taxi/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Family Taxi Service for Eid →</Link></li>
+                                    <li><Link href="/destinations/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Bahrain Destinations Guide →</Link></li>
+                                </ul>
+                            </div>
+
                             <LastUpdated date="May 19, 2026" />
                         </article>
 

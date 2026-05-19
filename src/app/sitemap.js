@@ -81,6 +81,7 @@ export default function sitemap() {
         { url: `${baseUrl}/locations/najran`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
 
         // Destinations
+        { url: `${baseUrl}/destinations`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
         { url: `${baseUrl}/destinations/bahrain-airport`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
         { url: `${baseUrl}/destinations/city-centre-mall`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
         { url: `${baseUrl}/destinations/juffair`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
@@ -104,6 +105,9 @@ export default function sitemap() {
         { url: `${baseUrl}/blog/eid-travel-bahrain`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
         { url: `${baseUrl}/blog/bahrain-grand-prix-travel`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
         { url: `${baseUrl}/blog/expat-guide-bahrain`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+
+        // Reviews
+        { url: `${baseUrl}/reviews`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
 
         // Info Pages
         { url: `${baseUrl}/about-us`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },

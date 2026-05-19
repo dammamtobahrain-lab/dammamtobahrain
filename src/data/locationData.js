@@ -736,7 +736,13 @@ const locationData = {
         metaTitle: 'Najan to Bahrain Taxi | Eastern Province Oil Community Transfer',
         metaDescription: 'Taxi from Najan to Bahrain. Serving Aramco Najan field operations and nearby communities.',
         description: 'Transport from the Najan Aramco operations area to Bahrain for workers and families.',
-        longText: `<p>Najan is a small Aramco operations area in the Eastern Province. Despite its remote location, workers here regularly need transport to Bahrain for rest periods and connecting flights.</p><h3>Reliable Remote Pickup</h3><p>We coordinate pickups from the Najan area with advance booking. The route connects to the main highway system for a smooth ride to the causeway.</p>`,
+        longText: `<p>Najan is a Saudi Aramco operations area in the Eastern Province, situated south of Abqaiq near the Ghawar field infrastructure. While small and remote, it is a real community of engineers, operators, and support staff who need reliable transport to Bahrain for their time off. Our taxi service serves Najan with advance-booking pickups that rival the reliability of city-center service.</p>
+<h3>Remote Pickup — Done Right</h3>
+<p>We coordinate Najan pickups with precision: confirm your exact GPS coordinates or camp address when booking, and we will dispatch a driver who knows the access routes. The journey from Najan connects via the Abqaiq–Dhahran highway corridor to the King Fahd Causeway, covering approximately 170 km in about 2–2.5 hours.</p>
+<h3>What to Expect</h3>
+<p>Your driver will WhatsApp you 30 minutes before arrival with their location. All vehicles are fully air-conditioned and stocked with bottled water. For the causeway crossing, our drivers handle the vehicle lane procedures — you will simply need your passport at the Bahrain immigration counter. Most GCC and Western passport holders can complete the crossing in 15–25 minutes.</p>
+<h3>Connecting Flights from Bahrain Airport</h3>
+<p>Many Najan workers use Bahrain International Airport (BAH) for connecting flights — particularly to Asia and Europe where Bahrain offers better routing than Dammam's DMM airport. We can drop you directly at Terminal departures with flight time-adjusted pickup. Provide your flight time when booking and we calculate your ideal departure from Najan.</p>`,
         features: ['Remote Area Service', 'Advance Booking', 'Premium Vehicles', 'GPS-Coordinated Pickup'],
         marketData: { avgFare: '180 SAR', monthlyTrips: '10+', peakHours: 'By appointment', demandTrend: 'Low', avgDuration: '2-2.5 hrs' },
         coordinates: { lat: 26.1000, lng: 49.3500 },
@@ -759,7 +765,13 @@ const locationData = {
         metaTitle: 'Nariya to Bahrain Taxi | Northern Eastern Province Transfer',
         metaDescription: 'Taxi from Nariya to Bahrain. Remote area transport for Eastern Province residents heading to Bahrain.',
         description: 'Transport from Nariya and surrounding desert communities to Bahrain.',
-        longText: `<p>Nariya is a settlement in the northern Eastern Province, historically an important waypoint in the desert. Residents and workers in the area can rely on our service for transport to Bahrain via the main highway network.</p>`,
+        longText: `<p>Nariya is a settlement in the northern Eastern Province of Saudi Arabia, situated between Jubail and Khafji along the Gulf coast highway. Historically a waypoint along the trade routes of the region, today it serves as home to oil and gas workers, industrial staff, and their families — many of whom regularly cross into Bahrain for recreation and travel.</p>
+<h3>Northern Eastern Province to Bahrain</h3>
+<p>From Nariya, the journey south to the King Fahd Causeway covers approximately 250 km. Our drivers take the coastal highway south through Jubail and Al Khobar before joining the causeway approach. The total journey time to central Manama typically runs 2.5–3 hours under normal conditions, though Thursday evenings can add an extra 45–60 minutes at the border crossing.</p>
+<h3>Why Book Through Us from Nariya</h3>
+<p>Finding a reliable private taxi from northern locations like Nariya can be challenging. We have established driver coverage for the area with advance booking. Unlike ride-sharing apps that may not cover this zone, our service guarantees a vehicle if you book 24–48 hours ahead. We confirm every booking personally via WhatsApp so you are never left waiting.</p>
+<h3>Group and Family Travel</h3>
+<p>For families or groups from Nariya, our Hyundai Staria van (up to 8 passengers) is the most economical option. It provides ample luggage space for long trips and comfortable seating for multi-hour journeys. Contact us for group pricing on the Nariya–Bahrain route.</p>`,
         features: ['Remote Area Coverage', 'GPS-Guided Pickup', 'Premium Vehicles', 'Advance Booking'],
         marketData: { avgFare: '180 SAR', monthlyTrips: '8+', peakHours: 'By appointment', demandTrend: 'Low', avgDuration: '2.5-3 hrs' },
         coordinates: { lat: 27.4667, lng: 48.5000 },
@@ -782,7 +794,13 @@ const locationData = {
         metaTitle: 'Fadhli to Bahrain Taxi | Aramco Fadhli Field Transfer',
         metaDescription: 'Taxi from Fadhli Aramco operations to Bahrain. Reliable transfers for oil field workers.',
         description: 'Transport from the Fadhli Aramco operations area to Bahrain.',
-        longText: `<p>Fadhli is an Aramco operations zone in the Eastern Province. Workers and contractors here can rely on our service for comfortable transfers to Bahrain during their off days.</p>`,
+        longText: `<p>Fadhli is a Saudi Aramco operations zone in the Eastern Province, positioned south of Dhahran near the Abqaiq oil processing complex. The area houses operations staff, maintenance crews, and contractors who work rotating shifts and regularly travel to Bahrain on their days off. Our private taxi service provides the most comfortable option for this journey.</p>
+<h3>Rotation Day Transfers</h3>
+<p>Fadhli's demand pattern follows Aramco's rotation schedules — certain days see a wave of outbound workers heading for Bahrain's hotels, malls, and entertainment zones. We accommodate this rotation traffic with shared-route group options as well as private vehicles. Book early during peak rotation periods to secure your preferred vehicle type.</p>
+<h3>The Fadhli to Bahrain Route</h3>
+<p>From Fadhli, our drivers join Route 613 heading north toward Dhahran and Al Khobar, then onto the causeway approach. The journey covers approximately 130 km and takes 1.5–2 hours. Compared to some remote operations areas, Fadhli has good highway connectivity making it one of our more straightforward out-of-city pickups.</p>
+<h3>Vehicle Options</h3>
+<p>Solo travelers and couples typically choose the Toyota Camry or Lexus ES sedan — comfortable, fuel-efficient, and easy to access at the camp gate. Groups of 4–8 choose the Hyundai Staria for the extra space. All vehicles are less than 3 years old and maintained to a high standard.</p>`,
         features: ['Oil Field Service', 'GPS Pickup', 'Premium Vehicles', 'Advance Booking'],
         marketData: { avgFare: '180 SAR', monthlyTrips: '10+', peakHours: 'Rotation days', demandTrend: 'Low', avgDuration: '1.5-2 hrs' },
         coordinates: { lat: 26.0500, lng: 49.5000 },
@@ -966,7 +984,13 @@ const locationData = {
         metaTitle: 'Barri to Bahrain Taxi | Berri Gas Field Transfer',
         metaDescription: 'Taxi from Barri/Berri gas field to Bahrain. Serving offshore operations support community.',
         description: 'Transport from the Barri (Berri) gas field operations area to Bahrain.',
-        longText: `<p>Barri (also known as Berri) is an offshore gas field with onshore support facilities in the northern Eastern Province. Workers and their families use our service for Bahrain-bound trips.</p>`,
+        longText: `<p>Barri (also spelled Berri) is one of Saudi Aramco's major gas fields, with significant offshore infrastructure and onshore support facilities located in the northern Eastern Province near Jubail. The Berri Gas Plant is one of the largest NGL processing facilities in the kingdom. Workers and their families stationed here regularly travel to Bahrain for recreation, shopping, and weekend breaks.</p>
+<h3>Northern Eastern Province Access</h3>
+<p>Barri's proximity to Jubail (approximately 25 km) gives it excellent highway access southward. Our drivers from Barri join the Jubail–Dammam highway heading toward Al Khobar and the causeway. The total journey to Manama covers about 160 km and takes 2 hours under normal conditions. During heavy causeway traffic periods (Thursday evening, Saturday afternoon), add another 30–60 minutes.</p>
+<h3>Gate Coordination</h3>
+<p>The Berri Gas Plant operates with security checkpoints. Our drivers are experienced in coordinating pickups at the designated public gate areas. When booking, let us know your gate number or designated meeting point so we can confirm with your driver. No vehicle is allowed inside the restricted zone without prior authorization.</p>
+<h3>Group Bookings from Barri</h3>
+<p>Barri workers often travel in groups during rotation day breaks. We offer multi-passenger options: the Hyundai Staria (8 seats) is popular for groups of 5–8, while the GMC Yukon works well for 4–5 passengers with luggage. Group bookings made 48 hours in advance receive priority scheduling.</p>`,
         features: ['Gas Field Service', 'Family Transfers', 'Premium Fleet'],
         marketData: { avgFare: '180 SAR', monthlyTrips: '10+', peakHours: 'Rotation days', demandTrend: 'Low', avgDuration: '2 hrs' },
         coordinates: { lat: 27.0500, lng: 49.7500 },
@@ -1127,7 +1151,13 @@ const locationData = {
         metaTitle: 'Gazal to Bahrain Taxi | Eastern Province Transfer',
         metaDescription: 'Taxi from Gazal to Bahrain. Remote community transfer service.',
         description: 'Transport from the Gazal area to Bahrain.',
-        longText: `<p>Gazal is a small community in the Eastern Province. We connect this area with Bahrain through our private taxi service.</p>`,
+        longText: `<p>Gazal is a small but well-connected community in Saudi Arabia's Eastern Province, situated in the Abqaiq–Dhahran corridor. Residents and workers here regularly travel to Bahrain for weekend leisure, shopping, and business — and our private taxi service provides the most comfortable, direct option for that journey.</p>
+<h3>Why a Private Taxi from Gazal?</h3>
+<p>Public transport connections from Gazal to the causeway are limited, making a private taxi the practical choice. Our drivers serve the area with advance booking, ensuring you have a reliable, air-conditioned vehicle waiting at your door rather than navigating to a distant bus station.</p>
+<h3>The Route to Bahrain</h3>
+<p>From Gazal, our drivers connect to the main Eastern Province highway network heading towards Al Khobar and the King Fahd Causeway. The total journey to central Manama typically takes about 2 hours depending on causeway traffic conditions. Our drivers monitor live traffic and advise on optimal departure times.</p>
+<h3>Booking from Gazal</h3>
+<p>We ask for 12–24 hours advance booking from Gazal so we can assign the right driver and vehicle. Provide your exact address or GPS coordinates via WhatsApp when booking. A confirmation is sent once the booking is locked in.</p>`,
         features: ['Remote Service', 'GPS Pickup', 'Premium Vehicles'],
         marketData: { avgFare: '180 SAR', monthlyTrips: '5+', peakHours: 'By appointment', demandTrend: 'Low', avgDuration: '2 hrs' },
         coordinates: { lat: 26.3000, lng: 49.5000 },
@@ -1150,7 +1180,13 @@ const locationData = {
         metaTitle: 'Madrik to Bahrain Taxi | Eastern Province Transfer',
         metaDescription: 'Taxi from Madrik to Bahrain. Community transport service via Eastern Province highway.',
         description: 'Transport from Madrik area to Bahrain via the Eastern Province highway network.',
-        longText: `<p>Madrik is an operations and residential area in the Eastern Province. We provide reliable taxi service connecting Madrik with Bahrain for leisure and business travel.</p>`,
+        longText: `<p>Madrik is a residential and operations community in the Eastern Province, located in the southern Dhahran–Abqaiq axis. Like many Eastern Province communities, Madrik residents and contractors regularly travel to Bahrain for recreation, shopping, and connecting flights. Our private taxi service provides reliable door-to-door transport for this journey.</p>
+<h3>Getting from Madrik to Bahrain</h3>
+<p>The drive from Madrik to central Manama covers approximately 120 km and takes 1.5–2 hours depending on causeway traffic. Our drivers navigate via the well-maintained Eastern Province highway network, joining the main causeway approach road from Al Khobar. The route is straightforward with no difficult terrain or road conditions to worry about.</p>
+<h3>Who We Serve from Madrik</h3>
+<p>Our Madrik clients include Saudi Aramco contractors, resident families, and workers from nearby industrial facilities who need comfortable transport to Bahrain. Whether you are heading to Bahrain International Airport, City Centre Mall, or the Juffair entertainment district, we can have you there efficiently.</p>
+<h3>How to Book</h3>
+<p>Book at least 12–24 hours in advance via WhatsApp. Share your pickup address in Madrik and your preferred departure time. We will confirm availability and send a driver confirmation. For group bookings, our Hyundai Staria van accommodates up to 8 passengers.</p>`,
         features: ['Community Service', 'GPS Pickup', 'Premium Fleet'],
         marketData: { avgFare: '180 SAR', monthlyTrips: '5+', peakHours: 'By appointment', demandTrend: 'Low', avgDuration: '1.5-2 hrs' },
         coordinates: { lat: 26.1500, lng: 49.6000 },
@@ -1173,7 +1209,13 @@ const locationData = {
         metaTitle: 'Naym to Bahrain Taxi | Eastern Province Transfer',
         metaDescription: 'Taxi from Naym to Bahrain. Remote area taxi service for Eastern Province residents.',
         description: 'Transport from the Naym area to Bahrain.',
-        longText: `<p>Naym is a remote area in the Eastern Province. Our service connects Naym residents and workers with Bahrain for travel and recreation.</p>`,
+        longText: `<p>Naym is a community in Saudi Arabia's Eastern Province, positioned in the greater Dhahran–Abqaiq region. While smaller and less frequently mentioned than major cities, Naym has a resident population of oil industry workers, contractors, and their families who regularly make the Bahrain crossing for weekends and holidays.</p>
+<h3>The Journey from Naym to Bahrain</h3>
+<p>Our drivers depart from Naym heading northeast toward the main Eastern Province highway corridor. The route to the King Fahd Causeway connects via Al Khobar, giving you access to Saudi exit immigration and then the 25 km causeway crossing to Bahrain. Total journey time runs about 2 hours under normal conditions, or up to 3 hours during the Thursday–Friday peak crossing period.</p>
+<h3>Causeway Border Crossing Tips</h3>
+<p>Our drivers know the causeway procedures well. They can advise on the fastest lanes and optimal timing. For most nationalities, border crossing from Saudi Arabia into Bahrain requires just a valid passport — GCC nationals and many Western passport holders can obtain entry stamps quickly at the Bahrain immigration counters. We guide you through every step if it's your first crossing.</p>
+<h3>Booking from Naym</h3>
+<p>Due to the remote nature of the location, we request bookings at least 24 hours in advance. Please provide your exact GPS location or a nearby landmark when messaging on WhatsApp. We will confirm your driver and vehicle details promptly.</p>`,
         features: ['Remote Coverage', 'GPS Pickup', 'Advance Booking'],
         marketData: { avgFare: '180 SAR', monthlyTrips: '5+', peakHours: 'By appointment', demandTrend: 'Low', avgDuration: '2 hrs' },
         coordinates: { lat: 26.4000, lng: 49.4000 },

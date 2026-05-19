@@ -117,6 +117,17 @@ export default function GrandPrixTravelPage() {
                                 </div>
                             </div>
 
+                            <div style={{ marginTop: '2rem', padding: '1.5rem', background: '#f9f9f9', borderRadius: '12px', border: '1px solid #e5e7eb' }}>
+                                <h3 style={{ fontSize: '0.9rem', fontWeight: '800', textTransform: 'uppercase', marginBottom: '1rem' }}>Related Guides</h3>
+                                <ul style={{ listStyle: 'none', padding: 0, lineHeight: 2.5 }}>
+                                    <li><Link href="/blog/causeway-traffic-guide/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>F1 Weekend Causeway Traffic Guide →</Link></li>
+                                    <li><Link href="/blog/top-hotels-bahrain/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Best Hotels Near the F1 Circuit →</Link></li>
+                                    <li><Link href="/destinations/bahrain-airport/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Bahrain Airport Transfer →</Link></li>
+                                    <li><Link href="/services/hotel-transfers/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Hotel Transfer Service →</Link></li>
+                                    <li><Link href="/reviews/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.875rem' }}>Read Passenger Reviews →</Link></li>
+                                </ul>
+                            </div>
+
                             <LastUpdated date="May 19, 2026" />
                         </article>
 

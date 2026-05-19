@@ -163,6 +163,17 @@ export default function ExpatGuidePage() {
                             </div>
                         </div>
 
+                        <div style={{ marginTop: '2.5rem', padding: '1.5rem', background: '#f9f9f9', borderRadius: '12px', border: '1px solid #e5e7eb' }}>
+                            <h3 style={{ fontSize: '0.9rem', fontWeight: '800', textTransform: 'uppercase', marginBottom: '1rem' }}>Related Guides for Expats</h3>
+                            <ul style={{ listStyle: 'none', padding: 0, lineHeight: 2.5 }}>
+                                <li><Link href="/blog/visa-requirements/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.9rem' }}>Visa & Iqama Rules for the Causeway Crossing →</Link></li>
+                                <li><Link href="/blog/causeway-traffic-guide/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.9rem' }}>Best Times to Cross the King Fahd Causeway →</Link></li>
+                                <li><Link href="/blog/top-hotels-bahrain/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.9rem' }}>Top Hotels in Bahrain — Driver Picks →</Link></li>
+                                <li><Link href="/destinations/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.9rem' }}>All Bahrain Destinations & Drop-Off Points →</Link></li>
+                                <li><Link href="/services/weekend-getaway/" style={{ color: 'var(--color-accent)', fontWeight: '600', fontSize: '0.9rem' }}>Weekend Getaway Service →</Link></li>
+                            </ul>
+                        </div>
+
                         <LastUpdated date="May 19, 2026" />
                     </article>
                 </div>
