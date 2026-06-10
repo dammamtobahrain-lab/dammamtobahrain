@@ -155,7 +155,16 @@ export default function LocationPage({ params }) {
                                     <li><strong>Dest:</strong> {location.sidebarStats?.destination || 'Bahrain'}</li>
                                     <li><strong>Distance:</strong> {location.sidebarStats?.distance}</li>
                                     <li><strong>Time:</strong> {location.sidebarStats?.time}</li>
-                                    <li><strong>Price:</strong> {location.sidebarStats?.price}</li>
+                                    <li>
+                                        <Link
+                                            href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(location.sidebarStats?.origin || displayCity)}%20to%20Bahrain.`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '6px 16px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: '700', textDecoration: 'none' }}
+                                        >
+                                            Get Quote
+                                        </Link>
+                                    </li>
                                 </ul>
                                 <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
                                     <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem', width: '100%', display: 'block' }}>

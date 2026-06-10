@@ -89,7 +89,7 @@ export default function GrandPrixTravelPage() {
 
                             <h2>Taxi from Al Khobar / Dammam — Day Trip Option</h2>
                             <p>
-                                Many Saudi residents do the Grand Prix as a same-day trip — especially for Practice and Qualifying. The math works: depart Al Khobar at 7 AM, reach the circuit by 9 AM, watch the session, return by midnight. Total in-car time: ~3 hours. Total cost: ~360 SAR round trip per car (sedan).
+                                Many Saudi residents do the Grand Prix as a same-day trip — especially for Practice and Qualifying. The math works: depart Al Khobar at 7 AM, reach the circuit by 9 AM, watch the session, return by midnight. Total in-car time: ~3 hours. Contact us for a fixed round-trip quote.
                             </p>
                             <p>
                                 For the race itself, we recommend staying overnight in Bahrain — the post-race causeway queue consistently runs 2–4 hours on Sunday night. A hotel stay lets you leave Monday morning when the queue is gone.
@@ -106,10 +106,10 @@ export default function GrandPrixTravelPage() {
 
                             <div style={{ background: '#0a0a0a', color: 'white', borderRadius: '12px', padding: '2rem', marginTop: '2rem', textAlign: 'center' }}>
                                 <h3 style={{ color: 'white', marginBottom: '0.5rem' }}>Book Your F1 Transfer</h3>
-                                <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '1.5rem', fontSize: '0.875rem' }}>From 180 SAR · Fixed price · No surge on race weekend</p>
+                                <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '1.5rem', fontSize: '0.875rem' }}>Fixed price · No surge on race weekend · Toll included</p>
                                 <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                                     <Link href="/fare-calculator/" style={{ background: 'white', color: '#0a0a0a', padding: '11px 24px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.875rem' }}>
-                                        Check Prices
+                                        Get a Quote
                                     </Link>
                                     <Link href="https://wa.me/966569487569" target="_blank" rel="noopener noreferrer" style={{ background: '#25D366', color: 'white', padding: '11px 24px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.875rem' }}>
                                         Book on WhatsApp

@@ -20,7 +20,7 @@ export default function TransportComparisonPage() {
         ['Ride Apps (Uber/Careem)', '400-600 SAR*', 'Yes', 'Variable', 'Low (Cancellations common)'],
         ['Global Limo (Blacklane)', '800+ SAR', 'Yes', '1.5 Hours', 'High'],
         ['Personal Car', '100 SAR (Ins/Gas)', 'Yes', '1.5 Hours', 'Med (Insurance hassles)'],
-        ['Private Executive Taxi', '250-350 SAR', 'Yes', '1.5 Hours', 'Very High'],
+        ['Private Executive Taxi', 'Get Quote', 'Yes', '1.5 Hours', 'Very High'],
     ];
 
     const faqs = [
@@ -121,7 +121,7 @@ export default function TransportComparisonPage() {
                     <p>
                         A one-way trip from Dammam to Bahrain with these providers often exceeds <strong>800 SAR</strong>. Why? Because they simply contract local limousine companies (like us) and add a 100% markup for their app coordination.
                     </p>
-                    <p><strong>The Smart Move:</strong> Book directly with a local premium provider. You get the <em>exact same Lexus or GMC vehicle</em> for 250-350 SAR. That's 60% savings.
+                    <p><strong>The Smart Move:</strong> Book directly with a local premium provider. You get the <em>exact same Lexus or GMC vehicle</em> at a fraction of the app price. Contact us for an instant fixed quote.
                     </p>
 
                     <h2 style={{ marginTop: '3rem', fontSize: '1.8rem' }}>4. Driving Your Own Car</h2>
@@ -165,7 +165,7 @@ export default function TransportComparisonPage() {
                             border: 'none',
                             fontWeight: 'bold'
                         }}>
-                            Book Your Ride (From 250 SAR)
+                            Get an Instant Quote
                         </Link>
                     </div>
 

@@ -1,4 +1,4 @@
-// ============================================================
+﻿// ============================================================
 // CENTRALIZED DESTINATION DATA - SEO AUTHORITY ENHANCED
 // Bahrain destination pages for premium taxi service
 // ============================================================
@@ -42,7 +42,7 @@ const destinationData = {
             'Return Trip Scheduling'
         ],
         marketData: {
-            avgFare: '280 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '380+',
             peakHours: 'Thu 5-9 PM, Fri 2-6 PM',
             demandTrend: 'Very High',
@@ -85,7 +85,7 @@ const destinationData = {
             },
             {
                 question: 'What is the fare from Saudi Arabia to Juffair?',
-                answer: 'Our standard sedan fare to Juffair starts from 280 SAR from Al Khobar/Dhahran, and from 300 SAR from Dammam. SUV rates start from 380 SAR. All fares are fixed and include causeway tolls. No hidden charges or surge pricing.'
+                answer: 'Our standard sedan fare to Juffair available on request from Al Khobar/Dhahran, and on request from Dammam. SUV rates start. All fares are fixed and include causeway tolls. No hidden charges or surge pricing.'
             },
             {
                 question: 'Do you offer late-night pickups from Juffair back to Saudi Arabia?',
@@ -128,7 +128,7 @@ const destinationData = {
         slug: 'bahrain-airport',
         title: 'TAXI TO BAHRAIN AIRPORT (BAH)',
         metaTitle: 'Taxi to Bahrain Airport | BAH Airport Transfers from Saudi Arabia 2026',
-        metaDescription: 'Book a premium taxi to Bahrain International Airport (BAH). Direct transfers from Dammam, Al Khobar & Dhahran. Flight tracking, meet & greet, fixed rates from 270 SAR.',
+        metaDescription: 'Book a premium taxi to Bahrain International Airport (BAH). Direct transfers from Dammam, Al Khobar & Dhahran. Flight tracking, meet & greet, fixed rates.',
         description: 'Bahrain International Airport (BAH) is the island kingdom\'s sole international gateway, serving millions of passengers annually with connections to Europe, Asia, Africa, and the Americas. Our airport transfer service provides stress-free, timed pickups and drop-offs coordinated with your flight schedule.',
         longText: `<h2>Reliable Taxi Transfers to Bahrain International Airport</h2>
 <p>Bahrain International Airport (IATA: BAH) is located in Muharraq, on the northeastern tip of Bahrain. Following the completion of its stunning new passenger terminal in 2021, BAH has become one of the most modern and efficient airports in the Gulf region. For the thousands of residents in Saudi Arabia's Eastern Province who prefer flying out of Bahrain, our cross-border taxi service provides the most dependable connection between your doorstep and the departure terminal.</p>
@@ -163,7 +163,7 @@ const destinationData = {
             'Flexible Rescheduling for Flight Changes'
         ],
         marketData: {
-            avgFare: '270 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '520+',
             peakHours: 'Daily 4-8 AM, 8-11 PM',
             demandTrend: 'Very High',
@@ -206,7 +206,7 @@ const destinationData = {
             },
             {
                 question: 'What is the fare from Al Khobar to Bahrain Airport?',
-                answer: 'Our standard sedan fare from Al Khobar or Dhahran to BAH Airport starts from 270 SAR. From Dammam, fares start from 300 SAR. SUV fares for families with extra luggage begin at 370 SAR. All prices are fixed, include causeway tolls, and have no hidden surcharges.'
+                answer: 'Our standard sedan fare from Al Khobar or Dhahran to BAH Airport starts. From Dammam, fares start. SUV fares for families with extra luggage begin on request. All prices are fixed, include causeway tolls, and have no hidden surcharges.'
             },
             {
                 question: 'What if my flight is delayed or cancelled?',
@@ -280,7 +280,7 @@ const destinationData = {
             'Bahrain Bay Area Coverage'
         ],
         marketData: {
-            avgFare: '260 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '310+',
             peakHours: 'Thu 10 AM-2 PM, Fri 4-8 PM',
             demandTrend: 'High',
@@ -323,7 +323,7 @@ const destinationData = {
             },
             {
                 question: 'What is the fare from Saudi Arabia to City Centre Bahrain?',
-                answer: 'One-way sedan fares to City Centre Bahrain start from 260 SAR from Al Khobar and 280 SAR from Dammam. For round-trip bookings, we offer discounted return rates. SUV service for families or those expecting heavy shopping bags starts from 360 SAR one-way.'
+                answer: 'One-way sedan fares to City Centre Bahrain are available on request — contact us on WhatsApp for an instant fixed price from any city. For round-trip bookings, we offer discounted return rates. SUV service for families or those expecting heavy shopping bags is also available.'
             },
             {
                 question: 'Is there space in the car for shopping bags on the return trip?',
@@ -396,7 +396,7 @@ const destinationData = {
             'Beach Trip & Weekend Getaway Packages'
         ],
         marketData: {
-            avgFare: '290 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '180+',
             peakHours: 'Thu 3-7 PM, Sat 10 AM-2 PM',
             demandTrend: 'Growing',
@@ -439,7 +439,7 @@ const destinationData = {
             },
             {
                 question: 'What is the fare to Amwaj Islands from Saudi Arabia?',
-                answer: 'Sedan fares to Amwaj Islands start from 290 SAR from Al Khobar/Dhahran, and from 310 SAR from Dammam. SUV service starts from 390 SAR. Round-trip bookings receive a discounted return rate. All fares include causeway tolls with no hidden charges.'
+                answer: 'Sedan fares to Amwaj Islands available on request from Al Khobar/Dhahran, and on request from Dammam. SUV service starts. Round-trip bookings receive a discounted return rate. All fares include causeway tolls with no hidden charges.'
             },
             {
                 question: 'Can I book a taxi just for dinner at The Lagoon and back?',

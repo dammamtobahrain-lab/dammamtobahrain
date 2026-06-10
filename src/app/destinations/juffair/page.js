@@ -63,7 +63,9 @@ export default function JuffairPage() {
                                 <li><strong>Zone:</strong> Al Juffair</li>
                                 <li><strong>Key Spot:</strong> US Navy Base</li>
                                 <li><strong>Vibe:</strong> Nightlife & Dining</li>
-                                <li><strong>Avg Fare:</strong> {data.marketData.avgFare}</li>
+                                <li>
+                                    <Link href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Juffair%20Bahrain." target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '5px 14px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: '700', textDecoration: 'none' }}>Get Quote</Link>
+                                </li>
                                 <li><strong>Duration:</strong> {data.marketData.avgDuration}</li>
                                 <li><strong>Demand:</strong> {data.marketData.demandTrend}</li>
                             </ul>

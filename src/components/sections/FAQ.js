@@ -27,7 +27,7 @@ const Objections = [
     },
     {
         question: "Is there an extra charge for King Fahd Airport (DMM) pickup?",
-        answer: "No hidden fees! Our DMM Airport to Bahrain rates (starting at 350 SAR) are all-inclusive, covering meet-and-greet service, 1 hour of free flight delay waiting, and all causeway tolls."
+        answer: "No hidden fees! Our DMM Airport to Bahrain rates are all-inclusive — meet-and-greet service, 1 hour of free flight delay waiting, and all causeway tolls. Contact us for an instant fixed quote."
     },
 ];
 

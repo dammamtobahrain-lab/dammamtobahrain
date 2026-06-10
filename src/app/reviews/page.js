@@ -91,7 +91,7 @@ const reviews = [
         vehicle: 'GMC Yukon',
         rating: 5,
         date: 'December 2025',
-        text: 'Long journey from Riyadh but the Yukon made it feel effortless. Driver was on time at 5 AM, offered refreshments, and we stopped once for a break exactly when needed. 950 SAR for this quality is worth every riyal.',
+        text: 'Long journey from Riyadh but the Yukon made it feel effortless. Driver was on time at 5 AM, offered refreshments, and we stopped once for a break exactly when needed. Absolutely worth every riyal for this quality.',
         tag: 'Long Distance',
     },
     {

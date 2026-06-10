@@ -5,24 +5,24 @@ import LastUpdated from '@/components/sections/LastUpdated';
 import SchemaMarkup from '@/components/sections/SchemaMarkup';
 
 export const metadata = {
-    title: "Dammam to Bahrain Taxi Fare Cost | 2026 Price List & Hidden Fees",
-    description: "Honest 2026 price guide for taxis from Dammam, Khobar, and Jubail to Bahrain. Compare standard vs. luxury fares, airport transfers, and understand causeway toll costs.",
+    title: "Dammam to Bahrain Taxi | Your Guide to Getting a Quote (2026)",
+    description: "How to get a fixed price for your taxi from Dammam, Khobar, Jubail, or Riyadh to Bahrain. Understand what's included, how the causeway toll works, and how to book.",
 };
 
-const fareData = [
-    { from: 'Dammam', to: 'Manama', car: 'Sedan (Camry)', price: '280 SAR' },
-    { from: 'Al Khobar', to: 'Manama', car: 'Sedan (Camry)', price: '250 SAR' },
-    { from: 'Dammam Airport (DMM)', to: 'Bahrain', car: 'SUV (Yukon)', price: '350 SAR' },
-    { from: 'Jubail', to: 'Bahrain', car: 'Sedan (Camry)', price: '450 SAR' },
-    { from: 'Riyadh', to: 'Bahrain', car: 'Sedan (Camry)', price: '1,500 SAR' },
+const routes = [
+    { from: 'Dammam', to: 'Manama', car: 'Sedan (Camry)' },
+    { from: 'Al Khobar', to: 'Manama', car: 'Sedan (Camry)' },
+    { from: 'Dammam Airport (DMM)', to: 'Bahrain', car: 'SUV (Yukon)' },
+    { from: 'Jubail', to: 'Bahrain', car: 'Sedan (Camry)' },
+    { from: 'Riyadh', to: 'Bahrain', car: 'Sedan (Camry)' },
 ];
 
 export default function CostGuide() {
     return (
         <>
             <SchemaMarkup type="article" data={{
-                headline: "Dammam to Bahrain Taxi Cost Guide 2026",
-                description: "Complete breakdown of taxi fares from Saudi Arabia to Bahrain, including tolls and vehicle types.",
+                headline: "How to Get a Quote for a Taxi from Dammam to Bahrain (2026)",
+                description: "Guide to getting a fixed-price quote for your Saudi Arabia to Bahrain transfer, including what's included and how to book.",
                 author: "Dammam to Bahrain Taxi Service",
                 datePublished: "2026-02-19",
                 breadcrumbs: [
@@ -33,15 +33,28 @@ export default function CostGuide() {
             }} />
             <div className="section">
                 <div className="container" style={{ maxWidth: '800px' }}>
-                    <h1 className="section-title">The Real Cost of a Taxi from Dammam to Bahrain (2026 Guide)</h1>
+                    <h1 className="section-title">How to Get a Quote for Your Dammam to Bahrain Taxi (2026 Guide)</h1>
                     <p className="lead" style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#555', marginBottom: '2rem' }}>
-                        Traveling between Saudi Arabia and Bahrain is faster than ever, but pricing can be confusing.
-                        Whether you're booking a ride from King Fahd International Airport (DMM) or a hotel in Al Khobar, knowing the standard rates helps you avoid overpaying.
+                        Traveling between Saudi Arabia and Bahrain is seamless when you book a fixed-price private taxi.
+                        Getting an instant quote is simple — just send us your pickup city, vehicle type, and travel date on WhatsApp and we'll reply immediately with your fixed price.
                     </p>
 
-                    <h2 style={{ fontSize: '1.8rem', marginTop: '3rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>Standard Taxi Fares (One-Way)</h2>
+                    <div style={{ background: '#f0fdf4', border: '2px solid #25D366', borderRadius: '12px', padding: '1.5rem', marginBottom: '2rem', textAlign: 'center' }}>
+                        <h2 style={{ color: '#166534', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Get Your Price Instantly</h2>
+                        <p style={{ color: '#555', marginBottom: '1rem', fontSize: '0.95rem' }}>Send us your pickup city and we'll reply with a fixed price in seconds.</p>
+                        <Link
+                            href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Bahrain."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem' }}
+                        >
+                            GET QUOTE ON WHATSAPP
+                        </Link>
+                    </div>
+
+                    <h2 style={{ fontSize: '1.8rem', marginTop: '3rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>Popular Routes — Request a Quote</h2>
                     <p>
-                        In 2026, the average cost for a private taxi from Dammam to Bahrain ranges from <strong>250 SAR to 400 SAR</strong>, depending on the pickup location and vehicle type.
+                        We cover 47+ pickup cities across Saudi Arabia. Click any route below to request a quote instantly.
                     </p>
 
                     <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '1.5rem', marginBottom: '3rem', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}>
@@ -50,16 +63,25 @@ export default function CostGuide() {
                                 <th style={{ padding: '1rem', textAlign: 'left' }}>Pickup Location</th>
                                 <th style={{ padding: '1rem', textAlign: 'left' }}>Destination</th>
                                 <th style={{ padding: '1rem', textAlign: 'left' }}>Vehicle Type</th>
-                                <th style={{ padding: '1rem', textAlign: 'left' }}>Avg. Price</th>
+                                <th style={{ padding: '1rem', textAlign: 'left' }}>Price</th>
                             </tr>
                         </thead>
                         <tbody>
-                            {fareData.map((row, index) => (
+                            {routes.map((row, index) => (
                                 <tr key={index} style={{ borderBottom: '1px solid #eee' }}>
                                     <td style={{ padding: '1rem' }}>{row.from}</td>
                                     <td style={{ padding: '1rem' }}>{row.to}</td>
                                     <td style={{ padding: '1rem' }}>{row.car}</td>
-                                    <td style={{ padding: '1rem', fontWeight: 'bold', color: 'var(--color-primary)' }}>{row.price}</td>
+                                    <td style={{ padding: '1rem' }}>
+                                        <Link
+                                            href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20from%20${encodeURIComponent(row.from)}%20to%20${encodeURIComponent(row.to)}.`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '5px 14px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: '700', textDecoration: 'none' }}
+                                        >
+                                            Get Quote
+                                        </Link>
+                                    </td>
                                 </tr>
                             ))}
                         </tbody>
@@ -89,7 +111,7 @@ export default function CostGuide() {
 
                     <h2 style={{ fontSize: '1.8rem', marginTop: '3rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>Why Choose a Private Car over the Bus (SAPTCO)?</h2>
                     <p>
-                        While the SAPTCO bus is cheaper (approx 60-100 SAR), a private taxi offers significant advantages:
+                        While the SAPTCO bus is the budget option, a private taxi offers significant advantages:
                     </p>
                     <ul style={{ listStyle: 'none', padding: 0 }}>
                         <li style={{ marginBottom: '1rem' }}>✅ <strong>Speed:</strong> A private car clears customs <i>much</i> faster. You don't wait for 40 other passengers.</li>
@@ -110,7 +132,7 @@ export default function CostGuide() {
                     <hr style={{ margin: '3rem 0', borderColor: '#eee' }} />
 
                     <p style={{ fontStyle: 'italic', fontSize: '0.9rem', color: '#777' }}>
-                        *Prices are estimates based on market rates in February 2026 and are subject to change. Always confirm the final price before booking.
+                        All prices are fixed and confirmed at time of booking. Contact us on WhatsApp for a personalised quote for your route and vehicle.
                     </p>
 
                     <div style={{ marginTop: '2rem' }}>

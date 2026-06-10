@@ -62,7 +62,9 @@ export default function CityCentrePage() {
                             <ul style={{ listStyle: 'none', lineHeight: '2' }}>
                                 <li><strong>Location:</strong> Seef District</li>
                                 <li><strong>Features:</strong> Cinema, Waterpark, Hotel</li>
-                                <li><strong>Avg Fare:</strong> {data.marketData.avgFare}</li>
+                                <li>
+                                    <Link href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20City%20Centre%20Mall%20Bahrain." target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '5px 14px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: '700', textDecoration: 'none' }}>Get Quote</Link>
+                                </li>
                                 <li><strong>Duration:</strong> {data.marketData.avgDuration}</li>
                                 <li><strong>Peak:</strong> {data.marketData.peakHours}</li>
                                 <li><strong>Demand:</strong> {data.marketData.demandTrend}</li>

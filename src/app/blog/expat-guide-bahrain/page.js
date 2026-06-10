@@ -131,7 +131,7 @@ export default function ExpatGuidePage() {
                                 </thead>
                                 <tbody>
                                     {[
-                                        ['Taxi from KSA (round trip)', '360 SAR', '560 SAR', '640 SAR'],
+                                        ['Taxi from KSA (round trip)', 'Get Quote', 'Get Quote', 'Get Quote'],
                                         ['Hotel (per night, 1-2 nights)', '250-350 BHD', '400-600 BHD', '700+ BHD'],
                                         ['Dining (per person, 2 days)', '60-80 BHD', '120-160 BHD', '200+ BHD'],
                                         ['Activities & shopping', '20-50 BHD', '80-150 BHD', '300+ BHD'],

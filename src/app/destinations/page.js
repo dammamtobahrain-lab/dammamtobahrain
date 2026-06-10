@@ -14,7 +14,6 @@ const destinations = [
         emoji: '✈️',
         tagline: 'Catch your flight on time — every time',
         desc: 'Flight connections, departures, and arrivals at Bahrain\'s main international gateway. We track your flight so you\'re never late.',
-        price: 'From 180 SAR',
         time: '45-60 min from Khobar',
         highlights: ['Flight tracking included', 'Meet & greet service', 'All terminals covered', '24/7 availability'],
         badge: 'Most Booked',
@@ -26,7 +25,6 @@ const destinations = [
         emoji: '🛍️',
         tagline: 'Bahrain\'s premier shopping destination',
         desc: 'The largest mall in Bahrain with 350+ stores, dining, and entertainment. Popular weekend shopping destination from Dammam and Khobar.',
-        price: 'From 180 SAR',
         time: '50-65 min from Khobar',
         highlights: ['Drop at mall entrance', 'Return pickup arranged', 'Shopping trip specialists', 'Group discounts available'],
         badge: 'Weekend Favourite',
@@ -38,7 +36,6 @@ const destinations = [
         emoji: '🌆',
         tagline: 'Manama\'s vibrant nightlife & dining hub',
         desc: 'Juffair is Bahrain\'s most popular entertainment district — home to luxury hotels, restaurants, bars, and the lively weekend scene.',
-        price: 'From 180 SAR',
         time: '50-65 min from Khobar',
         highlights: ['Hotel drop-offs', 'Late-night return rides', 'Near US Naval Base', 'Expat favourite'],
         badge: 'Nightlife & Dining',
@@ -50,7 +47,6 @@ const destinations = [
         emoji: '🏝️',
         tagline: 'Luxury waterfront living & resort beaches',
         desc: 'An exclusive artificial island development with luxury apartments, resorts, beaches, and the popular ALBA area. Weekend retreats from Saudi Arabia.',
-        price: 'From 195 SAR',
         time: '55-70 min from Khobar',
         highlights: ['Beach resort transfers', 'Luxury apartment drops', 'Floating City restaurants', 'Weekend getaway specialist'],
         badge: 'Luxury & Beach',
@@ -58,12 +54,12 @@ const destinations = [
 ];
 
 const popularCombos = [
-    { from: 'Al Khobar', to: 'BAH Airport', price: '180 SAR', time: '45 min' },
-    { from: 'Dammam', to: 'BAH Airport', price: '200 SAR', time: '55 min' },
-    { from: 'Jubail', to: 'City Centre Mall', price: '320 SAR', time: '1.5 hrs' },
-    { from: 'Riyadh', to: 'Juffair', price: '950 SAR', time: '3.5-4 hrs' },
-    { from: 'Dhahran', to: 'Amwaj Islands', price: '180 SAR', time: '50 min' },
-    { from: 'Qatif', to: 'BAH Airport', price: '220 SAR', time: '55 min' },
+    { from: 'Al Khobar', to: 'BAH Airport', time: '45 min' },
+    { from: 'Dammam', to: 'BAH Airport', time: '55 min' },
+    { from: 'Jubail', to: 'City Centre Mall', time: '1.5 hrs' },
+    { from: 'Riyadh', to: 'Juffair', time: '3.5-4 hrs' },
+    { from: 'Dhahran', to: 'Amwaj Islands', time: '50 min' },
+    { from: 'Qatif', to: 'BAH Airport', time: '55 min' },
 ];
 
 export default function DestinationsPage() {
@@ -105,8 +101,7 @@ export default function DestinationsPage() {
                                             <span key={h} style={{ background: '#f3f4f6', fontSize: '0.75rem', padding: '4px 10px', borderRadius: '20px', color: '#444' }}>✓ {h}</span>
                                         ))}
                                     </div>
-                                    <div style={{ display: 'flex', gap: '1.5rem', fontSize: '0.85rem', color: '#666' }}>
-                                        <span><strong style={{ color: '#0a0a0a' }}>{dest.price}</strong></span>
+                                    <div style={{ fontSize: '0.85rem', color: '#666' }}>
                                         <span>⏱ {dest.time}</span>
                                     </div>
                                 </div>
@@ -118,12 +113,12 @@ export default function DestinationsPage() {
                                         View Details →
                                     </Link>
                                     <Link
-                                        href={`https://wa.me/966569487569?text=Hi%2C%20I%20want%20a%20taxi%20to%20${encodeURIComponent(dest.name)}%20in%20Bahrain.`}
+                                        href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20${encodeURIComponent(dest.name)}%20in%20Bahrain.`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         style={{ background: '#25D366', color: 'white', padding: '10px 18px', borderRadius: '8px', fontSize: '0.8rem', fontWeight: '700', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}
                                     >
-                                        Book Now
+                                        Get Quote
                                     </Link>
                                 </div>
                             </div>
@@ -139,9 +134,8 @@ export default function DestinationsPage() {
                                     <tr style={{ borderBottom: '2px solid #0a0a0a' }}>
                                         <th style={{ textAlign: 'left', padding: '8px 12px', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase' }}>From</th>
                                         <th style={{ textAlign: 'left', padding: '8px 12px', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase' }}>To (Bahrain)</th>
-                                        <th style={{ textAlign: 'center', padding: '8px 12px', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase' }}>Price</th>
                                         <th style={{ textAlign: 'center', padding: '8px 12px', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase' }}>Time</th>
-                                        <th style={{ textAlign: 'center', padding: '8px 12px', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase' }}>Book</th>
+                                        <th style={{ textAlign: 'center', padding: '8px 12px', fontWeight: '800', fontSize: '0.7rem', textTransform: 'uppercase' }}>Quote</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -149,16 +143,15 @@ export default function DestinationsPage() {
                                         <tr key={i} style={{ borderBottom: '1px solid #f0f0f0', background: i % 2 === 0 ? 'white' : '#fafafa' }}>
                                             <td style={{ padding: '10px 12px', fontWeight: '600' }}>{c.from}</td>
                                             <td style={{ padding: '10px 12px', color: '#555' }}>{c.to}</td>
-                                            <td style={{ padding: '10px 12px', textAlign: 'center', fontWeight: '700' }}>{c.price}</td>
                                             <td style={{ padding: '10px 12px', textAlign: 'center', color: '#666' }}>{c.time}</td>
                                             <td style={{ padding: '10px 12px', textAlign: 'center' }}>
                                                 <Link
-                                                    href={`https://wa.me/966569487569?text=Hi%2C%20I%20want%20a%20taxi%20from%20${encodeURIComponent(c.from)}%20to%20${encodeURIComponent(c.to)}%20in%20Bahrain.`}
+                                                    href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(c.from)}%20to%20${encodeURIComponent(c.to)}%20in%20Bahrain.`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     style={{ background: '#25D366', color: 'white', padding: '6px 12px', borderRadius: '6px', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none' }}
                                                 >
-                                                    Book
+                                                    Get Quote
                                                 </Link>
                                             </td>
                                         </tr>
@@ -175,12 +168,12 @@ export default function DestinationsPage() {
                             We drop off anywhere in Bahrain — hotels, compounds, hospitals, universities, restaurants. Send us your destination and we'll confirm the price instantly.
                         </p>
                         <Link
-                            href="https://wa.me/966569487569?text=Hi%2C%20I%20need%20a%20taxi%20to%20a%20custom%20destination%20in%20Bahrain."
+                            href="https://wa.me/966569487569?text=Hi%2C%20I%20need%20a%20quote%20for%20a%20taxi%20to%20a%20custom%20destination%20in%20Bahrain."
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none' }}
                         >
-                            ASK FOR CUSTOM DROP-OFF
+                            GET CUSTOM QUOTE
                         </Link>
                     </div>
 
@@ -194,7 +187,7 @@ export default function DestinationsPage() {
                             Hotel transfers are a specialty — we have standing arrangements with most major Bahrain properties including the Four Seasons, The Ritz-Carlton, Gulf Hotel, Ramada, Crown Plaza, and Novotel. Simply provide your hotel name when booking and we'll arrange the perfect drop-off.
                         </p>
                         <p style={{ color: '#555', fontSize: '0.875rem', lineHeight: 1.7 }}>
-                            All prices shown are one-way, include the King Fahd Causeway toll (25 SAR), and are quoted in Saudi Riyals. Return trips and round-trip bookings available with a 10% discount. See our <Link href="/fare-calculator/" style={{ color: 'var(--color-accent)', fontWeight: '600' }}>fare calculator</Link> for full pricing or <Link href="/locations/" style={{ color: 'var(--color-accent)', fontWeight: '600' }}>browse by pickup city</Link>.
+                            All quotes are one-way and include the King Fahd Causeway toll (25 SAR). Return trips and round-trip bookings available. <Link href="/fare-calculator/" style={{ color: 'var(--color-accent)', fontWeight: '600' }}>Get a quote</Link> for your route or <Link href="/locations/" style={{ color: 'var(--color-accent)', fontWeight: '600' }}>browse by pickup city</Link>.
                         </p>
                     </div>
                 </div>

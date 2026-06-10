@@ -43,7 +43,7 @@ export default function Home() {
     <>
       <SchemaMarkup type="home" data={{
         faqs: [
-          { question: 'What is the taxi fare from Riyadh to Bahrain?', answer: 'The private transfer fare from Riyadh to Bahrain starts at 1,500 SAR. This is a fixed price including the King Fahd Causeway toll and fuel, with zero hidden extras.' },
+          { question: 'What is the taxi fare from Riyadh to Bahrain?', answer: 'Contact us on WhatsApp for an instant fixed-price quote from Riyadh to Bahrain. The price is all-inclusive — King Fahd Causeway toll and fuel included, zero hidden extras.' },
           { question: 'Is there an executive car from Al Khobar to Bahrain?', answer: 'Yes, we specialize in luxury private transfers from Al Khobar and Dhahran to Bahrain. Our fleet includes VIP Lexus ES and GMC Yukon XL vehicles for executive travelers.' },
           { question: 'Do you offer airport taxi from DMM to Bahrain hotels?', answer: 'We provide door-to-door chauffeurs from King Fahd International Airport (DMM) directly to any hotel or residence in Bahrain, 24/7.' },
           { question: 'Can I pay the driver in cash?', answer: 'Yes, we offer total payment flexibility. You can pay your chauffeur in cash (SAR, BHD) or using any major credit/debit card after reaching your destination.' },

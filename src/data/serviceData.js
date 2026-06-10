@@ -1,4 +1,4 @@
-// ============================================================
+﻿// ============================================================
 // CENTRALIZED SERVICE DATA - SEO AUTHORITY ENHANCED
 // All 6 service pages with comprehensive SEO data
 // ============================================================
@@ -7,8 +7,8 @@ const serviceData = {
     'visa-run': {
         slug: 'visa-run',
         title: 'SAUDI VISA RUN TO BAHRAIN',
-        metaTitle: 'Saudi Visa Run to Bahrain | Same-Day Turnaround from 550 SAR | 2026',
-        metaDescription: 'Complete Saudi visa run to Bahrain via King Fahd Causeway. Same-day turnaround trip from Khobar starting at 550 SAR. Immigration assistance, border expertise, and guaranteed re-entry.',
+        metaTitle: 'Saudi Visa Run to Bahrain | Same-Day Turnaround Service | 2026',
+        metaDescription: 'Complete Saudi visa run to Bahrain via King Fahd Causeway. Same-day turnaround trip from Khobar available on request. Immigration assistance, border expertise, and guaranteed re-entry.',
         description: 'The fastest and most reliable visa run service from Saudi Arabia to Bahrain. We handle the entire turnaround trip — drive you across the King Fahd Causeway, wait while you complete Bahrain immigration, and bring you back to Saudi Arabia with a fresh entry stamp.',
         longText: `<h2>Saudi Visa Run to Bahrain: The Complete Service</h2>
 <p>A visa run — also known as a border run or exit-reentry trip — is a common requirement for expatriates living in Saudi Arabia. Whether you need to reset your tourist eVisa, activate a new work permit, or fulfill an exit-reentry requirement, crossing into Bahrain via the King Fahd Causeway is the quickest and most convenient option available from the Eastern Province.</p>
@@ -32,7 +32,7 @@ const serviceData = {
             'Early Morning & Late Night Availability'
         ],
         marketData: {
-            avgFare: '550 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '320+',
             peakHours: 'Sun-Wed 8-11 AM',
             demandTrend: 'Very High',
@@ -41,7 +41,7 @@ const serviceData = {
         faqs: [
             {
                 question: 'How much does a visa run from Khobar to Bahrain cost?',
-                answer: 'Our visa run service starts at 550 SAR from Al Khobar. This includes pickup, the round-trip drive across the King Fahd Causeway, waiting time at both Saudi and Bahrain immigration checkpoints, and drop-off back at your original location. The price covers causeway tolls for both directions.'
+                answer: 'Our visa run service available on request from Al Khobar. This includes pickup, the round-trip drive across the King Fahd Causeway, waiting time at both Saudi and Bahrain immigration checkpoints, and drop-off back at your original location. The price covers causeway tolls for both directions.'
             },
             {
                 question: 'How long does a visa run to Bahrain take?',
@@ -75,11 +75,11 @@ const serviceData = {
             }
         ],
         comparison: {
-            headers: ['Vehicle', 'Capacity', 'Visa Run Fare', 'Best For', 'Amenities'],
+            headers: ['Vehicle', 'Capacity', 'Fare', 'Best For', 'Amenities'],
             rows: [
-                ['Sedan (Lexus ES/Camry)', '1-3 passengers', '550 SAR', 'Solo travelers & couples', 'A/C, Wi-Fi, water'],
-                ['SUV (GMC Yukon)', '1-5 passengers', '700 SAR', 'Small groups & families', 'A/C, Wi-Fi, extra legroom'],
-                ['Van (Hyundai H1)', '1-7 passengers', '850 SAR', 'Large groups & teams', 'A/C, spacious cabin, luggage space'],
+                ['Sedan (Lexus ES/Camry)', '1-3 passengers', 'Get Quote', 'Solo travelers & couples', 'A/C, Wi-Fi, water'],
+                ['SUV (GMC Yukon)', '1-5 passengers', 'Get Quote', 'Small groups & families', 'A/C, Wi-Fi, extra legroom'],
+                ['Van (Hyundai H1)', '1-7 passengers', 'Get Quote', 'Large groups & teams', 'A/C, spacious cabin, luggage space'],
             ],
             highlightRow: 0,
         },
@@ -123,7 +123,7 @@ const serviceData = {
             'Door-to-Door from Any Saudi Address'
         ],
         marketData: {
-            avgFare: '350 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '280+',
             peakHours: 'Thu 2-6 PM & Fri AM',
             demandTrend: 'High',
@@ -140,7 +140,7 @@ const serviceData = {
             },
             {
                 question: 'What is the fare for a family taxi to Bahrain?',
-                answer: 'Family SUV rates start from 350 SAR for a one-way trip from Al Khobar to Bahrain. This covers the full-size SUV, car seats, and causeway tolls. Van rates for larger families start from 450 SAR. Prices are fixed — no surge pricing regardless of traffic.'
+                answer: 'Family SUV rates available on request for a one-way trip from Al Khobar to Bahrain. This covers the full-size SUV, car seats, and causeway tolls. Van rates for larger families start. Prices are fixed — no surge pricing regardless of traffic.'
             },
             {
                 question: 'Can children cross the causeway without both parents?',
@@ -168,9 +168,9 @@ const serviceData = {
         comparison: {
             headers: ['Vehicle', 'Passengers', 'Car Seats', 'Fare From', 'Luggage Capacity'],
             rows: [
-                ['Sedan (Lexus ES)', '1-3 adults', '1 child seat max', '250 SAR', '2 suitcases'],
-                ['SUV (GMC Yukon)', '1-5 adults + kids', 'Up to 3 seats', '350 SAR', '4 suitcases + stroller'],
-                ['Van (Hyundai H1)', '1-7 adults + kids', 'Up to 4 seats', '450 SAR', '6 suitcases + 2 strollers'],
+                ['Sedan (Lexus ES)', '1-3 adults', '1 child seat max', 'Get Quote', '2 suitcases'],
+                ['SUV (GMC Yukon)', '1-5 adults + kids', 'Up to 3 seats', 'Get Quote', '4 suitcases + stroller'],
+                ['Van (Hyundai H1)', '1-7 adults + kids', 'Up to 4 seats', 'Get Quote', '6 suitcases + 2 strollers'],
             ],
             highlightRow: 1,
         },
@@ -213,7 +213,7 @@ const serviceData = {
             'Dedicated Account Manager (Volume Clients)'
         ],
         marketData: {
-            avgFare: '280 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '350+',
             peakHours: 'Sun-Wed 7-9 AM',
             demandTrend: 'High',
@@ -234,7 +234,7 @@ const serviceData = {
             },
             {
                 question: 'Can the driver wait while I attend a meeting in Bahrain?',
-                answer: 'Yes. We offer a wait-and-return service at 50 SAR per hour of waiting time. This is ideal for meetings lasting 2-4 hours where you need a guaranteed return ride. The driver remains with the vehicle near your meeting location and is ready to depart when you are.'
+                answer: 'Yes. We offer a wait-and-return service — contact us for hourly rates of waiting time. This is ideal for meetings lasting 2-4 hours where you need a guaranteed return ride. The driver remains with the vehicle near your meeting location and is ready to depart when you are.'
             },
             {
                 question: 'What executive vehicle options are available?',
@@ -258,9 +258,9 @@ const serviceData = {
         comparison: {
             headers: ['Vehicle', 'Class', 'Fare From', 'Best For', 'Features'],
             rows: [
-                ['Lexus ES 350', 'Executive Sedan', '280 SAR', 'Individual executives', 'Wi-Fi, USB-C, quiet cabin'],
-                ['Lexus LX 600 / Yukon Denali', 'Executive SUV', '400 SAR', 'Senior leadership', 'Premium leather, extra privacy'],
-                ['Van (Executive Config)', 'Executive Van', '500 SAR', 'Team travel (3-6 people)', 'Conference seating, Wi-Fi, power outlets'],
+                ['Lexus ES 350', 'Executive Sedan', 'Get Quote', 'Individual executives', 'Wi-Fi, USB-C, quiet cabin'],
+                ['Lexus LX 600 / Yukon Denali', 'Executive SUV', 'Get Quote', 'Senior leadership', 'Premium leather, extra privacy'],
+                ['Van (Executive Config)', 'Executive Van', 'Get Quote', 'Team travel (3-6 people)', 'Conference seating, Wi-Fi, power outlets'],
             ],
             highlightRow: 0,
         },
@@ -305,7 +305,7 @@ const serviceData = {
             'VIP Entrance Drop-Off'
         ],
         marketData: {
-            avgFare: '300 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '260+',
             peakHours: 'Thu 12-4 PM & Sun AM',
             demandTrend: 'Steady',
@@ -330,7 +330,7 @@ const serviceData = {
             },
             {
                 question: 'What is the fare for a hotel transfer to Bahrain?',
-                answer: 'Hotel transfer fares start from 250 SAR (sedan) for transfers from Al Khobar hotels, and 300 SAR from Dammam hotels. SUV transfers start from 350 SAR. All fares include causeway tolls and luggage assistance. Prices are fixed regardless of traffic conditions.'
+                answer: 'Hotel transfer fares are available on request — contact us on WhatsApp for an instant fixed price. All fares include causeway tolls and luggage assistance. Prices are fixed regardless of traffic conditions.'
             }
         ],
         reviews: [
@@ -350,9 +350,9 @@ const serviceData = {
         comparison: {
             headers: ['Vehicle', 'Luggage Capacity', 'Fare From', 'Best For', 'Extras'],
             rows: [
-                ['Sedan (Lexus ES)', '2 large suitcases', '250 SAR', 'Solo & couple travelers', 'Wi-Fi, water, A/C'],
-                ['SUV (GMC Yukon)', '5 large suitcases + carry-ons', '350 SAR', 'Families & groups', 'Extra legroom, luggage space'],
-                ['Van (Hyundai H1)', '8 large suitcases', '450 SAR', 'Large groups & events', 'Maximum luggage capacity'],
+                ['Sedan (Lexus ES)', '2 large suitcases', 'Get Quote', 'Solo & couple travelers', 'Wi-Fi, water, A/C'],
+                ['SUV (GMC Yukon)', '5 large suitcases + carry-ons', 'Get Quote', 'Families & groups', 'Extra legroom, luggage space'],
+                ['Van (Hyundai H1)', '8 large suitcases', 'Get Quote', 'Large groups & events', 'Maximum luggage capacity'],
             ],
             highlightRow: 1,
         },
@@ -396,7 +396,7 @@ const serviceData = {
             'Late Night & Early Morning Service'
         ],
         marketData: {
-            avgFare: '280 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '400+',
             peakHours: 'Thu 3-8 PM',
             demandTrend: 'Very High',
@@ -405,7 +405,7 @@ const serviceData = {
         faqs: [
             {
                 question: 'Do you offer round-trip packages for weekend getaways?',
-                answer: 'Yes. Our round-trip weekend package includes a Thursday/Friday pickup from Saudi Arabia to Bahrain and a return trip on Friday/Saturday. Round-trip packages are 15% cheaper than booking two separate one-way trips. For example, a round-trip sedan from Al Khobar is approximately 425 SAR compared to 500 SAR for two one-way bookings.'
+                answer: 'Yes. Our round-trip weekend package includes a Thursday/Friday pickup from Saudi Arabia to Bahrain and a return trip on Friday/Saturday. Round-trip packages are 15% cheaper than booking two separate one-way trips. For example, a round-trip sedan from Al Khobar is discounted — contact us for details for two one-way bookings.'
             },
             {
                 question: 'What is the best time to cross the causeway on Thursday?',
@@ -441,9 +441,9 @@ const serviceData = {
         comparison: {
             headers: ['Vehicle', 'Passengers', 'One-Way Fare', 'Round-Trip Fare', 'Best For'],
             rows: [
-                ['Sedan (Lexus ES/Camry)', '1-3', '250 SAR', '~425 SAR', 'Couples & solo travelers'],
-                ['SUV (GMC Yukon)', '1-5', '350 SAR', '~595 SAR', 'Friend groups & families'],
-                ['Van (Hyundai H1)', '1-7', '450 SAR', '~765 SAR', 'Large groups & party weekends'],
+                ['Sedan (Lexus ES/Camry)', '1-3', 'Get Quote', 'Get Quote', 'Couples & solo travelers'],
+                ['SUV (GMC Yukon)', '1-5', 'Get Quote', 'Get Quote', 'Friend groups & families'],
+                ['Van (Hyundai H1)', '1-7', 'Get Quote', 'Get Quote', 'Large groups & party weekends'],
             ],
             highlightRow: 1,
         },
@@ -462,7 +462,7 @@ const serviceData = {
         slug: 'airport-transfers',
         title: 'AIRPORT TRANSFERS TO BAHRAIN',
         metaTitle: 'Airport Transfer to Bahrain | DMM & BAH Pickup | Flight Tracking',
-        metaDescription: 'Airport transfer between Dammam Airport (DMM) and Bahrain Airport (BAH). Real-time flight tracking, meet & greet service, and luxury vehicles. From 280 SAR.',
+        metaDescription: 'Airport transfer between Dammam Airport (DMM) and Bahrain Airport (BAH). Real-time flight tracking, meet & greet service, and luxury vehicles..',
         description: 'Direct airport transfer service connecting King Fahd International Airport (DMM) and Bahrain International Airport (BAH) with any address in Saudi Arabia or Bahrain. Real-time flight monitoring, arrivals hall meet and greet, and full luggage handling.',
         longText: `<h2>Airport Transfer Service: DMM and BAH Connections</h2>
 <p>Whether you are landing at King Fahd International Airport in Dammam (DMM) and need to reach Bahrain, or arriving at Bahrain International Airport (BAH) and heading to the Eastern Province of Saudi Arabia, our airport transfer service provides the most reliable ground connection between both countries' airports and your final destination.</p>
@@ -489,7 +489,7 @@ const serviceData = {
             'VIP Porter Service Available'
         ],
         marketData: {
-            avgFare: '280 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '300+',
             peakHours: 'Flight arrival clusters 8-11 PM',
             demandTrend: 'High',
@@ -502,11 +502,11 @@ const serviceData = {
             },
             {
                 question: 'What is the fare from Dammam Airport to Bahrain?',
-                answer: 'Airport transfers from King Fahd International Airport (DMM) to central Manama start at 280 SAR for a sedan. SUV transfers start at 400 SAR. These fares include the causeway toll, meet and greet service, luggage assistance, and flight tracking. No hidden fees.'
+                answer: 'Airport transfers from King Fahd International Airport (DMM) to central Manama available on request for a sedan. SUV transfers available on request. These fares include the causeway toll, meet and greet service, luggage assistance, and flight tracking. No hidden fees.'
             },
             {
                 question: 'Can you pick me up from Bahrain Airport and take me to Saudi Arabia?',
-                answer: 'Yes. We provide transfers from Bahrain International Airport (BAH) to Al Khobar (from 250 SAR), Dammam (from 280 SAR), Dhahran (from 250 SAR), and Jubail (from 450 SAR). The same flight tracking and meet-and-greet service applies at BAH.'
+                answer: 'Yes. We provide transfers from Bahrain International Airport (BAH) to Al Khobar (on request), Dammam (on request), Dhahran (on request), and Jubail (on request). The same flight tracking and meet-and-greet service applies at BAH.'
             },
             {
                 question: 'What if my flight arrives very late at night?',
@@ -534,13 +534,13 @@ const serviceData = {
         comparison: {
             headers: ['Vehicle', 'Luggage', 'DMM to Bahrain', 'BAH to Khobar', 'Best For'],
             rows: [
-                ['Sedan (Lexus ES/Camry)', '2 bags', '280 SAR', '250 SAR', 'Solo & business travelers'],
-                ['SUV (GMC Yukon)', '5 bags', '400 SAR', '350 SAR', 'Families & heavy luggage'],
-                ['Van (Hyundai H1)', '8 bags', '500 SAR', '450 SAR', 'Groups & excess baggage'],
+                ['Sedan (Lexus ES/Camry)', '2 bags', 'Get Quote', 'Get Quote', 'Solo & business travelers'],
+                ['SUV (GMC Yukon)', '5 bags', 'Get Quote', 'Get Quote', 'Families & heavy luggage'],
+                ['Van (Hyundai H1)', '8 bags', 'Get Quote', 'Get Quote', 'Groups & excess baggage'],
             ],
             highlightRow: 0,
         },
-        expertOpinion: 'Airport transfers are all about reliability, and reliability starts with data. We track every commercial flight landing at DMM and BAH using live aviation feeds — not just airline apps, which can lag by 15-20 minutes. This means our drivers are repositioning before most passengers even touch down. The DMM-to-Bahrain route is particularly interesting from a cost perspective: a round-trip flight to DMM on Saudia from Riyadh plus our 280 SAR transfer often costs less than a direct flight to BAH. We have helped hundreds of travelers discover this money-saving strategy. For late-night arrivals, the causeway is practically empty after 11 PM — crossings take under 30 minutes, making a midnight DMM landing completely stress-free.',
+        expertOpinion: 'Airport transfers are all about reliability, and reliability starts with data. We track every commercial flight landing at DMM and BAH using live aviation feeds — not just airline apps, which can lag by 15-20 minutes. This means our drivers are repositioning before most passengers even touch down. The DMM-to-Bahrain route is particularly interesting from a cost perspective: a round-trip flight to DMM on Saudia from Riyadh plus our fixed transfer can often cost less than a direct flight to BAH. We have helped hundreds of travelers discover this money-saving strategy. For late-night arrivals, the causeway is practically empty after 11 PM — crossings take under 30 minutes, making a midnight DMM landing completely stress-free.',
         lastUpdated: 'February 19, 2026',
         urgency: {
             slots: '5 slots',
@@ -555,7 +555,7 @@ const serviceData = {
         slug: 'khobar-to-bahrain',
         title: 'KHOBAR TO BAHRAIN TAXI',
         metaTitle: 'Khobar to Bahrain Taxi | Premium Causeway Transfer Service',
-        metaDescription: 'Book a premium taxi from Khobar to Bahrain. Door-to-door service, luxury fleet (Lexus/GMC), and experienced drivers. Fixed rates from 250 SAR.',
+        metaDescription: 'Book a premium taxi from Khobar to Bahrain. Door-to-door service, luxury fleet (Lexus/GMC), and experienced drivers. Fixed rates.',
         description: 'The most convenient way to travel from Al Khobar to Bahrain. Private, door-to-door taxi service with professional drivers who navigate the King Fahd Causeway efficiently.',
         longText: `<h2>Premium Taxi Service: Al Khobar to Bahrain</h2>
 <p>For residents of Al Khobar and Dhahran, a trip to Bahrain is a regular occurrence — whether for weekend leisure, shopping, or business. Our dedicated Khobar to Bahrain taxi service transforms this routine journey into a premium experience. Forget about driving yourself, finding parking, or dealing with causeway insurance. We handle everything.</p>
@@ -579,7 +579,7 @@ const serviceData = {
             'Family-Friendly Options'
         ],
         marketData: {
-            avgFare: '250 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '500+',
             peakHours: 'Thu 4-8 PM',
             demandTrend: 'Very High',
@@ -588,7 +588,7 @@ const serviceData = {
         faqs: [
             {
                 question: 'How much is a taxi from Khobar to Bahrain?',
-                answer: 'Our standard sedan fare from Al Khobar to Bahrain starts at 250 SAR. This is a fixed rate including the causeway toll. SUV fares start at 350 SAR.'
+                answer: 'Our standard sedan fare from Al Khobar to Bahrain available on request. This is a fixed rate including the causeway toll. SUV fares available on request.'
             },
             {
                 question: 'How long does the trip take?',
@@ -620,9 +620,9 @@ const serviceData = {
         comparison: {
             headers: ['Vehicle', 'Capacity', 'Fare', 'Best For'],
             rows: [
-                ['Lexus ES Sedan', '1-3 Pax', '250 SAR', 'Individuals/Couples'],
-                ['GMC Yukon SUV', '1-5 Pax', '350 SAR', 'Families/Small Groups'],
-                ['Hyundai H1 Van', '1-7 Pax', '450 SAR', 'Large Groups/Luggage']
+                ['Lexus ES Sedan', '1-3 Pax', 'Get Quote', 'Individuals/Couples'],
+                ['GMC Yukon SUV', '1-5 Pax', 'Get Quote', 'Families/Small Groups'],
+                ['Hyundai H1 Van', '1-7 Pax', 'Get Quote', 'Large Groups/Luggage']
             ],
             highlightRow: 0
         },
@@ -660,7 +660,7 @@ const serviceData = {
             'No Waiting Charges for Delays'
         ],
         marketData: {
-            avgFare: '280 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '300+',
             peakHours: 'Flight Arrivals',
             demandTrend: 'High',
@@ -677,7 +677,7 @@ const serviceData = {
             },
             {
                 question: 'How much is the taxi from DMM to Bahrain?',
-                answer: 'Fares start from 280 SAR for a sedan and 400 SAR for an SUV. This includes the causeway toll.'
+                answer: 'Fares are available on request — contact us on WhatsApp for an instant fixed price for sedan or SUV. The causeway toll is included in all quotes.'
             },
             {
                 question: 'Can you drop me at Bahrain Airport?',
@@ -701,9 +701,9 @@ const serviceData = {
         comparison: {
             headers: ['Vehicle', 'Luggage', 'Fare', 'Best For'],
             rows: [
-                ['Lexus ES Sedan', '2 Bags', '280 SAR', 'Solo/Couple'],
-                ['GMC Yukon SUV', '6 Bags', '400 SAR', 'Families/Groups'],
-                ['Hyundai H1 Van', '8+ Bags', '500 SAR', 'Large Groups']
+                ['Lexus ES Sedan', '2 Bags', 'Get Quote', 'Solo/Couple'],
+                ['GMC Yukon SUV', '6 Bags', 'Get Quote', 'Families/Groups'],
+                ['Hyundai H1 Van', '8+ Bags', 'Get Quote', 'Large Groups']
             ],
             highlightRow: 0
         },
@@ -745,7 +745,7 @@ const serviceData = {
             'Safe & Vetted Drivers'
         ],
         marketData: {
-            avgFare: '200 SAR (Shared)',
+            avgFare: 'Get Quote',
             monthlyTrips: '150+',
             peakHours: 'Thu PM & Sat PM',
             demandTrend: 'Growing',
@@ -837,7 +837,7 @@ const serviceData = {
             '24/7 Transport Available'
         ],
         marketData: {
-            avgFare: '450 SAR',
+            avgFare: 'Get Quote',
             monthlyTrips: '80+',
             peakHours: 'Weekends',
             demandTrend: 'High Niche',
@@ -878,7 +878,7 @@ const serviceData = {
         comparison: {
             headers: ['Service', 'Pet Policy', 'Paperwork Help', 'Price', 'Comfort'],
             rows: [
-                ['Dammam to Bahrain Pet Taxi', 'Guaranteed', 'Guidance Provided', '450 SAR', 'High (SUV)'],
+                ['Dammam to Bahrain Pet Taxi', 'Guaranteed', 'Guidance Provided', 'Get Quote', 'High (SUV)'],
                 ['Regular Taxi / Uber', 'Refused / Drivers discretion', 'None', 'Varies', 'Unpredictable'],
                 ['Pet Relocation Agency', 'Guaranteed', 'Full Service', '1500+ SAR', 'High']
             ],

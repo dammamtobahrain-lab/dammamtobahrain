@@ -30,7 +30,7 @@ const faqs = [
     },
     {
         question: "What is the taxi fare from Al Khobar to the Ritz-Carlton Bahrain?",
-        answer: "The fare from Al Khobar to the Ritz-Carlton Bahrain (Seef district) is 180 SAR in a sedan or Lexus ES. The causeway toll is included. Journey time is approximately 50–60 minutes on a normal day."
+        answer: "Contact us on WhatsApp for an instant fixed price from Al Khobar to the Ritz-Carlton Bahrain (Seef district). The causeway toll is included. Journey time is approximately 50–60 minutes on a normal day."
     }
 ];
 
