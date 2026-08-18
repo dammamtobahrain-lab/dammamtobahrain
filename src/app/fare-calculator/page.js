@@ -52,6 +52,8 @@ export default function GetQuotePage() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#25D366', color: 'white', padding: '14px 32px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem' }}
+                                data-track="quote_start"
+                                data-track-label="Fare Calculator Main CTA"
                             >
                                 GET QUOTE ON WHATSAPP
                             </Link>
@@ -62,6 +64,27 @@ export default function GetQuotePage() {
                                 CALL US NOW
                             </Link>
                         </div>
+                        <p style={{ marginTop: '1.25rem', fontSize: '0.8rem' }}>
+                            Traveling the other way? <Link href="/services/bahrain-to-dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Get a Bahrain to Dammam quote →</Link>
+                        </p>
+                    </div>
+
+                    {/* What affects price */}
+                    <div style={{ background: 'white', border: '1px solid #eee', borderRadius: '16px', padding: '2rem', marginBottom: '2rem' }}>
+                        <h2 style={{ fontSize: '1rem', fontWeight: '800', textTransform: 'uppercase', marginBottom: '1.25rem' }}>What Affects Your Price</h2>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '0.75rem' }}>
+                            {[
+                                'Pickup location', 'Destination', 'Vehicle type', 'Passenger count',
+                                'One-way or return', 'Waiting time', 'Special requirements',
+                            ].map(factor => (
+                                <div key={factor} style={{ background: '#f9f9f9', borderRadius: '8px', padding: '0.75rem 1rem', fontSize: '0.8rem', fontWeight: '600', color: '#333' }}>
+                                    {factor}
+                                </div>
+                            ))}
+                        </div>
+                        <p style={{ marginTop: '1rem', marginBottom: 0, fontSize: '0.85rem', color: '#555' }}>
+                            We don't publish blanket rates because these factors change the fare — tell us your details on WhatsApp and we'll reply with a single fixed price, all-inclusive.
+                        </p>
                     </div>
 
                     {/* What to include */}

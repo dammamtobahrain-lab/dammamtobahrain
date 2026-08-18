@@ -24,6 +24,22 @@ export default function RelatedGuide() {
                         Read the 2026 Cost Guide
                     </Link>
                 </div>
+
+                <div style={{
+                    marginTop: '1.5rem',
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    gap: '0.6rem',
+                    justifyContent: 'center',
+                    fontSize: '0.8rem',
+                }}>
+                    <span style={{ color: '#6c757d', fontWeight: 700 }}>Explore Our Main Routes:</span>
+                    <Link href="/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam → Bahrain</Link>
+                    <Link href="/services/bahrain-to-dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Bahrain → Dammam</Link>
+                    <Link href="/services/khobar-to-bahrain/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Khobar ⇄ Bahrain</Link>
+                    <Link href="/services/dammam-airport-to-bahrain/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>DMM Airport → Bahrain</Link>
+                    <Link href="/services/bahrain-airport-to-dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>BAH Airport → Dammam</Link>
+                </div>
             </div>
         </section>
     );

@@ -11,13 +11,15 @@ import SchemaMarkup from "@/components/sections/SchemaMarkup";
 import FeaturedGuides from "@/components/sections/FeaturedGuides";
 import LastUpdated from "@/components/sections/LastUpdated";
 import SEOContent from "@/components/sections/SEOContent";
+import LeadForm from "@/components/LeadForm";
 import Link from "next/link";
 import { Clock, ShieldCheck, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Saudi to Bahrain Private Car | Taxi & Executive Chauffeur 2026",
-  description: "Book an executive private car or taxi from Dammam, Khobar, or Riyadh to Bahrain. Professional chauffeurs, 24/7 service, and swift border crossing via King Fahd Causeway.",
-  keywords: ["taxi saudi to bahrain", "private car khobar to bahrain", "chauffeur dammam to bahrain", "dmm airport to bahrain taxi", "riyadh to bahrain taxi", "saudi bahrain causeway taxi", "vip car service saudi", "private chauffeur bahrain"],
+  title: "Dammam to Bahrain Taxi | Private Transfer & Fixed Quote",
+  description: "Book a private Dammam to Bahrain taxi with door-to-door pickup from Dammam, Khobar or Dhahran, professional drivers, and easy WhatsApp booking. Bahrain to Dammam also available. Get your quote today.",
+  keywords: ["dammam to bahrain taxi", "taxi from dammam to bahrain", "dammam to bahrain taxi service", "bahrain to dammam taxi", "dammam taxi bahrain bridge", "khobar to bahrain taxi", "dammam airport to bahrain taxi", "saudi bahrain causeway taxi"],
+  alternates: { canonical: '/' },
 };
 
 const homeMarketData = {
@@ -53,6 +55,13 @@ export default function Home() {
 
       <Hero />
 
+      {/* Above-the-fold Quote Form */}
+      <section className="section" style={{ background: '#fafafa', paddingTop: '3rem', paddingBottom: '3rem' }}>
+        <div className="container" style={{ maxWidth: '640px' }}>
+          <LeadForm defaultPickup="Dammam, Saudi Arabia" defaultDestination="Bahrain" title="Get Your Instant Quote" />
+        </div>
+      </section>
+
       {/* Urgency & Status Bar */}
       <div className="urgency-status-bar">
         <div className="container">
@@ -65,6 +74,75 @@ export default function Home() {
             </div>
         </div>
       </div>
+
+      {/* Direction Selector - Both directions must be equally discoverable */}
+      <section className="section route-section" style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
+        <div className="container">
+          <div className="section-title" style={{ marginBottom: '2rem' }}>
+            <span style={{ color: 'var(--color-primary)', fontWeight: '900', letterSpacing: '2.5px', textTransform: 'uppercase', fontSize: '0.85rem' }}>Choose Your Direction</span>
+            <h2 style={{ fontWeight: '950', marginTop: '1rem', letterSpacing: '-1.5px' }}>We Cover <span className="text-gradient-gold">Both Sides of the Causeway</span></h2>
+          </div>
+
+          <div className="route-grid">
+            {[
+              { name: 'Dammam → Bahrain', desc: 'Dammam, Khobar & Dhahran pickup', href: null, badge: 'YOU ARE HERE' },
+              { name: 'Bahrain → Dammam', desc: 'Manama, Juffair & Seef pickup', href: '/services/bahrain-to-dammam/', badge: 'RETURN TRIP' },
+              { name: 'Dammam Airport (DMM) → Bahrain', desc: 'Flight tracking & meet-and-greet', href: '/services/dammam-airport-to-bahrain/', badge: 'AIRPORT' },
+              { name: 'Bahrain Airport (BAH) → Dammam', desc: 'Flight tracking & meet-and-greet', href: '/services/bahrain-airport-to-dammam/', badge: 'AIRPORT' },
+            ].map((route) => {
+              const CardInner = (
+                <>
+                  <div>
+                    <div className="route-badges">
+                      <span className="route-badge-verified">{route.badge}</span>
+                    </div>
+                    <h3>{route.name}</h3>
+                  </div>
+                  <div className="route-card-footer">
+                    <div className="route-meta">
+                      <span>{route.desc}</span>
+                    </div>
+                    <div style={{ textAlign: 'right' }}>
+                      <div style={{ background: 'rgba(212, 175, 55, 0.1)', color: 'var(--color-primary)', padding: '6px 12px', borderRadius: '4px', fontSize: '0.85rem', fontWeight: 'bold' }}>
+                        {route.href ? 'VIEW ROUTE' : 'GET QUOTE'}
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+
+              return route.href ? (
+                <Link
+                  key={route.name}
+                  href={route.href}
+                  className="route-card"
+                  data-track="route_selected"
+                  data-track-label={route.name}
+                >
+                  {CardInner}
+                </Link>
+              ) : (
+                <a
+                  key={route.name}
+                  href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20to%20Bahrain."
+                  className="route-card"
+                  data-track="route_selected"
+                  data-track-label={route.name}
+                >
+                  {CardInner}
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Mid-page Quote Form - after route/pricing section */}
+      <section className="section" style={{ paddingTop: '1rem', paddingBottom: '3rem' }}>
+        <div className="container" style={{ maxWidth: '640px' }}>
+          <LeadForm defaultPickup="Dammam, Saudi Arabia" defaultDestination="Bahrain" title="Request Your Fixed Quote" />
+        </div>
+      </section>
 
       <SocialProof />
       <TrustBar />
@@ -138,6 +216,13 @@ export default function Home() {
       <Testimonials />
       <FAQ />
       <CTA />
+
+      {/* Final CTA - Quote Form */}
+      <section className="section" style={{ background: '#fafafa', paddingTop: '3rem', paddingBottom: '3rem' }}>
+        <div className="container" style={{ maxWidth: '640px' }}>
+          <LeadForm defaultPickup="Dammam, Saudi Arabia" defaultDestination="Bahrain" title="Ready to Book? Get Your Quote" />
+        </div>
+      </section>
 
       {/* Verification Footer */}
       <div className="container verification-footer">

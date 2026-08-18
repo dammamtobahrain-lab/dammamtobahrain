@@ -19,8 +19,9 @@ export function generateStaticParams() {
     return Object.keys(locationData).map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
-    const location = locationData[params.slug];
+export async function generateMetadata({ params }) {
+    const { slug } = await params;
+    const location = locationData[slug];
     if (!location) return { title: 'Location Not Found' };
 
     const cityName = location.title.split(' TO ')[0] || location.title;
@@ -37,19 +38,20 @@ export function generateMetadata({ params }) {
             'private car bahrain',
         ],
         alternates: {
-            canonical: `/locations/${params.slug}/`,
+            canonical: `/locations/${slug}/`,
         },
         openGraph: {
             title: location.metaTitle || location.title,
             description: location.metaDescription || location.description,
-            url: `https://dammamtobahrain.com/locations/${params.slug}/`,
+            url: `https://dammamtobahrain.com/locations/${slug}/`,
             type: 'article',
         },
     };
 }
 
-export default function LocationPage({ params }) {
-    const location = locationData[params.slug];
+export default async function LocationPage({ params }) {
+    const { slug } = await params;
+    const location = locationData[slug];
 
     if (!location) {
         notFound();
@@ -69,7 +71,7 @@ export default function LocationPage({ params }) {
                     breadcrumbs: [
                         { name: 'Home', href: '/' },
                         { name: 'Locations', href: '/locations/' },
-                        { name: displayCity, href: `/locations/${params.slug}/` },
+                        { name: displayCity, href: `/locations/${slug}/` },
                     ],
                     areaServed: [
                         { '@type': 'City', name: displayCity },

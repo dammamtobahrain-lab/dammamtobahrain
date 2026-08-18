@@ -79,17 +79,35 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-GTFGEH023H');
           `}
         </Script>
-        <Script id="whatsapp-tracking" strategy="afterInteractive">
+        <Script id="lead-tracking" strategy="afterInteractive">
           {`
             document.addEventListener('click', function(e) {
-              var el = e.target.closest('a[href*="wa.me"]');
-              if (!el) return;
+              if (typeof gtag === 'undefined') return;
               var page = window.location.pathname;
-              var label = el.textContent.trim().slice(0, 50) || 'WhatsApp Button';
-              if (typeof gtag !== 'undefined') {
+
+              var wa = e.target.closest('a[href*="wa.me"]');
+              if (wa) {
                 gtag('event', 'whatsapp_click', {
                   event_category: 'Lead',
-                  event_label: label,
+                  event_label: wa.textContent.trim().slice(0, 50) || 'WhatsApp Button',
+                  page_location: page
+                });
+              }
+
+              var tel = e.target.closest('a[href^="tel:"]');
+              if (tel) {
+                gtag('event', 'phone_click', {
+                  event_category: 'Lead',
+                  event_label: tel.textContent.trim().slice(0, 50) || 'Phone Button',
+                  page_location: page
+                });
+              }
+
+              var tracked = e.target.closest('[data-track]');
+              if (tracked) {
+                gtag('event', tracked.getAttribute('data-track'), {
+                  event_category: 'Lead',
+                  event_label: tracked.getAttribute('data-track-label') || tracked.textContent.trim().slice(0, 50),
                   page_location: page
                 });
               }

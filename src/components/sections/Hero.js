@@ -1,4 +1,4 @@
-import { CheckCircle, ShieldCheck, ArrowRight, Star, Zap, Clock } from "lucide-react";
+import { CheckCircle, ShieldCheck, ArrowRight, Star, Zap, Clock, Car, MapPin, PhoneCall } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
@@ -32,27 +32,48 @@ export default function Hero() {
 
                         <div className="hero-features">
                             <div className="hero-feature">
-                                <Zap size={22} color="var(--color-accent)" strokeWidth={3} />
-                                <span>Fastest Border Clearance</span>
+                                <Car size={22} color="var(--color-accent)" strokeWidth={3} />
+                                <span>Private Vehicle</span>
                             </div>
                             <div className="hero-feature">
-                                <Clock size={22} color="var(--color-accent)" strokeWidth={3} />
-                                <span>Zero Waiting Guarantee</span>
+                                <MapPin size={22} color="var(--color-accent)" strokeWidth={3} />
+                                <span>Door-to-Door Service</span>
                             </div>
                             <div className="hero-feature">
                                 <ShieldCheck size={22} color="var(--color-accent)" strokeWidth={3} />
-                                <span>Fixed Rates - No Surge</span>
+                                <span>Saudi–Bahrain Causeway</span>
+                            </div>
+                            <div className="hero-feature">
+                                <CheckCircle size={22} color="var(--color-accent)" strokeWidth={3} />
+                                <span>Professional Driver</span>
+                            </div>
+                            <div className="hero-feature">
+                                <Clock size={22} color="var(--color-accent)" strokeWidth={3} />
+                                <span>24/7 Booking</span>
                             </div>
                         </div>
 
                         <div className="hero-cta-row">
-                            <Link href="https://wa.me/966569487569" className="btn btn-primary hero-cta-btn">
-                                SECURE YOUR DRIVER NOW — PAY AT ARRIVAL
+                            <Link
+                                href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20to%20Bahrain.%20Pickup%3A%20%5B%5D%2C%20Destination%3A%20%5B%5D%2C%20Date%3A%20%5B%5D%2C%20Time%3A%20%5B%5D%2C%20Passengers%3A%20%5B%5D"
+                                className="btn btn-primary hero-cta-btn"
+                                data-track="quote_start"
+                                data-track-label="Hero Primary WhatsApp CTA"
+                            >
+                                GET A QUOTE ON WHATSAPP
                             </Link>
-                            <div className="hero-driver-status">
-                                <div className="hero-pulse-dot"></div>
-                                <span>14 Drivers Available Near Causeway</span>
-                            </div>
+                            <Link
+                                href="/fare-calculator/"
+                                className="btn hero-cta-secondary"
+                                data-track="quote_start"
+                                data-track-label="Hero Check Price CTA"
+                            >
+                                CHECK PRICE
+                            </Link>
+                        </div>
+                        <div className="hero-driver-status" style={{ marginTop: '1.25rem' }}>
+                            <div className="hero-pulse-dot"></div>
+                            <span>14 Drivers Available Near Causeway</span>
                         </div>
                     </div>
 
@@ -66,6 +87,9 @@ export default function Hero() {
                                     <span className="hero-price-number" style={{ fontSize: '2rem' }}>Get Local Quote</span>
                                 </div>
                                 <span className="hero-price-context">CUSTOMIZED RATES VIA WHATSAPP</span>
+                                <Link href="/fare-calculator/" style={{ display: 'block', marginTop: '0.6rem', fontSize: '0.75rem', color: 'var(--color-accent)', fontWeight: 700, textDecoration: 'underline' }}>
+                                    Price depends on pickup, vehicle &amp; passengers →
+                                </Link>
                             </div>
 
                             <div className="hero-card-includes">

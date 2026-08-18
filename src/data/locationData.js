@@ -238,7 +238,7 @@ const locationData = {
 <h3>Hotel & City Pickups Across Bahrain</h3>
 <p>Staying in Manama, Juffair, Seef, or Amwaj Islands? We pick you up directly from your hotel lobby. Just provide your hotel name and preferred pickup time. We recommend booking your return trip at least 24 hours in advance, especially during the busy Saturday return rush, to guarantee vehicle availability.</p>
 <h3>Drop-off Locations in Saudi Arabia</h3>
-<p>We can drop you off at any address in the Eastern Province: Al Khobar, Dammam, Dhahran, Jubail, Qatif, Hofuf, and all surrounding towns. Airport drop-offs at DMM are also available.</p>`,
+<p>We can drop you off at any address in the Eastern Province: Al Khobar, Dammam, Dhahran, Jubail, Qatif, Hofuf, and all surrounding towns. Airport drop-offs at DMM are also available. If Dammam is specifically your destination, see our <a href="/services/bahrain-to-dammam/">dedicated Bahrain to Dammam taxi page</a> for pickup points across Bahrain and door-to-door drop-off details.</p>`,
         features: ['Airport Meet & Greet', 'Hotel Pickups', 'Flexible Scheduling', 'Help with Luggage', 'Flight Tracking'],
         marketData: { avgFare: 'Get Quote', monthlyTrips: '350+', peakHours: 'Sat 12-6 PM', demandTrend: 'High', avgDuration: '45-75 min' },
         coordinates: { lat: 26.2285, lng: 50.5860 },

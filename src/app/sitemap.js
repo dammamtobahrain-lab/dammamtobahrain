@@ -20,6 +20,8 @@ export default function sitemap() {
         { url: `${baseUrl}/services/airport-transfers`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
         { url: `${baseUrl}/services/dammam-airport-to-bahrain`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
         { url: `${baseUrl}/services/khobar-to-bahrain`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+        { url: `${baseUrl}/services/bahrain-to-dammam`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
+        { url: `${baseUrl}/services/bahrain-airport-to-dammam`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
         { url: `${baseUrl}/services/student-transport`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
         { url: `${baseUrl}/services/pet-transport`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 

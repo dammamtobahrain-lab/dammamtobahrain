@@ -43,6 +43,15 @@ export default function GuideDammamToBahrain() {
                         </p>
                     </div>
 
+                    {/* Quick Links to Money Pages */}
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '3rem' }}>
+                        <Link href="/" style={{ background: 'var(--color-primary)', color: 'white', padding: '10px 18px', borderRadius: '8px', fontSize: '0.8rem', fontWeight: 700, textDecoration: 'none' }}>Dammam → Bahrain Taxi</Link>
+                        <Link href="/services/bahrain-to-dammam/" style={{ background: 'var(--color-primary)', color: 'white', padding: '10px 18px', borderRadius: '8px', fontSize: '0.8rem', fontWeight: 700, textDecoration: 'none' }}>Bahrain → Dammam Taxi</Link>
+                        <Link href="/services/dammam-airport-to-bahrain/" style={{ background: '#f0f0f0', color: 'var(--color-primary)', padding: '10px 18px', borderRadius: '8px', fontSize: '0.8rem', fontWeight: 700, textDecoration: 'none' }}>Dammam Airport → Bahrain</Link>
+                        <Link href="/fare-calculator/" style={{ background: '#f0f0f0', color: 'var(--color-primary)', padding: '10px 18px', borderRadius: '8px', fontSize: '0.8rem', fontWeight: 700, textDecoration: 'none' }}>Get a Quote</Link>
+                        <Link href="/services/visa-run/" style={{ background: '#f0f0f0', color: 'var(--color-primary)', padding: '10px 18px', borderRadius: '8px', fontSize: '0.8rem', fontWeight: 700, textDecoration: 'none' }}>Visa Run Service</Link>
+                    </div>
+
                     {/* H2 - 1 */}
                     <h2 style={{ marginTop: '3rem', color: 'var(--color-primary)' }}>1. Why Choose a Private Taxi for Your Dammam to Bahrain Journey?</h2>
                     <p>
@@ -85,7 +94,7 @@ export default function GuideDammamToBahrain() {
                         Travelers often ask about the route from <strong>Khobar</strong> versus Dammam. Geographically, Al Khobar is closer to the causeway entrance than Dammam, making the trip slightly shorter. However, the service quality and route efficiency remain consistent whether you are starting from <strong>Khobar dammam to Bahrain</strong>. Providers cover both cities extensively, offering door-to-door pickups from any hotel or residence in the Eastern Province.
                     </p>
                     <p>
-                        The proximity of <strong>Al Khobar</strong> to the bridge means that residents or visitors in this area can enjoy a very quick commute to Bahrain, often taking less than an hour under normal traffic conditions. This makes it a popular choice for evening dinners or quick shopping trips to Manama. Private taxi services are readily available to facilitate these short effective trips, providing the same high level of reliability and comfort.
+                        The proximity of <strong>Al Khobar</strong> to the bridge means that residents or visitors in this area can enjoy a very quick commute to Bahrain, often taking less than an hour under normal traffic conditions. This makes it a popular choice for evening dinners or quick shopping trips to Manama. See our dedicated <Link href="/services/khobar-to-bahrain/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Khobar to Bahrain taxi</Link> page for pickup areas and vehicle options.
                     </p>
                     <p>
                         Regardless of your starting point in the Dammam metropolitan area, the route eventually converges onto the King Fahd Causeway. Experienced drivers know the best local roads to navigate out of Dammam or Khobar to reach the bridge efficiently, avoiding local city traffic where possible. This local knowledge ensures that your journey from <strong>Saudi Arabia</strong> to Bahrain is optimized for speed and comfort, regardless of your specific pickup location.
@@ -100,7 +109,7 @@ export default function GuideDammamToBahrain() {
                         Similarly, transfers to <strong>Bahrain International Airport</strong> are handled with rigorous attention to timing. Drivers factor in the travel time and potential border delays to ensure you arrive at the airport well before your check-in time. This <strong>seamless airport</strong> transfer service removes the anxiety of missing a flight, providing a reliable link between the air hubs of the two kingdoms.
                     </p>
                     <p>
-                        Travelers can also arrange transfers between the two airports, facilitating complex itineraries. Whether you are landing in Dammam but flying out of <strong>Bahrain International</strong>, or vice versa, a dedicated transfer ensures smooth continuity. With spacious vehicles to accommodate all your luggage, these services are perfect for international travelers seeking a hassle-free connection in the <strong>Gulf</strong> region.
+                        Travelers can also arrange transfers between the two airports, facilitating complex itineraries. Whether you are landing in <Link href="/services/dammam-airport-to-bahrain/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam but flying out of Bahrain International</Link>, or <Link href="/services/bahrain-airport-to-dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>landing in Bahrain and connecting through Dammam</Link>, a dedicated transfer ensures smooth continuity. With spacious vehicles to accommodate all your luggage, these services are perfect for international travelers seeking a hassle-free connection in the <strong>Gulf</strong> region.
                     </p>
 
                     {/* H2 - 6 */}
@@ -145,7 +154,7 @@ export default function GuideDammamToBahrain() {
                         Crossing an international border requires correct documentation. For the trip between the <strong>Kingdom of Saudi Arabia</strong> and Bahrain, you must have a valid passport with at least six months of validity. GCC nationals may use their National ID cards. Residents of Saudi Arabia usually need a valid exit/re-entry visa and their Iqama.
                     </p>
                     <p>
-                        Visa requirements for Bahrain depend on your nationality. Many nationalities can obtain a visa on arrival or an eVisa beforehand. It is essential to check the latest regulations before you travel. Your driver can often provide general advice, but ensuring your papers are in order is the <strong>passenger</strong>'s responsibility.
+                        Visa requirements for Bahrain depend on your nationality. Many nationalities can obtain a visa on arrival or an eVisa beforehand. It is essential to check the latest regulations before you travel. If you need to exit Saudi Arabia and re-enter specifically for visa purposes, see our dedicated <Link href="/services/visa-run/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Saudi visa run to Bahrain</Link> service. Your driver can often provide general advice, but ensuring your papers are in order is the <strong>passenger</strong>'s responsibility.
                     </p>
                     <p>
                         Having your documents organized and ready before reaching the immigration booth speeds up the process. A helpful driver will remind you of this as you approach the causeway. Smooth processing at the border is key to a <strong>seamless</strong> journey, allowing you to cross into <strong>Saudi Arabia and Bahrain</strong> without unnecessary delays.
@@ -154,7 +163,7 @@ export default function GuideDammamToBahrain() {
                     {/* H2 - 10 */}
                     <h2 style={{ marginTop: '3rem', color: 'var(--color-primary)' }}>10. Frequently Asked Questions about Dammam to Bahrain Taxi Services?</h2>
                     <p>
-                        <strong>Frequently asked questions</strong> often revolve around pricing and booking. Travelers want to know if there are <strong>hidden fees</strong>. Reputable companies offer transparent, fixed-pricing structures that include tolls and fuel, so the price you are quoted is the price you pay. It is always recommended to confirm this at the time of booking to avoid surprises.
+                        <strong>Frequently asked questions</strong> often revolve around pricing and booking. Travelers want to know if there are <strong>hidden fees</strong>. Reputable companies offer transparent, fixed-pricing structures that include tolls and fuel, so the price you are quoted is the price you pay. Use our <Link href="/fare-calculator/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Get a Quote page</Link> to see what affects your fare and request an instant fixed price.
                     </p>
                     <p>
                         Another common query is about availability. Can I book a ride late at night? Yes, top-tier services operate 24/7, accommodating late-night flights and early morning meetings. Booking in advance is highly recommended to guarantee availability, especially for <strong>airport pickups</strong> or during peak travel seasons.
@@ -190,9 +199,18 @@ export default function GuideDammamToBahrain() {
                         </ul>
                     </div>
 
-                    <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-                        <Link href="/booking" className="btn btn-primary" style={{ textDecoration: 'none', display: 'inline-block', color: '#fff', padding: '1rem 2rem', borderRadius: '4px' }}>
-                            Book Your Ride Now
+                    <div style={{ marginTop: '3rem', textAlign: 'center', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                        <Link
+                            href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20to%20Bahrain."
+                            className="btn btn-primary"
+                            style={{ textDecoration: 'none', display: 'inline-block', color: '#fff', padding: '1rem 2rem', borderRadius: '4px' }}
+                            data-track="quote_start"
+                            data-track-label="Blog Guide CTA"
+                        >
+                            Get a Quote on WhatsApp
+                        </Link>
+                        <Link href="/services/bahrain-to-dammam/" className="btn btn-outline" style={{ textDecoration: 'none', display: 'inline-block', padding: '1rem 2rem', borderRadius: '4px' }}>
+                            Traveling Bahrain → Dammam?
                         </Link>
                     </div>
 

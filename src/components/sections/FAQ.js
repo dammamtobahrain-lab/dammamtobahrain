@@ -29,6 +29,14 @@ const Objections = [
         question: "Is there an extra charge for King Fahd Airport (DMM) pickup?",
         answer: "No hidden fees! Our DMM Airport to Bahrain rates are all-inclusive — meet-and-greet service, 1 hour of free flight delay waiting, and all causeway tolls. Contact us for an instant fixed quote."
     },
+    {
+        question: "Can Uber or Careem take me from Dammam to Bahrain?",
+        answer: "Uber and Careem operate as separate, nationally-licensed apps inside Saudi Arabia and inside Bahrain — neither app is set up to book a single ride that crosses the King Fahd Causeway between the two countries. For a cross-border trip you need a dedicated private transfer service licensed to carry passengers across the border, which is exactly what we provide."
+    },
+    {
+        question: "What's the alternative to a ride-hailing app for crossing the causeway?",
+        answer: "A private, pre-booked cross-border taxi. You agree your route and vehicle with us in advance on WhatsApp, one driver takes you door-to-door the entire way, and all causeway toll and border logistics are handled for you — no switching vehicles or apps at the border."
+    },
 ];
 
 export default function FAQ() {

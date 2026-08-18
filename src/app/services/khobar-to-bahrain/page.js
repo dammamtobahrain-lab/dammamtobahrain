@@ -9,6 +9,7 @@ import LastUpdated from '@/components/sections/LastUpdated';
 import LocalMarketData from '@/components/sections/LocalMarketData';
 import SchemaMarkup from '@/components/sections/SchemaMarkup';
 import RelatedGuide from '@/components/sections/RelatedGuide';
+import LeadForm from '@/components/LeadForm';
 
 export const metadata = {
     title: serviceData['khobar-to-bahrain'].metaTitle,
@@ -29,6 +30,10 @@ export default function KhobarToBahrainPage() {
                         <p className="lead-text">
                             {data.description}
                         </p>
+
+                        <div style={{ margin: '2rem 0' }}>
+                            <LeadForm defaultPickup="Al Khobar, Saudi Arabia" defaultDestination="Bahrain" title="Get Your Khobar to Bahrain Quote" />
+                        </div>
 
                         <hr className="divider" />
 
@@ -75,6 +80,10 @@ export default function KhobarToBahrainPage() {
                 <ExpertInsight text={data.expertOpinion} cityName="Al Khobar" />
 
                 <PageFAQ faqs={data.faqs} />
+
+                <div style={{ maxWidth: '640px', margin: '3rem auto' }}>
+                    <LeadForm defaultPickup="Al Khobar, Saudi Arabia" defaultDestination="Bahrain" title="Ready to Book? Get Your Quote" />
+                </div>
 
                 <RelatedGuide />
 

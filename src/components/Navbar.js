@@ -48,11 +48,12 @@ export default function Navbar() {
           <nav className="desktop-only" style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
             <Link href="/" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Home</Link>
             <Link href="/services" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Services</Link>
+            <Link href="/services/bahrain-to-dammam" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Bahrain → Dammam</Link>
             <Link href="/fare-calculator" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Prices</Link>
             <Link href="/causeway-traffic" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Traffic</Link>
             <Link href="/locations" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Locations</Link>
             <Link href="https://wa.me/966569487569" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
-            <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '0.6rem 1.25rem' }}>
+            <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '0.6rem 1.25rem' }} data-track="quote_start" data-track-label="Navbar Book Now">
               Book Now
             </Link>
           </nav>
@@ -86,6 +87,7 @@ export default function Navbar() {
           }}>
             <Link href="/" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Home</Link>
             <Link href="/services" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Services</Link>
+            <Link href="/services/bahrain-to-dammam" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Bahrain → Dammam</Link>
             <Link href="/fare-calculator" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Prices</Link>
             <Link href="/causeway-traffic" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Traffic Guide</Link>
             <Link href="/fleet" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Fleet</Link>

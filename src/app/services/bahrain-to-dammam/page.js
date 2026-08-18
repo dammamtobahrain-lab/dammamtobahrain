@@ -11,14 +11,15 @@ import SchemaMarkup from '@/components/sections/SchemaMarkup';
 import RelatedGuide from '@/components/sections/RelatedGuide';
 import LeadForm from '@/components/LeadForm';
 
-const data = serviceData['visa-run'];
+const data = serviceData['bahrain-to-dammam'];
 
 export const metadata = {
     title: data.metaTitle,
     description: data.metaDescription,
+    alternates: { canonical: '/services/bahrain-to-dammam/' },
 };
 
-export default function VisaRunPage() {
+export default function BahrainToDammamPage() {
     return (
         <div className="section">
             <div className="container">
@@ -31,6 +32,10 @@ export default function VisaRunPage() {
                             {data.description}
                         </p>
 
+                        <div style={{ margin: '2rem 0' }}>
+                            <LeadForm defaultPickup="Bahrain" defaultDestination="Dammam, Saudi Arabia" title="Get Your Bahrain to Dammam Quote" />
+                        </div>
+
                         <hr className="divider" />
 
                         <div
@@ -38,36 +43,45 @@ export default function VisaRunPage() {
                             dangerouslySetInnerHTML={{ __html: data.longText }}
                         />
 
-                        <div style={{ textAlign: 'center', marginTop: '3rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                            <Link href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20to%20check%20Visa%20Run%20availability." className="btn btn-primary btn-large" data-track="quote_start" data-track-label="Visa Run Main CTA">
-                                CHECK VISA RUN AVAILABILITY
-                            </Link>
-                            <Link href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20private%20taxi." className="btn btn-outline btn-large" data-track="quote_start" data-track-label="Visa Run Private Taxi CTA">
-                                GET PRIVATE TAXI QUOTE
+                        <div style={{ margin: '3rem 0' }}>
+                            <LeadForm defaultPickup="Bahrain" defaultDestination="Dammam, Saudi Arabia" title="Request Your Fixed Quote" />
+                        </div>
+
+                        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+                            <Link
+                                href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Bahrain%20to%20Dammam.%20Pickup%3A%20%5BArea%20in%20Bahrain%5D%2C%20Destination%3A%20%5BDammam%2FKhobar%2FDhahran%5D%2C%20Date%3A%20%5BDate%5D%2C%20Passengers%3A%20%5BNumber%5D"
+                                className="btn btn-primary btn-large"
+                                data-track="quote_start"
+                                data-track-label="Bahrain to Dammam - Main CTA"
+                            >
+                                BOOK ON WHATSAPP
                             </Link>
                         </div>
 
-                        {/* Cross-links to core route pages */}
+                        {/* Cross-links to related commercial pages */}
                         <div style={{ marginTop: '2.5rem', padding: '1.5rem', background: 'var(--color-background-alt)', borderRadius: '12px', fontSize: '0.9rem' }}>
-                            <strong>Need transport for your visa run?</strong> Book your{' '}
-                            <Link href="/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam to Bahrain taxi</Link>{' '}
-                            or your{' '}
-                            <Link href="/services/bahrain-to-dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>return trip from Bahrain to Dammam</Link>{' '}
-                            alongside your visa run, or see what affects your fare on the{' '}
-                            <Link href="/fare-calculator/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Get a Quote</Link> page.
+                            <strong>Also traveling the other way?</strong> See our{' '}
+                            <Link href="/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam to Bahrain taxi</Link>{' '}page, or check pickup from{' '}
+                            <Link href="/services/dammam-airport-to-bahrain/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam Airport</Link>{' '}and{' '}
+                            <Link href="/services/bahrain-airport-to-dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Bahrain Airport</Link>.
                         </div>
                     </div>
 
                     <div className="content-sidebar-col">
                         <div className="sticky-sidebar">
-                            <h3 className="sidebar-title">PACKAGE DETAILS</h3>
+                            <h3 className="sidebar-title">SERVICE HIGHLIGHTS</h3>
                             <ul className="sidebar-list">
                                 {data.features.map((feature, i) => (
                                     <li key={i}><strong>&#10003;</strong> {feature}</li>
                                 ))}
                             </ul>
                             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-                                <Link href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20to%20check%20Visa%20Run%20availability." className="btn btn-primary btn-full-width" data-track="quote_start" data-track-label="Visa Run Sidebar CTA">
+                                <Link
+                                    href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Bahrain%20to%20Dammam."
+                                    className="btn btn-primary btn-full-width"
+                                    data-track="quote_start"
+                                    data-track-label="Bahrain to Dammam - Sidebar CTA"
+                                >
                                     BOOK ON WHATSAPP
                                 </Link>
                             </div>
@@ -75,23 +89,23 @@ export default function VisaRunPage() {
                     </div>
 
                 </div>
+
                 {/* SEO Authority Sections */}
-                <LocalMarketData data={data.marketData} cityName="Visa Run" />
+                <LocalMarketData data={data.marketData} cityName="Bahrain" />
 
                 <ComparisonTable
-                    title="Vehicle Options for Visa Runs"
+                    title="Vehicle Options"
                     headers={data.comparison.headers}
                     rows={data.comparison.rows}
                     highlightRow={data.comparison.highlightRow}
                 />
 
-                <ExpertInsight text={data.expertOpinion} cityName="Visa Run" />
+                <ExpertInsight text={data.expertOpinion} cityName="Bahrain" />
 
                 <PageFAQ faqs={data.faqs} />
 
-                {/* Lightweight quote option — WhatsApp remains the primary flow above */}
                 <div style={{ maxWidth: '640px', margin: '3rem auto' }}>
-                    <LeadForm defaultPickup="Dammam, Saudi Arabia" defaultDestination="Bahrain" title="Prefer a Formal Quote?" />
+                    <LeadForm defaultPickup="Bahrain" defaultDestination="Dammam, Saudi Arabia" title="Ready to Book? Get Your Quote" />
                 </div>
 
                 <RelatedGuide />
@@ -110,8 +124,8 @@ export default function VisaRunPage() {
                         faqs: data.faqs,
                         breadcrumbs: [
                             { name: 'Home', href: '/' },
-                            { name: 'Services', href: '/services' },
-                            { name: 'Visa Run', href: '/services/visa-run' },
+                            { name: 'Services', href: '/services/' },
+                            { name: 'Bahrain to Dammam', href: '/services/bahrain-to-dammam/' },
                         ],
                     }}
                 />
