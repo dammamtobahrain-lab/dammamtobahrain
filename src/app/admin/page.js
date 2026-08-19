@@ -13,6 +13,10 @@ export default function AdminDashboard() {
     const router = useRouter();
 
     useEffect(() => {
+        if (!supabase) {
+            setLoading(false);
+            return;
+        }
         const checkUser = async () => {
             const { data: { session } } = await supabase.auth.getSession();
             if (!session) {
@@ -25,6 +29,7 @@ export default function AdminDashboard() {
     }, []);
 
     const fetchLeads = async () => {
+        if (!supabase) return;
         setLoading(true);
         setErrorMsg(null);
         const { data, error } = await supabase
@@ -42,6 +47,7 @@ export default function AdminDashboard() {
     };
 
     const updateStatus = async (id, status) => {
+        if (!supabase) return;
         setLeads((prev) => prev.map((l) => (l.id === id ? { ...l, status } : l)));
         const { error } = await supabase.from('leads').update({ status }).eq('id', id);
         if (error) {
@@ -51,9 +57,21 @@ export default function AdminDashboard() {
     };
 
     const handleLogout = async () => {
+        if (!supabase) return;
         await supabase.auth.signOut();
         router.push('/admin/login');
     };
+
+    if (!supabase) {
+        return (
+            <div className="admin-shell">
+                <h1 style={{ fontSize: '1.4rem' }}>Admin Dashboard Unavailable</h1>
+                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>
+                    This deployment is missing <code>NEXT_PUBLIC_SUPABASE_URL</code> / <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code>. Add them in your hosting provider&apos;s environment variables and redeploy.
+                </p>
+            </div>
+        );
+    }
 
     if (loading) return <div className="admin-shell">Loading leads…</div>;
 

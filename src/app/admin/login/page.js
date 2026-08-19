@@ -13,6 +13,7 @@ export default function AdminLogin() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
+        if (!supabase) return;
         setLoading(true);
         setError(null);
 
@@ -25,6 +26,19 @@ export default function AdminLogin() {
             router.push('/admin');
         }
     };
+
+    if (!supabase) {
+        return (
+            <div className="admin-login-shell">
+                <div className="admin-login-card">
+                    <h2 style={{ textAlign: 'center', marginBottom: '1rem' }}>Admin Login Unavailable</h2>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', textAlign: 'center' }}>
+                        This deployment is missing <code>NEXT_PUBLIC_SUPABASE_URL</code> / <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code>. Add them in your hosting provider&apos;s environment variables and redeploy.
+                    </p>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="admin-login-shell">
