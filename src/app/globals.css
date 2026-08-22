@@ -1200,10 +1200,18 @@ section:nth-of-type(even):not(.hero):not(.section-alt) {
   z-index: 10000;
   background: white;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   padding: 1rem;
   box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
   border-top: 1px solid var(--color-border);
+}
+
+.sticky-cta a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 @media (min-width: 768px) {
