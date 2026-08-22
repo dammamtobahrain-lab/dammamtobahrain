@@ -14,6 +14,7 @@ import LeadForm from '@/components/LeadForm';
 export const metadata = {
     title: serviceData['dammam-airport-to-bahrain'].metaTitle,
     description: serviceData['dammam-airport-to-bahrain'].metaDescription,
+    alternates: { canonical: '/services/dammam-airport-to-bahrain/' },
 };
 
 export default function DammamAirportToBahrainPage() {
@@ -22,7 +23,7 @@ export default function DammamAirportToBahrainPage() {
     return (
         <div className="section">
             <div className="container">
-                <h1 className="section-title">SERVICE: {data.title}</h1>
+                <h1 className="section-title">Dammam Airport to Bahrain Taxi – Private Airport Transfer</h1>
 
                 <div className="content-grid-responsive">
 
@@ -43,8 +44,13 @@ export default function DammamAirportToBahrainPage() {
                         />
 
                         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-                            <Link href="https://wa.me/966590209905" className="btn btn-primary btn-large">
-                                BOOK ON WHATSAPP
+                            <Link
+                                href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20Airport%20(DMM)%20to%20Bahrain.%20Flight%3A%20%5BFlight%20Number%5D%2C%20Destination%3A%20%5BBahrain%20area%5D%2C%20Date%3A%20%5BDate%5D%2C%20Passengers%3A%20%5BNumber%5D"
+                                className="btn btn-primary btn-large"
+                                data-track="quote_start"
+                                data-track-label="DMM to Bahrain - Main CTA"
+                            >
+                                GET YOUR DMM → BAHRAIN FARE
                             </Link>
                         </div>
                     </div>
@@ -58,8 +64,13 @@ export default function DammamAirportToBahrainPage() {
                                 ))}
                             </ul>
                             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-                                <Link href="https://wa.me/966590209905" className="btn btn-primary btn-full-width">
-                                    BOOK ON WHATSAPP
+                                <Link
+                                    href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20Airport%20(DMM)%20to%20Bahrain."
+                                    className="btn btn-primary btn-full-width"
+                                    data-track="quote_start"
+                                    data-track-label="DMM to Bahrain - Sidebar CTA"
+                                >
+                                    Book DMM to Bahrain on WhatsApp
                                 </Link>
                             </div>
                         </div>
@@ -71,7 +82,7 @@ export default function DammamAirportToBahrainPage() {
                 <LocalMarketData data={data.marketData} cityName="Dammam Airport" />
 
                 <ComparisonTable
-                    title="Vehicle Options"
+                    title="Vehicle Options for Dammam Airport to Bahrain"
                     headers={data.comparison.headers}
                     rows={data.comparison.rows}
                     highlightRow={data.comparison.highlightRow}

@@ -645,76 +645,119 @@ const serviceData = {
 
     'dammam-airport-to-bahrain': {
         slug: 'dammam-airport-to-bahrain',
-        title: 'DAMMAM AIRPORT (DMM) TOE BAHRAIN',
-        metaTitle: 'Taxi Dammam Airport to Bahrain | Direct Transfer Service',
-        metaDescription: 'Direct taxi transfer from King Fahd International Airport (DMM) to Bahrain. Flight tracking, meet & greet, and fixed fares. Reliable airport pickup.',
-        description: 'The premier airport transfer service from Dammam Airport (DMM) to Bahrain. We track your flight, meet you at arrivals, and drive you directly to your Bahrain destination.',
-        longText: `<h2>Direct Transfer: Dammam Airport (DMM) to Bahrain</h2>
-<p>Flying into King Fahd International Airport (DMM) generally offers better fares and more flight options than Bahrain International Airport. Our specialized airport transfer service makes the connection to Bahrain seamless and stress-free.</p>
-<h3>Seamless Airport Pickup</h3>
-<p>Don't worry about finding a taxi or negotiating rates after a long flight. Our driver will be waiting for you. We monitor your flight status in real-time, so whether you land early or late, we will be there. Our meet-and-greet service ensures you are guided from the arrivals hall to your premium vehicle without delay.</p>
-<h3>Comfort After Your Flight</h3>
-<p>The drive from DMM to Bahrain takes approximately 75-90 minutes. Relax in the comfort of a Lexus sedan or GMC Yukon SUV. We provide chilled water and charging ports so you can refresh and recharge during the journey. Our drivers are experienced in efficient border crossings, getting you to your hotel or meeting in Bahrain as quickly as possible.</p>
-<h3>Reliability You Can Count On</h3>
-<p>We understand the importance of reliability for air travelers. Our 24/7 operations center oversees all airport pickups, ensuring unparalleled dependability. We have a 99.9% on-time record for airport transfers.</p>`,
+        title: 'DAMMAM AIRPORT (DMM) TO BAHRAIN',
+        metaTitle: 'Dammam Airport to Bahrain Taxi – Price & Private Transfer',
+        metaDescription: 'Book a private taxi from Dammam Airport (DMM) to Bahrain. Door-to-door airport transfers, flight coordination, private vehicles and fixed quotes. Get your fare on WhatsApp.',
+        description: "Book a private taxi from King Fahd International Airport (DMM) to Bahrain with door-to-door service. Provide your flight number when booking and we'll coordinate your pickup at the airport before driving you across the King Fahd Causeway to your Bahrain destination.",
+        longText: `<h2>Dammam Airport to Bahrain Taxi Price</h2>
+<p>Fares depend on your destination in Bahrain, vehicle type, passenger count and luggage. Message us on WhatsApp with your flight and trip details for a fixed quote before pickup — the causeway toll is included. Fares are quoted per private vehicle, not per passenger. Want to compare vehicle and route prices first? Use our <a href="/fare-calculator/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Taxi Fare Calculator →</a></p>
+
+<h2>How DMM to Bahrain Airport Transfer Works</h2>
+<p><strong>1. Send your flight details</strong> — airline, flight number and arrival date/time, on WhatsApp or the form above.<br/>
+<strong>2. Driver assignment</strong> — your driver's name, phone number and meeting instructions are confirmed before pickup.<br/>
+<strong>3. Arrive at DMM</strong> — collect your luggage and follow the meeting instructions from your booking confirmation.<br/>
+<strong>4. Meet your driver</strong> — your driver meets you at the agreed pickup point in the arrivals area.<br/>
+<strong>5. Cross the Causeway</strong> — a private vehicle takes you directly across the King Fahd Causeway.<br/>
+<strong>6. Door-to-door drop-off</strong> — arrive directly at your hotel, residence, office or other Bahrain destination.</p>
+
+<h3>Dammam Airport Pickup &amp; Meet-and-Greet</h3>
+<p>We use the flight number you provide to help coordinate your driver's arrival with your actual landing time, so a late or early landing doesn't leave you waiting. Your booking confirmation includes your driver's name, phone number and meeting instructions for the arrivals area.</p>
+
+<h3>Flight Delays</h3>
+<p>No additional waiting charge applies when a delay is associated with the flight number you provided in advance. If your arrival time changes after booking, message us on WhatsApp as soon as possible so we can adjust your driver's schedule.</p>
+
+<h2>DMM to Bahrain Journey Time</h2>
+<p>Typical journey time is around 75–90 minutes in normal conditions. This can be longer during King Fahd Causeway traffic, weekends, holidays or border-processing delays — treat it as a guide rather than a guarantee. Late-night crossings can sometimes have lighter traffic, but conditions vary by day, so check current <a href="/causeway-traffic/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Causeway traffic guidance →</a> before choosing your departure time.</p>
+
+<h2>Bahrain Destinations We Serve</h2>
+<p>We drop off door-to-door at hotels, residences and offices across Bahrain, including Manama, Juffair, Seef District, Amwaj Islands, Muharraq and Riffa.</p>
+
+<h3>Arriving in Bahrain Instead?</h3>
+<p>If your flight lands at Bahrain International Airport rather than Dammam, use our dedicated <a href="/services/bahrain-airport-to-dammam/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Bahrain Airport to Dammam taxi service →</a></p>
+
+<h2>What's Included in Your Airport Transfer</h2>
+<p>Every fare includes a private vehicle for your booking (not shared with other passengers), a professional driver, meet-and-greet at DMM arrivals, door-to-door drop-off in Bahrain, fuel, and the standard causeway toll. Luggage space follows your chosen vehicle's capacity — if you're bringing large suitcases, golf bags, a wheelchair, a stroller or other oversized items, mention this when requesting your quote so we can assign the right vehicle.</p>
+
+<h3>Before You Travel</h3>
+<p>Make sure you have the travel documents required for entry into Bahrain and re-entry into Saudi Arabia. Requirements can vary by nationality, residency and visa status, so check the latest official requirements before your trip. See our <a href="/causeway-traffic/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">King Fahd Causeway Guide →</a> for general crossing information.</p>
+
+<h3>Planning Around Your Flight</h3>
+<p>We plan airport pickups around your scheduled arrival and the flight information you provide, backed by a 24/7 operations team overseeing pickups.</p>`,
         features: [
-            'Flight Tracking Included',
+            'Flight Number Coordination',
             'Meet & Greet Service',
-            'Fixed Airport Rates',
+            'Fixed Quote Before Pickup',
             'Luggage Assistance',
             '24/7 Service',
-            'No Waiting Charges for Delays'
+            'No Waiting Charge for Booked-Flight Delays'
         ],
         marketData: {
             avgFare: 'Get Quote',
             monthlyTrips: '300+',
-            peakHours: 'Flight Arrivals',
-            demandTrend: 'High',
+            peakHours: 'Varies by Flight Schedule',
             avgDuration: '75-90 min'
         },
         faqs: [
             {
-                question: 'How do I find my driver at Dammam Airport?',
-                answer: 'Your driver will be waiting in the arrivals hall with a name sign or will contact you via WhatsApp upon landing to coordinate a curbside pickup.'
+                question: 'How much is a taxi from Dammam Airport to Bahrain?',
+                answer: 'Fares depend on your destination in Bahrain, vehicle type, passenger count and luggage. Message us on WhatsApp with your flight details for a fixed quote — the causeway toll is included.'
+            },
+            {
+                question: 'How long does DMM to Bahrain take?',
+                answer: 'Typically 75–90 minutes in normal conditions, though this can be longer during causeway traffic, weekends, holidays or border-processing delays. Treat it as a guide rather than a guarantee.'
+            },
+            {
+                question: 'Do you track my flight?',
+                answer: 'We use the flight number you provide to help coordinate your driver\'s arrival with your actual landing time, so an early or late landing doesn\'t leave you waiting.'
             },
             {
                 question: 'What if my flight is delayed?',
-                answer: 'We track all flights. If your flight is delayed, we adjust the pickup time automatically at no extra cost.'
+                answer: 'No additional waiting charge applies when the delay is associated with the flight number you provided in advance. If your arrival time changes, message us on WhatsApp as soon as possible.'
             },
             {
-                question: 'How much is the taxi from DMM to Bahrain?',
-                answer: 'Fares are available on request — contact us on WhatsApp for an instant fixed price for sedan or SUV. The causeway toll is included in all quotes.'
+                question: 'How do I find my driver at Dammam Airport?',
+                answer: 'Your driver will be waiting in the arrivals area with a name sign, or will contact you via WhatsApp upon landing to coordinate a curbside pickup. Full meeting instructions are included in your booking confirmation.'
             },
             {
                 question: 'Can you drop me at Bahrain Airport?',
-                answer: 'Yes, we can transfer you directly from Dammam Airport to Bahrain Airport if you have a connecting flight.'
-            }
-        ],
-        reviews: [
-            {
-                name: 'John Smith',
-                text: 'Driver was waiting right when I walked out. Car was excellent. Made the trip to Bahrain very easy after a long flight.',
-                rating: 5,
-                date: 'February 2026'
+                answer: 'Yes, we can arrange a private transfer from Dammam Airport to Bahrain International Airport if you have a connecting flight — tell us your onward flight time so we can recommend an appropriate pickup time.'
             },
             {
-                name: 'Fatima Al-Sayed',
-                text: 'Great service. Flight was late but driver was there. Very professional.',
-                rating: 5,
-                date: 'January 2026'
+                question: 'How much luggage can I bring?',
+                answer: 'It depends on your vehicle: a sedan fits around 2 bags, an SUV around 6 bags, and a van 8+ bags. If you have oversized items like golf bags, a wheelchair or a stroller, mention this when requesting your quote so we can assign the right vehicle.'
+            },
+            {
+                question: 'Can I choose a sedan, SUV or van?',
+                answer: 'Yes — Lexus ES sedan, GMC Yukon SUV, or Hyundai H1 van, depending on your passenger count and luggage. Let us know your preference when requesting a quote.'
+            },
+            {
+                question: 'Is the causeway toll included?',
+                answer: 'Yes, the standard causeway toll is included in your quoted fare.'
+            },
+            {
+                question: 'Can you pick me up late at night?',
+                answer: 'Yes, airport pickups are available 24/7 regardless of your arrival time.'
+            },
+            {
+                question: 'Can I book for someone else?',
+                answer: 'Yes. You can book the transfer for a family member, colleague or guest — provide the passenger\'s name and flight details when booking.'
+            },
+            {
+                question: 'Do I need to provide my flight number?',
+                answer: 'It\'s not strictly required, but strongly recommended — it lets us coordinate your pickup with your actual landing time rather than the original schedule.'
             }
         ],
         comparison: {
-            headers: ['Vehicle', 'Luggage', 'Fare', 'Best For'],
+            headers: ['Vehicle', 'Passengers', 'Luggage', 'Fare', 'Best For'],
             rows: [
-                ['Lexus ES Sedan', '2 Bags', 'Get Quote', 'Solo/Couple'],
-                ['GMC Yukon SUV', '6 Bags', 'Get Quote', 'Families/Groups'],
-                ['Hyundai H1 Van', '8+ Bags', 'Get Quote', 'Large Groups']
+                ['Lexus ES Sedan', '1-3 Pax', '2 Bags', 'Get Quote', 'Solo/Couple'],
+                ['GMC Yukon SUV', '1-5 Pax', '6 Bags', 'Get Quote', 'Families/Groups'],
+                ['Hyundai H1 Van', '1-8 Pax', '8+ Bags', 'Get Quote', 'Large Groups']
             ],
             highlightRow: 0
         },
-        expertOpinion: 'For Dammam Airport pickups, providing your flight number is crucial. It allows us to ensure your driver is on site exactly when you land. The drive to Bahrain is smooth, and crossing late at night (after 10 PM) is usually very fast.',
-        lastUpdated: 'February 19, 2026',
+        expertOpinion: 'Providing your flight number when booking helps us coordinate your driver\'s arrival with your actual landing time rather than the original schedule. Causeway conditions vary by day and time — late-night crossings can sometimes have lighter traffic, but check current traffic conditions before choosing your pickup time.',
+        lastUpdated: 'August 22, 2026',
         urgency: {
             slots: 'Available',
             message: 'Book ahead for guaranteed pickup'
