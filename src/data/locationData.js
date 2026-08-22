@@ -282,52 +282,65 @@ const locationData = {
 
     'dhahran': {
         title: 'DHAHRAN TO BAHRAIN TAXI',
-        metaTitle: 'Dhahran to Bahrain Taxi | Aramco HQ & KFUPM Transfers',
-        metaDescription: 'Private taxi from Dhahran to Bahrain. Serving Saudi Aramco headquarters, KFUPM university, and Dhahran residential areas..',
-        description: 'Premium taxi service from Dhahran — home of Saudi Aramco and KFUPM — to Bahrain. The closest Saudi city to the King Fahd Causeway.',
-        longText: `<p>Dhahran holds a special place in Saudi Arabia as the headquarters of Saudi Aramco, the world's largest oil company, and home to the prestigious King Fahd University of Petroleum and Minerals (KFUPM). Its proximity to the King Fahd Causeway makes it the closest major Saudi hub to Bahrain, with trips taking as little as 40 minutes.</p>
-<h3>Aramco & KFUPM Pickups</h3>
-<p>We regularly serve Saudi Aramco employees, contractors, and KFUPM students and faculty. Pickup from the Aramco residential camp requires meeting outside the main security gate unless a visitor pass has been arranged. KFUPM pickups are typically at the main university gate on Dhahran–Jubail Highway.</p>
-<h3>The Shortest Route to Bahrain</h3>
-<p>Dhahran's geographic position gives it the advantage of being the closest city to the causeway. The drive from central Dhahran to the Saudi passport control takes just 15-20 minutes. This makes Dhahran the fastest departure point for weekend getaways and business meetings in Manama.</p>`,
-        features: ['Closest City to Causeway', 'Aramco Camp Pickups', 'KFUPM Gate Pickup', 'Premium Fleet', '24/7 Service'],
-        marketData: { avgFare: 'Get Quote', monthlyTrips: '200+', peakHours: 'Thu 3-7 PM', demandTrend: 'High', avgDuration: '40-55 min' },
+        metaTitle: 'Dhahran to Bahrain Taxi | Private Saudi–Bahrain Transfer',
+        metaDescription: 'Book a private Dhahran to Bahrain taxi for Aramco, KFUPM, business and residential pickups. Door-to-door service, multiple vehicles and fixed quotes.',
+        description: 'Private Dhahran to Bahrain taxi service for Saudi Aramco employees, KFUPM students and faculty, business travelers, families and residents across Dhahran. Door-to-door transfers to destinations throughout Bahrain.',
+        longText: `<p>Dhahran is home to Saudi Aramco headquarters and the King Fahd University of Petroleum and Minerals (KFUPM). It's one of the closest major Saudi urban areas to the King Fahd Causeway, making it a convenient starting point for Bahrain travel.</p>
+<h3>Saudi Aramco Pickup</h3>
+<p>We regularly serve Saudi Aramco employees and contractors. Pickup arrangements for Aramco compounds depend on site access and security procedures — depending on your gate, the driver may need to meet you outside the compound. Please share your pickup details when booking so we can plan accordingly.</p>
+<h3>KFUPM Taxi Pickup</h3>
+<p>Students, faculty and visitors can request pickup from the appropriate campus meeting point, typically near the main gate on Dhahran–Jubail Highway. Tell us your building, gate or agreed pickup location when booking so the driver knows where to meet you.</p>
+<h3>Dhahran to Bahrain Journey Time</h3>
+<p>Typical journey time is around 40–55 minutes in normal conditions. Our drivers regularly travel between Dhahran and the Causeway and understand the main access routes, though journey time can increase during Causeway traffic, weekends, holidays or border processing.</p>
+<h3>Dhahran to Bahrain for Business Travel</h3>
+<p>Dhahran's proximity to major energy, business and university facilities makes Bahrain a convenient destination for meetings, conferences and short business trips — including the Manama business district and Bahrain Financial Harbour.</p>
+<h3>Popular Bahrain Destinations</h3>
+<p>We drop off door-to-door at Manama, Juffair, Seef, Bahrain Financial Harbour, Muharraq, Amwaj Islands, Riffa, and Bahrain International Airport.</p>
+<h3>Dhahran to Bahrain &amp; Dammam Airports</h3>
+<p>Need a transfer to Bahrain International Airport for a flight? We can arrange pickup from Dhahran and surrounding areas. We also connect Dhahran to <a href="/locations/dammam-airport/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">King Fahd International Airport (DMM) →</a>, useful for Aramco staff, KFUPM travelers and business trips.</p>
+<h3>Dhahran to Bahrain Taxi Price</h3>
+<p>Fares depend on the vehicle, passenger count, luggage and your exact destination in Bahrain. Prices are quoted per private vehicle, not per passenger. Message us on WhatsApp for a fixed quote — the causeway toll is included. Use our <a href="/fare-calculator/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Taxi Fare Calculator →</a> to compare vehicle options.</p>`,
+        features: ['Convenient Causeway Access', 'Aramco Camp Pickups', 'KFUPM Gate Pickup', 'Private Fleet', '24/7 Service'],
+        marketData: { avgFare: 'Get Quote', monthlyTrips: '200+', peakHours: 'Thu 3-7 PM', avgDuration: '40-55 min' },
         coordinates: { lat: 26.2361, lng: 50.1140 },
         nearbyAreas: [
-            { name: 'Al Khobar', slug: 'al-khobar', distance: '10 min', km: '8 km' },
-            { name: 'Dammam', slug: 'dammam', distance: '20 min', km: '15 km' },
-            { name: 'Qatif', slug: 'qatif', distance: '30 min', km: '25 km' },
-            { name: 'Abqaiq', slug: 'abqaiq', distance: '50 min', km: '60 km' },
+            { name: 'Al Khobar', slug: 'al-khobar', distance: '10 min', km: '~8 km' },
+            { name: 'Dammam', slug: 'dammam', distance: '20 min', km: '~15 km' },
+            { name: 'Qatif', slug: 'qatif', distance: '30 min', km: '~25 km' },
+            { name: 'Abqaiq', slug: 'abqaiq', distance: '50 min', km: '~60 km' },
         ],
         landmarks: ['Saudi Aramco Headquarters', 'King Fahd University (KFUPM)', 'Dhahran Mall', 'Dhahran Expo Center', 'King Abdulaziz Center for World Culture (Ithra)', 'Dhahran Air Base'],
         neighborhoods: ['Aramco Camp', 'KFUPM Campus Area', 'Doha District', 'Al Dana', 'Dhahran Hills'],
         highways: ['Dhahran–Jubail Highway', 'Dhahran–Khobar Road', 'Abu Hadriyah Highway'],
-        regulations: 'Aramco compound pickups require meeting at the external gate unless pre-approved visitor access is arranged. Standard passport requirements apply for the causeway crossing.',
-        seasonalDemand: 'Steady demand year-round due to Aramco workforce. Peaks during Eid holidays, school breaks, and when Aramco schedules its vacation rotation periods. KFUPM semester breaks also increase demand from students.',
-        expertOpinion: 'Dhahran is our quickest route to Bahrain — often under 45 minutes door-to-door. Many of our regular Aramco clients book standing weekly rides every Thursday. The key advantage of Dhahran is avoiding the Dammam and Khobar city traffic entirely. We know the Dhahran back roads that connect directly to the causeway approach road.',
+        regulations: 'Aramco compound pickups depend on site access and security procedures, and the driver may need to meet you outside the gate. Travel documents and entry requirements vary by nationality and residency status — check current Saudi and Bahrain requirements before travelling.',
+        seasonalDemand: 'Demand can increase around Eid, school and university breaks, and major business events. Weekend travel to Bahrain can also be busier than weekday travel.',
+        expertOpinion: "Dhahran's location makes it one of the most convenient starting points for Bahrain travel in the Eastern Province, helped by not having to cross through central Dammam or Khobar traffic first. For Aramco and KFUPM pickups, sharing your exact gate or meeting point when booking helps your driver find you quickly.",
         faqs: [
-            { question: 'Can you pick up from inside the Aramco compound?', answer: 'We typically meet passengers at the main external gate of the Aramco residential camp. If you can arrange a visitor pass for the driver, internal pickup is possible.' },
-            { question: 'How close is Dhahran to the causeway?', answer: 'Dhahran is the closest major Saudi city to the King Fahd Causeway — just 15-20 minutes drive to the Saudi border post.' },
-            { question: 'Do KFUPM students use this service?', answer: 'Yes, many KFUPM students and faculty use our service for weekend trips to Bahrain. We offer student-friendly rates and pickup from the main university gate.' },
-        ],
-        reviews: [
-            { name: 'Mike Anderson', text: 'Aramco contractor living in Dhahran camp. Use this taxi to Bahrain every Thursday. Always a clean car waiting at the gate. The 40-minute ride makes it the easiest commute to Bahrain from anywhere in Saudi.', rating: 5, date: 'January 2026' },
-            { name: 'Dr. Khalid Al-Essa', text: 'KFUPM faculty member. The proximity of Dhahran to the causeway makes this service unbeatable. Quick, professional, and the Ithra culture center is just minutes from pickup. Excellent Dhahran to Bahrain taxi.', rating: 5, date: 'December 2025' },
+            { question: 'How much is a taxi from Dhahran to Bahrain?', answer: 'Fares depend on the vehicle, passenger count, luggage and your destination in Bahrain. Prices are quoted per private vehicle, not per passenger. Message us on WhatsApp for a fixed quote — the causeway toll is included.' },
+            { question: 'How long does Dhahran to Bahrain take?', answer: 'Typically 40–55 minutes in normal conditions, longer during causeway traffic, weekends, holidays or border-processing delays.' },
+            { question: 'Can you pick up from inside the Aramco compound?', answer: 'Pickup depends on site access and security procedures — the driver may need to meet you outside the gate unless a visitor pass has been arranged. Share your pickup details when booking.' },
+            { question: 'Can you pick me up from KFUPM?', answer: 'Yes, students, faculty and visitors can request pickup from the appropriate campus meeting point, typically near the main gate on Dhahran–Jubail Highway. Tell us your preferred meeting point when booking.' },
+            { question: 'Can I book a taxi to Manama?', answer: 'Yes — Manama is one of our most common Bahrain drop-off points from Dhahran, along with Juffair, Seef and other areas.' },
+            { question: 'Can you take me to Bahrain Airport?', answer: 'Yes, we can arrange a private transfer from Dhahran directly to Bahrain International Airport.' },
+            { question: 'Can I request a GMC Yukon or van?', answer: 'Yes — sedan, SUV and van options are available. Let us know your passenger and luggage count when requesting a quote.' },
+            { question: 'Is the causeway toll included?', answer: 'Yes, the standard causeway toll is included in your quoted fare.' },
+            { question: 'Can I book a return trip?', answer: 'Yes, round-trip bookings are available — you can arrange your return pickup time from Bahrain in the same WhatsApp conversation.' },
+            { question: 'What documents do I need to cross the Causeway?', answer: 'Requirements vary by nationality and residency status and can change, so check current Saudi and Bahrain requirements before you travel.' },
         ],
         comparison: {
-            headers: ['Route', 'Distance', 'Duration', 'Fare', 'Causeway Access'],
+            headers: ['Route', 'Distance', 'Duration', 'Fare'],
             rows: [
-                ['Dhahran → Bahrain', '50 km', '40-55 min', 'Get Quote', 'Fastest'],
-                ['Al Khobar → Bahrain', '55 km', '45-60 min', 'Get Quote', 'Fast'],
-                ['Dammam → Bahrain', '65 km', '55-70 min', 'Get Quote', 'Standard'],
-                ['Qatif → Bahrain', '75 km', '60-80 min', 'Get Quote', 'Standard'],
+                ['Dhahran → Bahrain', '~50 km', '40-55 min', 'Get Quote'],
+                ['Al Khobar → Bahrain', '~55 km', '45-60 min', 'Get Quote'],
+                ['Dammam → Bahrain', '~65 km', '55-70 min', 'Get Quote'],
+                ['Qatif → Bahrain', '~75 km', '60-80 min', 'Get Quote'],
             ],
             highlightRow: 0,
         },
         sidebarStats: { origin: 'Dhahran', destination: 'Bahrain', distance: '~50 KM', time: '~40-55 min', price: 'Get Quote' },
         socialProof: { clientsServed: '200+' },
-        urgency: { slots: '4 slots', message: null },
-        lastUpdated: 'February 19, 2026',
+        urgency: { message: 'Weekend bookings are recommended in advance.' },
+        lastUpdated: 'August 22, 2026',
     },
 
     'qatif': {
