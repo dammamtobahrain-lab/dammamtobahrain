@@ -16,9 +16,9 @@ import Link from "next/link";
 import { Clock, ShieldCheck, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Dammam to Bahrain Taxi | Private Transfer & Fixed Quote",
-  description: "Book a private Dammam to Bahrain taxi with door-to-door pickup from Dammam, Khobar or Dhahran, professional drivers, and easy WhatsApp booking. Bahrain to Dammam also available. Get your quote today.",
-  keywords: ["dammam to bahrain taxi", "taxi from dammam to bahrain", "dammam to bahrain taxi service", "bahrain to dammam taxi", "dammam taxi bahrain bridge", "khobar to bahrain taxi", "dammam airport to bahrain taxi", "saudi bahrain causeway taxi"],
+  title: "Saudi Arabia to Bahrain Taxi | Dammam, Khobar & Dhahran Transfers",
+  description: "Private cross-border taxi from Dammam, Al Khobar or Dhahran to Bahrain via King Fahd Causeway. Compare routes, check prices, and book on WhatsApp — door-to-door, fixed fares, 24/7.",
+  keywords: ["saudi arabia to bahrain taxi", "dammam to bahrain taxi", "khobar to bahrain taxi", "bahrain to dammam taxi", "dammam taxi bahrain bridge", "dammam airport to bahrain taxi", "saudi bahrain causeway taxi"],
   alternates: { canonical: '/' },
 };
 
@@ -31,7 +31,7 @@ const homeMarketData = {
 
 const popularRoutes = [
   { name: 'Al Khobar to Bahrain Taxi', slug: 'al-khobar', time: '45 min' },
-  { name: 'Dammam to Bahrain Transfer', slug: 'dammam', time: '55 min' },
+  { name: 'Dammam to Bahrain Taxi', slug: 'dammam', time: '55 min' },
   { name: 'Jubail to Bahrain Private Car', slug: 'jubail', time: '1.5 hrs' },
   { name: 'Dhahran to Bahrain Taxi', slug: 'dhahran', time: '40 min' },
   { name: 'Riyadh to Bahrain Chauffeur', slug: 'riyadh', time: '4 hrs' },

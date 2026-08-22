@@ -21,7 +21,7 @@ export default function Hero() {
                         </div>
                         
                         <h1 className="hero-h1">
-                             <span className="text-gradient-gold">Dammam to Bahrain</span><br />
+                             <span className="text-gradient-gold">Saudi Arabia to Bahrain</span><br />
                              Taxi, Private Transfer <br />
                              & Chauffeur Service
                         </h1>

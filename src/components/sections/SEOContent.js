@@ -103,11 +103,11 @@ export default function SEOContent() {
                     <div>
                         <span style={{ color: 'var(--color-primary)', fontWeight: '950', fontSize: '0.9rem', letterSpacing: '3px', textTransform: 'uppercase' }}>Expert Border Logistics</span>
                         <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.2rem)', fontWeight: '800', marginTop: '1rem', lineHeight: '1.15', letterSpacing: '-1px' }}>
-                            Dammam to Bahrain <br /><span className="text-gradient-gold">Taxi Price Guide 2026</span>
+                            Saudi Arabia to Bahrain <br /><span className="text-gradient-gold">Taxi Price Guide 2026</span>
                         </h2>
-                        
+
                         <p style={{ fontSize: '0.95rem', color: '#4b5563', lineHeight: '1.7', margin: '1.5rem 0', fontWeight: '500' }}>
-                             Find the most reliable **Dammam to Bahrain taxi prices** for your next cross-border journey. Whether you are traveling from **DMM Airport** or **Al Khobar**, join 5,000+ travelers who choose us for stress-free Saudi-Bahrain transfers every year.
+                             Find the most reliable cross-border taxi prices for your next journey — see the full <Link href="/locations/dammam/" style={{ color: 'var(--color-primary)', fontWeight: '700', textDecoration: 'underline' }}>Dammam to Bahrain taxi guide</Link> for route-by-route pricing. Whether you are traveling from **DMM Airport** or **Al Khobar**, join 5,000+ travelers who choose us for stress-free Saudi-Bahrain transfers every year.
                         </p>
 
                         <div style={{ display: 'grid', gap: '3rem' }}>

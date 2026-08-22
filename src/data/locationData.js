@@ -66,8 +66,8 @@ const locationData = {
 
     'dammam': {
         title: 'DAMMAM TO BAHRAIN TAXI',
-        metaTitle: 'Dammam to Bahrain Taxi | Airport Transfers & Causeway Service',
-        metaDescription: 'Premium taxi from Dammam to Bahrain. Airport transfers from King Fahd International (DMM), city pickups, and causeway crossings. Fixed rates.',
+        metaTitle: 'Dammam to Bahrain Taxi – Price, Travel Time & Booking',
+        metaDescription: 'Book a private Dammam to Bahrain taxi via King Fahd Causeway. Door-to-door transfers, fixed fares, sedan, SUV and 7-seater options. Get a quote on WhatsApp.',
         description: 'Executive transport from the capital of the Eastern Province. We cover Dammam city, King Fahd International Airport (DMM), and all residential districts for seamless Bahrain transfers.',
         longText: `<p>Dammam, the capital of Saudi Arabia's Eastern Province, is a major hub for both business and leisure travelers heading to Bahrain. Whether you are departing from King Fahd International Airport (DMM) after an international flight or from your home in one of Dammam's vibrant neighborhoods, our taxi service provides the most reliable connection to Bahrain via the King Fahd Causeway.</p>
 <h3>Why Land in Dammam for Bahrain?</h3>
