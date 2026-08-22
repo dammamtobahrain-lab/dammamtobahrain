@@ -379,36 +379,44 @@ const locationData = {
     },
     'hofuf': {
         title: 'HOFUF TO BAHRAIN TAXI',
-        metaTitle: 'Hofuf to Bahrain Taxi | Al-Ahsa Transfer Service 2026',
-        metaDescription: 'Premium taxi from Hofuf (Al-Ahsa) to Bahrain. Serving the largest oasis in the world. Door-to-door transfers.',
-        description: 'Connecting the UNESCO World Heritage Al-Ahsa Oasis with Bahrain. Premium transfers from Hofuf city, Al Mubarraz, and surrounding communities.',
-        longText: `<p>Hofuf is the capital of the Al-Ahsa governorate, home to the world's largest natural oasis — a UNESCO World Heritage Site. Despite being inland from the coast, Hofuf has a significant population that regularly travels to Bahrain for medical appointments, shopping, business, and weekend leisure.</p>
-<h3>Al-Ahsa to Bahrain Connection</h3>
-<p>The 180km drive from Hofuf to the King Fahd Causeway takes approximately 1.5 to 2 hours via the well-maintained Hofuf–Dammam highway. Our premium vehicles make this journey comfortable, with rest stops available on request at highway service stations.</p>
-<h3>Comprehensive Al-Ahsa Coverage</h3>
-<p>We cover Hofuf city, Al Mubarraz (the twin city), Al Oyoun, Al Jafr, and all residential areas within the Al-Ahsa region. Agricultural and industrial area pickups are also available with advance notice.</p>`,
-        features: ['Al-Ahsa Wide Coverage', 'Premium Long-Distance Fleet', 'Rest Stops Available', 'Airport Connections', 'Corporate Accounts'],
+        metaTitle: 'Hofuf to Bahrain Taxi | Al-Ahsa Private Transfer',
+        metaDescription: 'Book a private Hofuf to Bahrain taxi from Hofuf, Al Mubarraz and across Al-Ahsa. Door-to-door transfers, multiple vehicle options and fixed quotes.',
+        description: 'Book a private Hofuf to Bahrain taxi from Hofuf, Al Mubarraz and across Al-Ahsa. Door-to-door transfers to Manama, Juffair, Bahrain Airport and other destinations, with private vehicles and a fixed quote before you travel.',
+        longText: `<p>Hofuf is the capital of the Al-Ahsa governorate, home to the world's largest natural oasis — a UNESCO World Heritage Site. Despite being inland from the coast, Hofuf has a significant population that regularly travels to Bahrain for medical appointments, shopping, business and weekend leisure.</p>
+<h3>How Long Does Hofuf to Bahrain Take?</h3>
+<p>The trip from Hofuf to Bahrain is approximately 200 km and typically takes 2 to 2.5 hours, via the Hofuf–Dammam highway and the King Fahd Causeway. This varies with your exact pickup address in Al-Ahsa, destination in Bahrain, and causeway traffic — treat it as a guide rather than a guarantee. Rest stops are available on request at highway service stations along the way.</p>
+<h3>Why Travelers from Al-Ahsa Travel to Bahrain</h3>
+<p>Medical appointments, shopping, business travel, family visits, weekend trips, and Bahrain Airport connections are the most common reasons Al-Ahsa residents make this journey.</p>
+<h3>Areas We Serve in Al-Ahsa</h3>
+<p>Pickup is available across Hofuf city, Al Mubarraz (the twin city), Al Oyoun, Al Jafr, and surrounding Al-Ahsa communities. Agricultural and industrial area pickups can be arranged with advance notice.</p>
+<h3>Hofuf to Bahrain Taxi Price</h3>
+<p>Private taxi fares from Hofuf to Bahrain depend on the vehicle, passenger count, luggage, exact pickup location and destination in Bahrain. Message us on WhatsApp with these details for a fixed quote before you travel — the causeway toll is included. Use our <a href="/fare-calculator/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Taxi Fare Calculator →</a> to compare vehicle options.</p>
+<h3>Popular Bahrain Destinations</h3>
+<p>We drop off door-to-door at Manama, Juffair, Seef, Muharraq, Amwaj Islands, Riffa, and Bahrain International Airport.</p>
+<h3>Hofuf to Dammam &amp; Bahrain Airports</h3>
+<p>We also arrange transfers from Hofuf and Al-Ahsa to <a href="/locations/dammam-airport/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">King Fahd International Airport (DMM) →</a> and, on the return leg, from Bahrain International Airport back to Al-Ahsa.</p>`,
+        features: ['Al-Ahsa Wide Coverage', 'Long-Distance Fleet', 'Rest Stops Available', 'Airport Connections', 'Corporate Accounts'],
         marketData: { avgFare: 'Get Quote', monthlyTrips: '90+', peakHours: 'Thu morning', demandTrend: 'Steady', avgDuration: '2-2.5 hrs' },
         coordinates: { lat: 25.3648, lng: 49.5677 },
         nearbyAreas: [
-            { name: 'Abqaiq', slug: 'abqaiq', distance: '45 min', km: '75 km' },
-            { name: 'Haradh', slug: 'haradh', distance: '1.5 hrs', km: '150 km' },
-            { name: 'Dammam', slug: 'dammam', distance: '1.5 hrs', km: '150 km' },
-            { name: 'Al Khobar', slug: 'al-khobar', distance: '2 hrs', km: '170 km' },
+            { name: 'Abqaiq', slug: 'abqaiq', distance: '45 min', km: '~75 km' },
+            { name: 'Dammam', slug: 'dammam', distance: '1.5 hrs', km: '~150 km' },
+            { name: 'Dhahran', slug: 'dhahran', distance: '1.5 hrs', km: '~150 km' },
+            { name: 'Al Khobar', slug: 'al-khobar', distance: '2 hrs', km: '~170 km' },
         ],
         landmarks: ['Al-Ahsa Oasis (UNESCO)', 'Ibrahim Palace', 'Qarah Mountain & Caves', 'Al-Ahsa National Museum', 'Hofuf Airport (HOF)', 'King Abdullah Environmental Park', 'Al Mubarraz Souq'],
         neighborhoods: ['Hofuf Center', 'Al Mubarraz', 'Al Oyoun', 'Al Jafr', 'Al Hufuf Old Town', 'Al Koot District'],
         highways: ['Hofuf–Dammam Highway', 'Hofuf–Riyadh Road', 'Al-Ahsa Ring Road'],
-        regulations: 'Standard passport requirements for causeway crossing. Hofuf Airport (HOF) serves limited domestic routes — most international travelers connect through Dammam or Bahrain airports.',
-        seasonalDemand: 'Demand peaks during date harvest season (June-August) when agricultural workers travel, and during school holidays and Eid breaks when families head to Bahrain for shopping and leisure.',
-        expertOpinion: 'Al-Ahsa is Saudi Arabia\'s hidden gem, and many of our Hofuf clients are families making their regular Bahrain shopping run. The journey is long but straightforward on the highway. We always recommend our GMC Yukon for families from Hofuf — the extra space is worth it for a 2-hour ride with kids and shopping bags on the return.',
+        regulations: 'Passengers should carry the travel documents required for entry into Bahrain and re-entry into Saudi Arabia. Requirements vary by nationality, residency and visa status, so check the current official requirements before travelling.',
+        seasonalDemand: 'Travel demand can increase during Eid, school holidays, summer holidays and major weekends.',
+        expertOpinion: 'For families travelling from Hofuf with several suitcases, we recommend confirming luggage requirements before booking so we can assign the right vehicle. For this longer journey, passengers can also request a planned rest stop at a highway service station.',
         faqs: [
-            { question: 'How far is Hofuf from Bahrain?', answer: 'Hofuf is approximately 200 km from Bahrain (Manama). The drive takes 2 to 2.5 hours via the Hofuf-Dammam highway and King Fahd Causeway.' },
-            { question: 'Do you serve Al Mubarraz and Al Oyoun?', answer: 'Yes, we cover all areas within the Al-Ahsa region including Al Mubarraz, Al Oyoun, Al Jafr, and surrounding communities.' },
-            { question: 'Can I request a rest stop?', answer: 'Of course. We typically offer a rest stop at a highway service station between Abqaiq and Dammam, roughly halfway through the journey.' },
-        ],
-        reviews: [
-            { name: 'Turki Al-Ahsai', text: 'Al-Ahsa to Bahrain every other weekend for shopping. The service is reliable and the SUV is very comfortable for the long drive from Hofuf. Highly recommend for anyone in the Al-Ahsa area.', rating: 5, date: 'January 2026' },
+            { question: 'How far is Hofuf from Bahrain?', answer: 'Approximately 200 km. The drive typically takes 2 to 2.5 hours via the Hofuf-Dammam highway and King Fahd Causeway, longer during traffic or border-processing delays.' },
+            { question: 'How much is a taxi from Hofuf to Bahrain?', answer: 'Fares depend on the vehicle, passenger count, luggage, exact pickup location and destination in Bahrain. Message us on WhatsApp for a fixed quote — the causeway toll is included.' },
+            { question: 'Do you serve Al Mubarraz and Al Oyoun?', answer: 'Yes, we cover Hofuf city, Al Mubarraz, Al Oyoun, Al Jafr, and surrounding Al-Ahsa communities. Agricultural and industrial area pickups can be arranged with advance notice.' },
+            { question: 'Can I request a rest stop?', answer: 'Yes. We typically offer a rest stop at a highway service station between Abqaiq and Dammam, roughly halfway through the journey.' },
+            { question: 'Can you take me to Bahrain International Airport?', answer: 'Yes, we can arrange a private transfer from Hofuf and Al-Ahsa directly to Bahrain International Airport.' },
+            { question: 'Do you also connect to Dammam Airport?', answer: 'Yes, we arrange transfers from Hofuf and Al-Ahsa to King Fahd International Airport (DMM) as well as to Bahrain.' },
         ],
         comparison: {
             headers: ['Route', 'Distance', 'Duration', 'Fare'],
@@ -421,8 +429,8 @@ const locationData = {
         },
         sidebarStats: { origin: 'Hofuf (Al-Ahsa)', destination: 'Bahrain', distance: '~200 KM', time: '~2-2.5 hrs', price: 'Get Quote' },
         socialProof: { clientsServed: '90+' },
-        urgency: { slots: '3 slots', message: null },
-        lastUpdated: 'February 19, 2026',
+        urgency: { message: 'Weekend bookings are recommended in advance, particularly during Eid, school holidays and peak travel periods.' },
+        lastUpdated: 'August 22, 2026',
     },
 
     'abqaiq': {

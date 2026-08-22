@@ -14,7 +14,7 @@ export default function NearbyAreas({ areas, cityName }) {
                     Also Serving Areas Near {cityName}
                 </h2>
                 <p style={{ fontSize: '0.95rem' }}>
-                    Driving distances from {cityName} to the King Fahd Causeway and nearby pickup points.
+                    Driving distances from {cityName} to nearby cities we also serve.
                 </p>
             </div>
 
