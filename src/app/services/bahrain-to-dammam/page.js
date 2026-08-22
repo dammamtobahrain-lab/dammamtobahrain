@@ -23,7 +23,7 @@ export default function BahrainToDammamPage() {
     return (
         <div className="section">
             <div className="container">
-                <h1 className="section-title">SERVICE: {data.title}</h1>
+                <h1 className="section-title">Bahrain to Dammam Taxi – Private Cross-Border Transfer</h1>
 
                 <div className="content-grid-responsive">
 
@@ -43,10 +43,6 @@ export default function BahrainToDammamPage() {
                             dangerouslySetInnerHTML={{ __html: data.longText }}
                         />
 
-                        <div style={{ margin: '3rem 0' }}>
-                            <LeadForm defaultPickup="Bahrain" defaultDestination="Dammam, Saudi Arabia" title="Request Your Fixed Quote" />
-                        </div>
-
                         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
                             <Link
                                 href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Bahrain%20to%20Dammam.%20Pickup%3A%20%5BArea%20in%20Bahrain%5D%2C%20Destination%3A%20%5BDammam%2FKhobar%2FDhahran%5D%2C%20Date%3A%20%5BDate%5D%2C%20Passengers%3A%20%5BNumber%5D"
@@ -61,7 +57,7 @@ export default function BahrainToDammamPage() {
                         {/* Cross-links to related commercial pages */}
                         <div style={{ marginTop: '2.5rem', padding: '1.5rem', background: 'var(--color-background-alt)', borderRadius: '12px', fontSize: '0.9rem' }}>
                             <strong>Also traveling the other way?</strong> See our{' '}
-                            <Link href="/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam to Bahrain taxi</Link>{' '}page, or check pickup from{' '}
+                            <Link href="/locations/dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam to Bahrain taxi</Link>{' '}page, or check pickup from{' '}
                             <Link href="/services/dammam-airport-to-bahrain/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Dammam Airport</Link>{' '}and{' '}
                             <Link href="/services/bahrain-airport-to-dammam/" style={{ color: 'var(--color-primary)', fontWeight: 700, textDecoration: 'underline' }}>Bahrain Airport</Link>.
                         </div>
@@ -94,7 +90,7 @@ export default function BahrainToDammamPage() {
                 <LocalMarketData data={data.marketData} cityName="Bahrain" />
 
                 <ComparisonTable
-                    title="Vehicle Options"
+                    title="Vehicle Options for Bahrain to Dammam"
                     headers={data.comparison.headers}
                     rows={data.comparison.rows}
                     highlightRow={data.comparison.highlightRow}

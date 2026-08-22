@@ -27,7 +27,7 @@ export default function LocalMarketData({ data, cityName }) {
                     {cityName} Route Statistics — 2026
                 </h2>
                 <p style={{ fontSize: '0.95rem' }}>
-                    Real-time data from our {cityName} operations team, updated monthly.
+                    Based on recent booking and operating patterns from our {cityName} team.
                 </p>
             </div>
 

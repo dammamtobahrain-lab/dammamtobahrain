@@ -727,20 +727,48 @@ const serviceData = {
     'bahrain-to-dammam': {
         slug: 'bahrain-to-dammam',
         title: 'BAHRAIN TO DAMMAM TAXI',
-        metaTitle: 'Bahrain to Dammam Taxi | Private Transfer & Fixed Quote',
-        metaDescription: 'Book a private taxi from Bahrain to Dammam, Khobar or Dhahran. Door-to-door pickup anywhere in Manama, Juffair, Seef or Amwaj. Get a fixed quote on WhatsApp.',
-        description: 'Traveling back to Saudi Arabia? Book a private, door-to-door taxi from Bahrain to Dammam, Al Khobar or Dhahran. Professional drivers who know the King Fahd Causeway from the Bahrain side, fixed quotes, and 24/7 availability.',
-        longText: `<h2>Private Taxi Service: Bahrain to Dammam</h2>
-<p>Heading back to the Eastern Province from Bahrain? Our Bahrain to Dammam taxi service is built specifically for the return leg of the crossing — pickup anywhere in Manama, Juffair, Seef, Amwaj Islands, or directly from Bahrain International Airport, with door-to-door drop-off in Dammam, Al Khobar, or Dhahran.</p>
-<h3>Pickup Anywhere in Bahrain</h3>
-<p>We collect passengers from hotels, residences, and offices across Bahrain — including Manama city centre, Juffair, Seef District, Amwaj Islands, and Bahrain International Airport (BAH) arrivals. Just share your pickup address on WhatsApp and we'll confirm your driver's ETA.</p>
-<h3>Same Causeway Expertise, Reverse Direction</h3>
-<p>Crossing from Bahrain into Saudi Arabia has its own rhythm — different queue patterns and peak times than the outbound direction. Our drivers cross the King Fahd Causeway daily in both directions and know when the Bahrain-side exit and Saudi-side immigration are fastest, especially around Thursday and Saturday return-traffic peaks.</p>
-<h3>Drop-off Across the Eastern Province</h3>
-<p>We deliver door-to-door to any address in Dammam, Al Khobar, Dhahran, or directly to King Fahd International Airport (DMM) if you have a connecting flight. No transfers, no shared rides — one private vehicle for your entire journey.</p>
+        metaTitle: 'Bahrain to Dammam Taxi – Price, Airport & Private Transfer',
+        metaDescription: 'Book a private Bahrain to Dammam taxi with door-to-door pickup from Manama, Juffair, Seef or Bahrain Airport. Fixed quotes, private vehicles and direct Dammam, Khobar or Dhahran drop-off.',
+        description: "Book a private Bahrain to Dammam taxi with door-to-door pickup anywhere in Bahrain and direct drop-off in Dammam, Al Khobar, Dhahran or Dammam Airport. Your driver handles the cross-border journey via King Fahd Causeway, in a vehicle matched to your group and luggage. Request a fixed quote before booking.",
+        longText: `<h2>Bahrain to Dammam Taxi Service</h2>
+<p>Heading back to the Eastern Province from Bahrain? Our Bahrain to Dammam taxi service is built specifically for the return leg of the crossing — private, door-to-door, and priced before you travel.</p>
+
+<h3>Pickup Locations Across Bahrain</h3>
+<p>We collect passengers from hotels, residences, and offices across Bahrain — including Manama city centre, Juffair, Seef District, Amwaj Islands, Muharraq, the Diplomatic Area, Adliya, Saar, Riffa, Isa Town, Al Hidd, and Bahrain International Airport (BAH) arrivals. Share your pickup address on WhatsApp and we'll confirm your driver's ETA.</p>
+
+<h3>Dammam, Khobar &amp; Dhahran Drop-Offs</h3>
+<p>We deliver door-to-door to any address in <strong>Dammam</strong> (hotels, residences, offices, and King Fahd International Airport if you have a connecting flight), <strong>Al Khobar</strong> (hotels, business districts, residences), and <strong>Dhahran</strong> (residential and business areas). No transfers, no shared rides — one private vehicle for your entire journey.</p>
+
+<h3>Bahrain Airport to Dammam Taxi</h3>
+<p>Landing at Bahrain International Airport? We track your flight and meet you at arrivals, then drive you directly to Dammam, Khobar, Dhahran, or on to Dammam Airport (DMM) for a connecting flight. See the full <a href="/services/bahrain-airport-to-dammam/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Bahrain Airport to Dammam transfer details →</a></p>
+
+<h2>Bahrain to Dammam Taxi Price</h2>
+<p>Fares depend on your exact pickup point in Bahrain, destination in Saudi Arabia, vehicle type, passenger count, and whether you're booking one-way or round-trip. Message us on WhatsApp with these details for a fixed quote before you travel — the causeway toll is included in every fare. For a full breakdown of what affects Saudi–Bahrain taxi pricing, see our <a href="/blog/cost-guide-2026" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">2026 Cost Guide →</a></p>
+
+<h2>How Long Does Bahrain to Dammam Take?</h2>
+<p>Typical journey time is approximately 45–90 minutes, depending on causeway traffic and border processing at the time you travel. Border crossings aren't fully predictable, so treat this as a guide rather than a guarantee.</p>
+
+<h3>Best Time to Travel From Bahrain to Dammam</h3>
+<p>Saturday afternoon can be busy for Bahrain-to-Saudi return traffic. If your schedule is flexible, consider travelling earlier in the day or later in the evening — conditions vary by weekend, holidays and events. See current <a href="/causeway-traffic/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">King Fahd Causeway traffic guidance →</a></p>
+
+<h2>What's Included in Your Bahrain to Dammam Taxi</h2>
+<p>Every fare includes: a private vehicle for your booking (not shared with other passengers), a professional driver, door-to-door pickup and drop-off, fuel, the standard causeway toll, luggage space according to your chosen vehicle, and Bahrain Airport pickup when booked in advance. Extra stops, waiting time beyond the agreed pickup window, additional hours, or special vehicle requirements may incur an additional charge — this is always confirmed with you before booking.</p>
+
+<h2>How Booking Works</h2>
+<p><strong>1. Send your details</strong> — pickup, destination, date, passengers and luggage, on WhatsApp or the form above.<br/>
+<strong>2. Receive your quote</strong> — our team confirms the vehicle and fixed price.<br/>
+<strong>3. Driver confirmation</strong> — you receive your driver's details and pickup instructions.<br/>
+<strong>4. Pickup in Bahrain</strong> — your driver arrives at the agreed location.<br/>
+<strong>5. Cross the Causeway</strong> — a private, door-to-door transfer into Saudi Arabia.<br/>
+<strong>6. Dammam, Khobar or Dhahran drop-off</strong> — arrive directly at your destination.</p>
+
+<h3>Crossing Requirements</h3>
+<p>Crossing requirements can vary by nationality, residency status and current border rules. Check the latest requirements with the relevant Saudi and Bahrain authorities before travel. For general guidance on documents, tolls and the crossing procedure, see our <a href="/causeway-traffic/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">King Fahd Causeway Guide →</a></p>
+
 <h3>Book Your Return in Advance</h3>
 <p>If you're already booking your Dammam to Bahrain leg, ask about a round-trip quote — it's often more convenient to lock in your return pickup time from Bahrain before you travel, especially around weekends and holidays when demand is highest.</p>`,
         features: [
+            'Private Vehicle — Not Shared',
             'Door-to-Door Pickup in Bahrain',
             'Bahrain Airport (BAH) Pickup Available',
             'Drop-off Anywhere in Dammam, Khobar or Dhahran',
@@ -752,42 +780,82 @@ const serviceData = {
             avgFare: 'Get Quote',
             monthlyTrips: '400+',
             peakHours: 'Sat 12–8 PM',
-            demandTrend: 'Growing',
+            demandTrend: 'Higher on weekends',
             avgDuration: '45–90 min'
         },
         faqs: [
             {
                 question: 'How much is a taxi from Bahrain to Dammam?',
-                answer: 'Fares depend on your exact pickup point in Bahrain, destination in Saudi Arabia, vehicle type, and passenger count. Message us on WhatsApp with these details for an instant fixed quote — the causeway toll is included.'
+                answer: 'Fares depend on your exact pickup point in Bahrain, destination in Saudi Arabia, vehicle type, and passenger count. Message us on WhatsApp with these details for a fixed quote — the causeway toll is included.'
+            },
+            {
+                question: 'How long does Bahrain to Dammam take?',
+                answer: 'Typically 45–90 minutes, depending on causeway traffic and border processing at the time you travel. Treat this as a guide rather than a guarantee, since border crossings aren’t fully predictable.'
             },
             {
                 question: 'Can you pick me up from Bahrain International Airport?',
                 answer: 'Yes. We track your flight and meet you at BAH arrivals, then drive you directly to Dammam, Khobar, Dhahran, or DMM Airport for a connecting flight.'
             },
             {
+                question: 'Can I be picked up from my hotel in Bahrain?',
+                answer: 'Yes — we collect passengers from hotels, residences and offices anywhere in Bahrain, including Manama, Juffair, Seef, Amwaj Islands and Riffa. Share your address on WhatsApp to confirm your driver’s ETA.'
+            },
+            {
+                question: 'Can you take me to Dammam Airport?',
+                answer: 'Yes, we can drop off directly at King Fahd International Airport (DMM) if you have a connecting flight — just mention this when requesting your quote.'
+            },
+            {
+                question: 'Do you also serve Khobar and Dhahran?',
+                answer: 'Yes, drop-off in Al Khobar and Dhahran is available at the same rate structure as Dammam — let us know your exact destination when requesting a quote.'
+            },
+            {
+                question: 'Is the Bahrain to Dammam taxi private?',
+                answer: 'Yes. Our standard service is a private vehicle for your booking, not a shared ride — your vehicle takes you from the Bahrain pickup point directly to your Saudi destination.'
+            },
+            {
+                question: 'How many passengers and how much luggage can I bring?',
+                answer: 'It depends on your vehicle: a sedan comfortably fits 1–3 passengers and 2–3 bags, an SUV fits 1–5 passengers and 4–5 bags, and a van fits 1–7 passengers with 6+ bags. Mention your passenger and luggage count when requesting a quote so we can match the right vehicle.'
+            },
+            {
+                question: 'Is the causeway toll included?',
+                answer: 'Yes, the standard causeway toll is included in your quoted fare. Extra stops, waiting time beyond the agreed pickup window, or additional hours may incur an additional charge, which is always confirmed with you before booking.'
+            },
+            {
                 question: 'Is the return trip from Bahrain the same price as going to Bahrain?',
                 answer: 'Pricing is based on route and vehicle, not direction, so it is typically the same as the outbound fare for an equivalent trip. Confirm your exact quote on WhatsApp.'
+            },
+            {
+                question: 'Can I book both directions (Dammam to Bahrain and Bahrain to Dammam) together?',
+                answer: 'Yes, round-trip bookings are available and convenient — you can lock in your return pickup time and location from Bahrain in the same WhatsApp conversation.'
             },
             {
                 question: 'How far in advance should I book my Bahrain to Dammam taxi?',
                 answer: 'Same-day booking is usually possible, but we recommend booking a few hours ahead — and at least a day ahead on Thursdays, Saturdays, and public holidays when causeway traffic and demand are highest.'
             },
             {
-                question: 'Can I book both directions (Dammam to Bahrain and Bahrain to Dammam) together?',
-                answer: 'Yes, round-trip bookings are available and convenient — you can lock in your return pickup time and location from Bahrain in the same WhatsApp conversation.'
+                question: 'What happens if my flight into Bahrain is delayed?',
+                answer: 'We track your flight, so your pickup time adjusts to your actual landing time rather than the original schedule. Let us know your flight number when booking.'
+            },
+            {
+                question: 'Can I change my pickup time after booking?',
+                answer: 'Yes — message us on WhatsApp as early as possible if your plans change, and we’ll do our best to adjust your driver’s schedule.'
+            },
+            {
+                question: 'What documents do I need to cross the causeway?',
+                answer: 'Requirements vary by nationality and residency status and can change, so we recommend checking current requirements with the relevant Saudi and Bahrain authorities before you travel. Your driver handles the vehicle-side logistics of the crossing.'
             }
         ],
         comparison: {
-            headers: ['Vehicle', 'Capacity', 'Fare', 'Best For'],
+            headers: ['Vehicle', 'Passengers', 'Luggage', 'Fare', 'Best For'],
             rows: [
-                ['Toyota Camry Sedan', '1-3 Pax', 'Get Quote', 'Individuals/Couples'],
-                ['GMC Yukon SUV', '1-5 Pax', 'Get Quote', 'Families/Small Groups'],
-                ['Hyundai Staria Van', '1-7 Pax', 'Get Quote', 'Large Groups/Luggage']
+                ['Toyota Camry Sedan', '1-3 Pax', '2-3 bags', 'Get Quote', 'Individuals/Couples'],
+                ['GMC Yukon SUV', '1-5 Pax', '4-5 bags', 'Get Quote', 'Families/Small Groups'],
+                ['Hyundai Staria Van', '1-7 Pax', '6+ bags', 'Get Quote', 'Large Groups/Luggage']
             ],
             highlightRow: 0
         },
-        expertOpinion: 'Saturday afternoons (12 PM–8 PM) see the heaviest Bahrain-to-Saudi return traffic as weekend visitors head home — if your schedule allows, an early Saturday morning or a Sunday crossing is significantly faster. If you must travel Saturday afternoon, tell your driver in advance so pickup timing can be adjusted around the queue.',
-        lastUpdated: 'August 18, 2026',
+        expertOpinion: 'Saturday afternoons (12 PM–8 PM) see the heaviest Bahrain-to-Saudi return traffic as weekend visitors head home. Our drivers cross the causeway in both directions daily and are familiar with the typical traffic patterns around these peak periods — if your schedule is flexible, an early Saturday morning or a Sunday crossing tends to be quieter. If you must travel Saturday afternoon, tell your driver in advance so pickup timing can be planned around it.',
+        lastUpdated: 'August 22, 2026',
         urgency: {
             slots: 'Available',
             message: 'High demand Thursday–Saturday'
