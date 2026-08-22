@@ -1,46 +1,122 @@
-import LocationsGrid from '@/components/LocationsGrid';
 import PageHero from '@/components/ui/PageHero';
+import LocationsGrid from '@/components/LocationsGrid';
 import SchemaMarkup from '@/components/sections/SchemaMarkup';
 import TrustBar from '@/components/sections/TrustBar';
 import LastUpdated from '@/components/sections/LastUpdated';
 import Link from 'next/link';
+import { Car, Plane, Crown, Users, Building2, RefreshCw, FileCheck } from 'lucide-react';
 
 export const metadata = {
-    title: "Services | Dammam to Bahrain Taxi",
-    description: "Private taxi and executive car services from all Eastern Province locations to Bahrain. Get an instant fixed-price quote on WhatsApp — 47+ cities covered.",
+    title: "Saudi to Bahrain Taxi Services | Private Transfers & Chauffeur",
+    description: "Book a private taxi from Saudi Arabia to Bahrain. Dammam, Khobar, Jubail, Riyadh and airport transfers with fixed quotes, private vehicles and door-to-door service.",
+    alternates: { canonical: '/services/' },
 };
 
-const destinations = [
-    'TRIP TO BAHRAIN', 'TRIP TO DAMMAM AIRPORT', 'LOCAL CITY TRIP (within 50 KM)',
-    'TRIP TO DAMMAM SEA PORT', 'TRIP TO QATIF', 'TRIP TO RAS TANURA', 'TRIP TO ABQAIQ',
-    'TRIP TO JUBAIL', 'TRIP TO FADHLI', 'TRIP TO SHEDGUM', 'TRIP TO AIRPORT (HASSA/HOFUF)',
-    'TRIP TO ABO ALI ISLAND', 'TRIP TO AINDAR', 'TRIP TO BARRI', 'TRIP TO ABU HADRIYA',
-    'TRIP TO KARSANIYA', 'TRIP TO UTHMANIYAH', 'TRIP TO UDHALIYAH', 'TRIP TO MANIFAH',
-    'TRIP TO SAFANIYA', 'TRIP TO TANAJIB', 'TRIP TO NARIYA', 'TRIP TO HAWIYAH',
-    'TRIP TO SALWA', 'TRIP TO KHAFJI', 'TRIP TO HARMALIYAH', 'TRIP TO KHURAIS',
-    'TRIP TO HARADH', 'TRIP TO TINAT', 'TRIP TO GAZAL', 'TRIP TO MADRIK',
-    'TRIP TO RIYADH', 'TRIP TO HAFER ALBATEN', 'TRIP TO AL KHARJ', 'TRIP TO HAWTAH',
-    'TRIP TO NAJAN', 'TRIP TO NAYM', 'TRIP TO SHAYBAH', 'TRIP TO JEDDAH',
-    'TRIP TO TURAIF / SKAKA / JALAMED', 'TRIP TO NAJRAN', 'TRIP TO YANBU',
-    'TRIP TO JIZAN', 'TRIP TO DUBA',
+const serviceCategories = [
+    {
+        icon: Car,
+        title: 'Saudi Arabia to Bahrain Taxi',
+        text: 'Private door-to-door transfers from Dammam, Khobar, Dhahran, Jubail and other Eastern Province cities to Bahrain via the King Fahd Causeway.',
+        links: [
+            { label: 'Dammam to Bahrain →', href: '/locations/dammam/' },
+            { label: 'Khobar to Bahrain →', href: '/locations/al-khobar/' },
+        ],
+    },
+    {
+        icon: Plane,
+        title: 'Airport Transfers',
+        text: 'Private pickup and drop-off between Dammam Airport (DMM), Bahrain International Airport (BAH), and any Saudi or Bahrain address, with flight tracking.',
+        links: [
+            { label: 'Dammam Airport to Bahrain →', href: '/services/dammam-airport-to-bahrain/' },
+            { label: 'Bahrain Airport to Dammam →', href: '/services/bahrain-airport-to-dammam/' },
+        ],
+    },
+    {
+        icon: Crown,
+        title: 'Private Chauffeur Service',
+        text: 'A dedicated professional driver and premium vehicle — Lexus, GMC Yukon or Hyundai Staria — for a more comfortable cross-border trip.',
+        links: [
+            { label: 'Explore the Fleet →', href: '/fleet/' },
+        ],
+    },
+    {
+        icon: Users,
+        title: 'Family & Group Transfers',
+        text: 'Spacious SUVs and vans with child seats available, built for families and larger groups traveling with luggage.',
+        links: [
+            { label: 'Family Taxi Service →', href: '/services/family-taxi/' },
+        ],
+    },
+    {
+        icon: Building2,
+        title: 'Corporate Transportation',
+        text: 'Pre-arranged transportation for businesses, employees and regular Saudi–Bahrain commuters, with account billing available.',
+        links: [
+            { label: 'Corporate Transport →', href: '/corporate/' },
+        ],
+    },
+    {
+        icon: RefreshCw,
+        title: 'Round-Trip Transfers',
+        text: 'Book your Saudi Arabia to Bahrain trip and the return journey together, with pricing worked out for both legs upfront.',
+        links: [
+            { label: 'Get a Round-Trip Quote →', href: '/fare-calculator/' },
+        ],
+    },
+    {
+        icon: FileCheck,
+        title: 'Visa Run Transportation',
+        text: 'Private transportation for travelers making a Saudi–Bahrain border run for visa purposes, with same-day turnaround.',
+        links: [
+            { label: 'Visa Run Service →', href: '/services/visa-run/' },
+        ],
+    },
 ];
 
 export default function Services() {
     return (
         <>
+            <SchemaMarkup data={{ breadcrumbs: [{ name: 'Home', href: '/' }, { name: 'Services', href: '/services/' }] }} />
+
             <PageHero
-                title="Our Services — Get a Quote"
-                subtitle="Private taxi and executive car services from 47+ cities across Saudi Arabia to Bahrain. Contact us for an instant fixed price."
+                title="Private Taxi & Chauffeur Services to Bahrain"
+                subtitle="Book a private cross-border taxi from Dammam, Khobar, Jubail, Riyadh and other Saudi cities to Bahrain. Choose a sedan, SUV or van and get a fixed quote before your trip."
                 label="SERVICES"
             />
+
             <div className="section">
+                <div className="container">
+                    <div className="section-title" style={{ marginBottom: '2.5rem' }}>
+                        <h2 style={{ fontWeight: '900', letterSpacing: '-1px' }}>Our Saudi–Bahrain Transportation Services</h2>
+                    </div>
+
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
+                        {serviceCategories.map((cat) => (
+                            <div key={cat.title} style={{ background: 'white', border: '1px solid #e5e7eb', borderRadius: '16px', padding: '1.75rem' }}>
+                                <cat.icon size={28} color="var(--color-accent)" strokeWidth={2.25} style={{ marginBottom: '0.75rem' }} />
+                                <h3 style={{ fontSize: '1.05rem', fontWeight: '800', marginBottom: '0.5rem' }}>{cat.title}</h3>
+                                <p style={{ fontSize: '0.875rem', color: '#666', lineHeight: '1.6', marginBottom: '1rem' }}>{cat.text}</p>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                                    {cat.links.map((l) => (
+                                        <Link key={l.href} href={l.href} style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--color-primary)', textDecoration: 'none' }}>
+                                            {l.label}
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+            <div className="section" style={{ paddingTop: 0 }}>
                 <div className="container" style={{ maxWidth: '800px' }}>
 
                     {/* Main CTA */}
                     <div style={{ background: '#0a0a0a', color: 'white', borderRadius: '16px', padding: '2.5rem', textAlign: 'center', marginBottom: '2.5rem' }}>
-                        <h2 style={{ color: 'white', fontSize: '1.4rem', fontWeight: '800', marginBottom: '0.75rem' }}>Get an Instant Fixed Price</h2>
+                        <h2 style={{ color: 'white', fontSize: '1.4rem', fontWeight: '800', marginBottom: '0.75rem' }}>Get Your Saudi–Bahrain Taxi Quote</h2>
                         <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.95rem', lineHeight: 1.6, maxWidth: '500px', margin: '0 auto 1.5rem' }}>
-                            Tell us your pickup city, vehicle type, and travel date — we'll reply with your fixed price in seconds. Toll included, no hidden fees.
+                            Send us your pickup location, destination, travel date, passengers and preferred vehicle. We'll confirm the available option and price on WhatsApp, usually within a few minutes.
                         </p>
                         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link
@@ -79,46 +155,16 @@ export default function Services() {
                         </div>
                     </div>
 
-                    {/* Destinations List */}
-                    <div style={{ background: 'white', border: '1px solid #e5e7eb', borderRadius: '16px', padding: '2rem', marginBottom: '2rem' }}>
-                        <h2 style={{ fontSize: '1rem', fontWeight: '800', textTransform: 'uppercase', marginBottom: '1.5rem' }}>All Destinations Covered — Request a Quote</h2>
-                        <div style={{ overflowX: 'auto' }}>
-                            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.875rem' }}>
-                                <thead>
-                                    <tr style={{ background: '#0a0a0a', color: '#fff', textAlign: 'left' }}>
-                                        <th style={{ padding: '12px 16px', fontWeight: '700', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Destination / Route</th>
-                                        <th style={{ padding: '12px 16px', fontWeight: '700', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textAlign: 'center' }}>Get Quote</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {destinations.map((dest, i) => (
-                                        <tr key={dest} style={{ borderBottom: '1px solid #f0f0f0', background: i % 2 === 0 ? 'white' : '#fafafa' }}>
-                                            <td style={{ padding: '10px 16px', fontWeight: '600', fontFamily: '"Courier New", Courier, monospace', fontSize: '0.85rem' }}>{dest}</td>
-                                            <td style={{ padding: '10px 16px', textAlign: 'center' }}>
-                                                <Link
-                                                    href={`https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20${encodeURIComponent(dest.toLowerCase())}.`}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '5px 14px', borderRadius: '6px', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none' }}
-                                                >
-                                                    Get Quote
-                                                </Link>
-                                            </td>
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
                     <div style={{ background: '#f9f9f9', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '1.5rem', textAlign: 'center' }}>
                         <p style={{ fontSize: '0.875rem', color: '#555', margin: 0 }}>
-                            All prices are all-inclusive — causeway toll, fuel, and driver. <strong>No hidden charges.</strong>
+                            All prices include the causeway toll, fuel, and driver. Extra stops, waiting time beyond the agreed pickup window, additional hours, or special vehicle requirements may incur an additional charge — this is always confirmed with you before booking.
                         </p>
                     </div>
 
                 </div>
             </div>
+
+            <LocationsGrid />
 
             <TrustBar clientsServed="10,000+" />
 

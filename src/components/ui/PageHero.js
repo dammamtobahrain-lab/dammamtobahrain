@@ -61,7 +61,7 @@ export default function PageHero({
                                 ))}
                             </div>
                             <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--color-text-muted)', fontWeight: '600' }}>
-                                5.0/5 Trust Rating
+                                4.9/5 Customer Rating
                             </p>
                         </div>
                     </div>

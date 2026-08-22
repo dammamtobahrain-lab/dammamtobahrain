@@ -17,7 +17,7 @@ export default function TrustBar({ clientsServed, cityName }) {
                     </div>
                     <div className="trust-item">
                         <Shield size={18} />
-                        <span><strong>100%</strong> satisfaction guarantee</span>
+                        <span>Committed to reliable service</span>
                     </div>
                     <div className="trust-item">
                         <Clock size={18} />
