@@ -7,7 +7,6 @@ import LocalGuide from '@/components/sections/LocalGuide';
 import PageFAQ from '@/components/sections/PageFAQ';
 import ComparisonTable from '@/components/sections/ComparisonTable';
 import RelatedGuide from '@/components/sections/RelatedGuide';
-import CityReviews from '@/components/sections/CityReviews';
 import ExpertInsight from '@/components/sections/ExpertInsight';
 import TrustBar from '@/components/sections/TrustBar';
 import UrgencyBanner from '@/components/sections/UrgencyBanner';
@@ -57,8 +56,8 @@ export default async function LocationPage({ params }) {
         notFound();
     }
 
-    const cityName = location.title.replace(/ TO BAHRAIN.*| TO SAUDI.*/, '').replace('GUIDE: ', '').replace('DESTINATION: ', '');
-    const displayCity = cityName.charAt(0) + cityName.slice(1).toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+    const cityName = location.title.replace(/ TO BAHRAIN.*| TO SAUDI.*| SERVICE AREA.*/, '').replace('GUIDE: ', '').replace('DESTINATION: ', '');
+    const displayCity = cityName.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
 
     return (
         <>
@@ -137,7 +136,7 @@ export default async function LocationPage({ params }) {
                                 <div style={{ textAlign: 'center', borderTop: '1px solid var(--color-primary)', paddingTop: '2rem', marginTop: '2rem' }}>
                                     <p style={{ marginBottom: '1rem', fontStyle: 'italic' }}>Ready to travel? Secure your booking today.</p>
                                     <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
-                                        100% satisfaction guarantee · No hidden fees · Free cancellation up to 24hrs
+                                        Private door-to-door service · No hidden fees · Free cancellation up to 24hrs
                                     </p>
                                     <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ padding: '14px 32px', fontSize: '1rem' }}>
                                         BOOK ON WHATSAPP
@@ -218,19 +217,11 @@ export default async function LocationPage({ params }) {
                     <div className="container">
                         <ComparisonTable
                             cityName={displayCity}
+                            title={`How ${displayCity} Compares to Nearby Routes`}
                             headers={location.comparison.headers}
                             rows={location.comparison.rows}
                             highlightRow={location.comparison.highlightRow}
                         />
-                    </div>
-                </div>
-            )}
-
-            {/* City Reviews */}
-            {location.reviews && location.reviews.length > 0 && (
-                <div className="section" style={{ padding: '4rem 0' }}>
-                    <div className="container">
-                        <CityReviews reviews={location.reviews} cityName={displayCity} />
                     </div>
                 </div>
             )}

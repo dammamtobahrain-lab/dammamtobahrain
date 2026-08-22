@@ -566,55 +566,48 @@ const locationData = {
     },
 
     'dammam-airport': {
-        title: 'DAMMAM AIRPORT (DMM) TO BAHRAIN',
-        metaTitle: 'Dammam Airport to Bahrain Taxi | DMM Transfer Guide 2026',
-        metaDescription: 'Airport transfer from King Fahd International (DMM) to Bahrain. Meet & greet, flight tracking, luggage help..',
-        description: 'Official guide for transferring from King Fahd International Airport to Bahrain. Meet and greet procedures, luggage handling, and visa info.',
-        longText: `<p>King Fahd International Airport (IATA: DMM) is a strategic entry point for travelers heading to Bahrain. Located between Dammam and Jubail, it's the world's largest airport by total area. Many international travelers choose to fly into DMM and take a ground transfer to Bahrain, saving significantly on airfare compared to direct flights to BAH.</p>
+        title: 'DAMMAM AIRPORT (DMM) SERVICE AREA',
+        metaTitle: 'Dammam Airport Taxi (DMM) | Bahrain & Eastern Province Transfers',
+        metaDescription: 'Dammam Airport (DMM) taxi and private transfer service for Bahrain, Dammam, Al Khobar and Dhahran. Learn about airport pickup, luggage and routes.',
+        description: "Private airport transfers to Bahrain and destinations across Saudi Arabia's Eastern Province.",
+        longText: `<p>King Fahd International Airport (IATA: DMM) is the main international airport serving Dammam and the Eastern Province of Saudi Arabia. Many international travelers fly into DMM and take a ground transfer to Bahrain, often saving on airfare compared to a direct flight to BAH.</p>
+<h3>Taxi &amp; Private Transfers from Dammam Airport</h3>
+<p>We provide private transfers from DMM to Bahrain and to destinations across the Eastern Province: <a href="/locations/dammam/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Dammam</a>, <a href="/locations/al-khobar/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Al Khobar</a>, and <a href="/locations/dhahran/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Dhahran</a>.</p>
 <h3>The Pickup Procedure at DMM</h3>
-<ol><li><strong>Flight Tracking:</strong> Provide your flight number (e.g., SV1120). Our team monitors actual landing times via live flight data.</li><li><strong>Arrivals Hall:</strong> After clearing Saudi immigration and collecting your bags from Terminal 1, exit into the main Arrivals area.</li><li><strong>Meet & Greet:</strong> Your driver will be waiting with a name sign or coordinate via WhatsApp to meet at the curbside pickup zone.</li></ol>
-<h3>Transit Visas & Requirements</h3>
-<p><strong>Important:</strong> To use DMM as a transit point to Bahrain, you must have a valid Saudi visa (Tourist eVisa, Business, or Residence). There is no airside transit option — you must formally enter Saudi Arabia. Ensure your visa allows multiple entries if you plan a return trip through DMM.</p>
-<h3>Luggage Capacity</h3>
-<p>International travel often means heavy luggage. Please specify bag count when booking:</p>
-<ul><li><strong>Sedan (Lexus/Camry):</strong> Max 2 large suitcases</li><li><strong>SUV (GMC Yukon):</strong> Up to 6 large suitcases</li><li><strong>Van (Hyundai Staria):</strong> Up to 8 suitcases</li></ul>`,
-        features: ['Flight Monitoring', 'Meet & Greet', 'Luggage Assistance', 'Name Placard Service', 'Visa Guidance'],
-        marketData: { avgFare: 'Get Quote', monthlyTrips: '200+', peakHours: 'Flight arrivals', demandTrend: 'High', avgDuration: '75-90 min' },
+<ol><li><strong>Flight Number:</strong> Provide your flight number (e.g., SV1120) when booking. We use it to help coordinate your driver's arrival with your actual landing time.</li><li><strong>Arrivals Hall:</strong> After clearing Saudi immigration and collecting your bags from Terminal 1, exit into the main Arrivals area.</li><li><strong>Meet &amp; Greet:</strong> Your driver will be waiting with a name sign or coordinate via WhatsApp to meet at the curbside pickup zone.</li></ol>
+<h3>Dammam Airport to Bahrain</h3>
+<p>Typical journey time from DMM to Bahrain is around 75–90 minutes in normal conditions, longer during causeway traffic or border-processing delays. For pricing, booking steps and full route details, see our dedicated <a href="/services/dammam-airport-to-bahrain/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Dammam Airport to Bahrain Taxi service →</a></p>
+<h3>Vehicle &amp; Luggage Options</h3>
+<p>Please specify your passenger and bag count when booking:</p>
+<ul><li><strong>Sedan (Lexus/Camry):</strong> 1–3 passengers, up to 2 large suitcases</li><li><strong>SUV (GMC Yukon):</strong> 1–5 passengers, up to 6 large suitcases</li><li><strong>Van (Hyundai Staria):</strong> 1–7 passengers, up to 8 suitcases</li></ul>
+<p>Need a price? <a href="/services/dammam-airport-to-bahrain/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Get a quote for DMM to Bahrain →</a> or use our <a href="/fare-calculator/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">Taxi Fare Calculator →</a></p>
+<h3>Saudi Visa &amp; Entry Requirements</h3>
+<p>If you're arriving at DMM and continuing to Bahrain by road, check whether your nationality and travel documents allow you to enter Saudi Arabia and travel onward by road — there is no airside transit option at DMM, so passengers formally clear Saudi immigration. Requirements vary by nationality, visa type and residency status and can change, so verify the current requirements with the relevant authorities before booking. See our <a href="/causeway-traffic/" style="color:var(--color-primary);font-weight:700;text-decoration:underline;">King Fahd Causeway Guide →</a> for general crossing information.</p>`,
+        features: ['Flight Number Coordination', 'Meet & Greet Service', 'Luggage Assistance', 'Transfers Across Eastern Province', '24/7 Availability'],
+        marketData: { avgFare: 'Get Quote', monthlyTrips: '200+', peakHours: 'Varies by Flight Schedule', avgDuration: '75-90 min' },
         coordinates: { lat: 26.4712, lng: 49.7979 },
         nearbyAreas: [
-            { name: 'Dammam', slug: 'dammam', distance: '30 min', km: '35 km' },
-            { name: 'Al Khobar', slug: 'al-khobar', distance: '45 min', km: '50 km' },
-            { name: 'Dhahran', slug: 'dhahran', distance: '35 min', km: '40 km' },
+            { name: 'Dammam', slug: 'dammam', distance: '30 min', km: '~35 km' },
+            { name: 'Al Khobar', slug: 'al-khobar', distance: '45 min', km: '~50 km' },
+            { name: 'Dhahran', slug: 'dhahran', distance: '35 min', km: '~40 km' },
         ],
-        landmarks: ['King Fahd International Airport (DMM)', 'Terminal 1', 'Airport Royal Terminal', 'DMM Mosque'],
+        landmarks: ['King Fahd International Airport (DMM)', 'Terminal 1'],
         neighborhoods: ['Airport Area', 'Terminal Zone'],
         highways: ['Airport Road', 'Route 615 (Dammam-Jubail)', 'King Fahd Road'],
-        regulations: 'Valid Saudi visa required for all passengers landing at DMM. No airside transit to ground transport — you must clear immigration. Ensure multiple-entry visa if returning through DMM.',
+        regulations: "Crossing requirements can vary by nationality, residency and visa status. There is no airside transit at DMM — passengers must clear Saudi immigration before continuing by road. Check the latest requirements with the relevant authorities before you travel.",
         seasonalDemand: 'Airport transfer demand peaks during Hajj, Umrah, Eid, and summer holidays. Flight arrival waves create predictable demand patterns.',
-        expertOpinion: 'We process dozens of DMM airport pickups weekly. The key to a smooth experience is providing your flight number at booking — our system tracks your actual landing time automatically. Even if your flight is delayed by hours, your driver adjusts without any extra charge. We know the airport layout intimately and will guide you to the pickup point via WhatsApp in real-time.',
+        expertOpinion: "After collecting your luggage, keep your phone reachable so your driver can send meeting instructions. Providing your flight number in advance also helps us coordinate your pickup around your actual landing time rather than the original schedule.",
         faqs: [
-            { question: 'How far is DMM airport from Bahrain?', answer: 'Approximately 100 km. The drive takes 75-90 minutes including the causeway border crossing.' },
-            { question: 'Will the driver wait if my flight is delayed?', answer: 'Yes. We track your flight in real-time. If your flight is delayed, your driver adjusts automatically at no extra cost.' },
-            { question: 'Do I need a Saudi visa to transit through DMM to Bahrain?', answer: 'Yes. There is no airside transit at DMM. You must clear Saudi immigration, which requires a valid visa (eVisa, business, or residence permit).' },
+            { question: 'How far is DMM airport from Bahrain?', answer: 'Approximately 100 km. The drive typically takes 75-90 minutes including the causeway border crossing, longer during traffic or border-processing delays.' },
+            { question: 'Will the driver wait if my flight is delayed?', answer: "We use the flight number you provide to help coordinate pickup with your actual landing time. If your arrival changes, message us on WhatsApp as soon as possible — no additional waiting charge applies when the delay is tied to the flight number provided in advance." },
+            { question: 'Do I need a Saudi visa to transit through DMM to Bahrain?', answer: 'There is no airside transit at DMM, so you clear Saudi immigration on arrival. Entry requirements vary by nationality, visa type and residency status, so verify current requirements with the relevant authorities before booking.' },
             { question: 'Can the driver hold a name sign?', answer: 'Yes. Just request this when booking and tell us the name you want displayed. The driver will wait at the arrivals exit with your sign.' },
+            { question: 'Do you also serve Dammam, Al Khobar and Dhahran from the airport?', answer: 'Yes — we provide private transfers from DMM to Dammam, Al Khobar, Dhahran and other Eastern Province destinations, in addition to cross-border transfers to Bahrain.' },
         ],
-        reviews: [
-            { name: 'Priya Sharma', text: 'Flew into Dammam Airport from Mumbai. The driver was tracking my flight and was already there when I came out. Professional name sign, help with bags, and a smooth ride to Bahrain. Saved money vs flying to BAH directly.', rating: 5, date: 'February 2026' },
-            { name: 'Mark Thompson', text: 'Business trip transit through DMM. Flight was 1 hour late but the driver was there, no complaints. Clean Lexus, fast route to causeway. Perfect DMM airport to Bahrain transfer.', rating: 5, date: 'January 2026' },
-        ],
-        comparison: {
-            headers: ['Transfer Option', 'Duration', 'Fare', 'Convenience'],
-            rows: [
-                ['Private Taxi from DMM', '75-90 min', 'Get Quote', 'Door-to-door, tracked'],
-                ['Airport Taxi (queue)', '90-120 min', 'Get Quote', 'Queue wait, negotiate'],
-                ['Public Bus', '3+ hrs', 'Get Quote', 'Multiple stops'],
-            ],
-            highlightRow: 0,
-        },
         sidebarStats: { origin: 'DMM Airport', destination: 'Bahrain', distance: '~100 KM', time: '~75-90 min', price: 'Get Quote' },
         socialProof: { clientsServed: '200+' },
-        urgency: { slots: '6 slots', message: null },
-        lastUpdated: 'February 19, 2026',
+        urgency: { message: 'Advance booking recommended for weekend and holiday travel.' },
+        lastUpdated: 'August 22, 2026',
     },
 
     'dammam-sea-port': {
