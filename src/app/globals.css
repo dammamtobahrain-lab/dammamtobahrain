@@ -1212,6 +1212,8 @@ section:nth-of-type(even):not(.hero):not(.section-alt) {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 50px;
 }
 
 @media (min-width: 768px) {

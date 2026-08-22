@@ -8,9 +8,15 @@ const WHATSAPP_PREFILL = "https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%2
 export default function StickyCTA() {
     return (
         <div className="sticky-cta">
-            <span className="sticky-trust desktop-only">Trusted by 500+ executives</span>
-
-            <Link href={WHATSAPP_PREFILL} className="sticky-whatsapp" target="_blank" rel="noopener noreferrer" data-track="quote_start" data-track-label="Sticky WhatsApp Quote">
+            <Link
+                href={WHATSAPP_PREFILL}
+                className="sticky-whatsapp"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-track="quote_start"
+                data-track-label="Sticky WhatsApp Quote"
+                style={{ background: '#25D366', color: 'white' }}
+            >
                 <MessageCircle size={16} /> <span className="desktop-only">WhatsApp Quote</span>
             </Link>
         </div>
