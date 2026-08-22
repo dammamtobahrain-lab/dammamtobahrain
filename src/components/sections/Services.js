@@ -22,7 +22,7 @@ const ServiceCard = ({ icon: Icon, title, description, badge, linkText }) => (
             <h3 style={{ fontSize: '1rem', marginBottom: '0.75rem', fontWeight: '700' }}>{title}</h3>
             <p style={{ color: '#4b5563', lineHeight: '1.6', fontSize: '0.85rem', marginBottom: '1.25rem' }}>{description}</p>
         </div>
-        <Link href="https://wa.me/966569487569" style={{ 
+        <Link href="https://wa.me/966590209905" style={{ 
             display: 'flex', 
             alignItems: 'center', 
             gap: '8px', 
@@ -98,7 +98,7 @@ export default function Services() {
                     </div>
                     
                     <div style={{ marginTop: '4rem', textAlign: 'center' }}>
-                        <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '14px 36px', fontSize: '0.9rem', fontWeight: '700', borderRadius: '10px' }}>
+                        <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '14px 36px', fontSize: '0.9rem', fontWeight: '700', borderRadius: '10px' }}>
                              UPGRADE YOUR JOURNEY — MESSAGE US 24/7
                         </Link>
                     </div>

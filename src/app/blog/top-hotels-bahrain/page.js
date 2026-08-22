@@ -213,7 +213,7 @@ export default function HotelGuidePage() {
                     {/* CTA */}
                     <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
                         <Link
-                            href="https://wa.me/966569487569?text=Hi%2C%20I%20need%20a%20hotel%20transfer%20to%20Bahrain."
+                            href="https://wa.me/966590209905?text=Hi%2C%20I%20need%20a%20hotel%20transfer%20to%20Bahrain."
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '14px 36px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem' }}

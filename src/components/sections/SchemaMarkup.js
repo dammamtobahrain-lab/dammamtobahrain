@@ -10,7 +10,7 @@ export default function SchemaMarkup({ type, data }) {
             name: 'Dammam to Bahrain Taxi & Private Transfer',
             description: 'Premium executive taxi and private car service connecting Saudi Arabia and Bahrain via the King Fahd Causeway. Fixed rates, professional chauffeurs, and 24/7 availability.',
             url: 'https://dammamtobahrain.com',
-            telephone: '+966569487569',
+            telephone: '+966590209905',
             priceRange: 'SAR 250 - SAR 1500',
             image: 'https://dammamtobahrain.com/images/hero.png',
             address: {

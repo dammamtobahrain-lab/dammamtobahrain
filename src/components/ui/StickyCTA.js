@@ -26,11 +26,11 @@ export default function StickyCTA() {
                 <Shield size={14} /> Official Transport Partner
             </span>
 
-            <Link href="https://wa.me/966569487569" className="sticky-whatsapp">
+            <Link href="https://wa.me/966590209905" className="sticky-whatsapp">
                 <MessageCircle size={16} /> <span className="desktop-only">WhatsApp Quote</span>
             </Link>
 
-            <Link href="https://wa.me/966569487569" className="sticky-book">
+            <Link href="https://wa.me/966590209905" className="sticky-book">
                 <Phone size={16} /> <span className="desktop-only">Book Now</span>
             </Link>
 

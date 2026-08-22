@@ -70,7 +70,7 @@ export default function Home() {
                     <span style={{ color: '#ff3b30' }}>●</span> 14 Drivers Available Today — <strong>Peak Hours Filling Fast</strong>
                 </p>
                 <span className="urgency-causeway">Causeway: OPEN</span>
-                <Link href="https://wa.me/966569487569" className="urgency-link">SECURE YOUR SLOT →</Link>
+                <Link href="https://wa.me/966590209905" className="urgency-link">SECURE YOUR SLOT →</Link>
             </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function Home() {
               ) : (
                 <a
                   key={route.name}
-                  href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20to%20Bahrain."
+                  href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20to%20Bahrain."
                   className="route-card"
                   data-track="route_selected"
                   data-track-label={route.name}

@@ -43,7 +43,7 @@ export default function DammamAirportToBahrainPage() {
                         />
 
                         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-                            <Link href="https://wa.me/966569487569" className="btn btn-primary btn-large">
+                            <Link href="https://wa.me/966590209905" className="btn btn-primary btn-large">
                                 BOOK ON WHATSAPP
                             </Link>
                         </div>
@@ -58,7 +58,7 @@ export default function DammamAirportToBahrainPage() {
                                 ))}
                             </ul>
                             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-                                <Link href="https://wa.me/966569487569" className="btn btn-primary btn-full-width">
+                                <Link href="https://wa.me/966590209905" className="btn btn-primary btn-full-width">
                                     BOOK ON WHATSAPP
                                 </Link>
                             </div>

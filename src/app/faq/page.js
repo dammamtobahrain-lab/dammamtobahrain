@@ -43,7 +43,7 @@ export default function FAQ() {
                     <div className="section-title">
                         <span>Help Center</span>
                         <h1>Frequently Asked Questions</h1>
-                        <p>Everything you need to know about our Saudi Arabia to Bahrain taxi service. Can't find your answer? Chat with us on <a href="https://wa.me/966569487569" style={{ color: '#25D366', fontWeight: 'bold' }}>WhatsApp</a> for an instant reply.</p>
+                        <p>Everything you need to know about our Saudi Arabia to Bahrain taxi service. Can't find your answer? Chat with us on <a href="https://wa.me/966590209905" style={{ color: '#25D366', fontWeight: 'bold' }}>WhatsApp</a> for an instant reply.</p>
                     </div>
 
                     <PageFAQ faqs={allFaqs} />
@@ -52,7 +52,7 @@ export default function FAQ() {
                         <p style={{ fontWeight: '600', marginBottom: '0.5rem', color: 'var(--color-primary)' }}>Still have questions?</p>
                         <p style={{ marginBottom: '1rem' }}>Contact us directly — we respond within seconds on WhatsApp.</p>
                         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                            <a href="https://wa.me/966569487569" className="btn btn-primary" style={{ background: '#25D366', borderColor: '#25D366' }}>Chat on WhatsApp</a>
+                            <a href="https://wa.me/966590209905" className="btn btn-primary" style={{ background: '#25D366', borderColor: '#25D366' }}>Chat on WhatsApp</a>
                             <a href="mailto:booking@dammamtobahrain.com" className="btn btn-outline">Email Us</a>
                         </div>
                     </div>

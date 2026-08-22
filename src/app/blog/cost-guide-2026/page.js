@@ -43,7 +43,7 @@ export default function CostGuide() {
                         <h2 style={{ color: '#166534', fontSize: '1.2rem', marginBottom: '0.5rem' }}>Get Your Price Instantly</h2>
                         <p style={{ color: '#555', marginBottom: '1rem', fontSize: '0.95rem' }}>Send us your pickup city and we'll reply with a fixed price in seconds.</p>
                         <Link
-                            href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Bahrain."
+                            href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Bahrain."
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem' }}
@@ -74,7 +74,7 @@ export default function CostGuide() {
                                     <td style={{ padding: '1rem' }}>{row.car}</td>
                                     <td style={{ padding: '1rem' }}>
                                         <Link
-                                            href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20from%20${encodeURIComponent(row.from)}%20to%20${encodeURIComponent(row.to)}.`}
+                                            href={`https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20from%20${encodeURIComponent(row.from)}%20to%20${encodeURIComponent(row.to)}.`}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '5px 14px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: '700', textDecoration: 'none' }}

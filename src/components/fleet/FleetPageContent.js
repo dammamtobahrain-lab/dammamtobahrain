@@ -44,7 +44,7 @@ export default function FleetPageContent() {
                                         <li>🚗 <strong>Models:</strong> Toyota Camry, Lexus ES</li>
                                     </ul>
                                     <div className="card-actions">
-                                        <Link href="https://wa.me/966569487569" className="btn btn-primary">Book Sedan on WhatsApp</Link>
+                                        <Link href="https://wa.me/966590209905" className="btn btn-primary">Book Sedan on WhatsApp</Link>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ export default function FleetPageContent() {
                                         <li>🚙 <strong>Models:</strong> GMC Yukon XL, Chevy Tahoe</li>
                                     </ul>
                                     <div className="card-actions">
-                                        <Link href="https://wa.me/966569487569" className="btn btn-primary">Book SUV on WhatsApp</Link>
+                                        <Link href="https://wa.me/966590209905" className="btn btn-primary">Book SUV on WhatsApp</Link>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ export default function FleetPageContent() {
                                         <li>🚍 <strong>Models:</strong> Hyundai Staria</li>
                                     </ul>
                                     <div className="card-actions">
-                                        <Link href="https://wa.me/966569487569" className="btn btn-primary">Book Staria on WhatsApp</Link>
+                                        <Link href="https://wa.me/966590209905" className="btn btn-primary">Book Staria on WhatsApp</Link>
                                     </div>
                                 </div>
                             </div>

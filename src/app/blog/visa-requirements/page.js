@@ -170,7 +170,7 @@ export default function VisaGuidePage() {
                         <div style={{ background: '#f0f9ff', border: '1px solid #bae6fd', borderRadius: '10px', padding: '1.25rem' }}>
                             <strong style={{ fontSize: '0.9rem' }}>The simplest solution:</strong>
                             <p style={{ color: '#444', fontSize: '0.875rem', lineHeight: 1.7, margin: '0.5rem 0 0' }}>
-                                Book a taxi. We handle 100% of the vehicle paperwork. You only need your personal travel documents. No causeway insurance, no bank letter, no vehicle permit — just your passport and Iqama. <Link href="https://wa.me/966569487569" style={{ color: 'var(--color-accent)', fontWeight: '700' }}>Book via WhatsApp →</Link>
+                                Book a taxi. We handle 100% of the vehicle paperwork. You only need your personal travel documents. No causeway insurance, no bank letter, no vehicle permit — just your passport and Iqama. <Link href="https://wa.me/966590209905" style={{ color: 'var(--color-accent)', fontWeight: '700' }}>Book via WhatsApp →</Link>
                             </p>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ export default function VisaGuidePage() {
                     </div>
 
                     <div style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-                        <Link href="https://wa.me/966569487569?text=Hi%2C%20I%20need%20a%20taxi%20to%20Bahrain%20and%20have%20a%20visa%20question." className="btn btn-primary" style={{ padding: '15px 40px', display: 'inline-block', textDecoration: 'none' }}>
+                        <Link href="https://wa.me/966590209905?text=Hi%2C%20I%20need%20a%20taxi%20to%20Bahrain%20and%20have%20a%20visa%20question." className="btn btn-primary" style={{ padding: '15px 40px', display: 'inline-block', textDecoration: 'none' }}>
                             BOOK TAXI — SKIP THE PAPERWORK
                         </Link>
                     </div>

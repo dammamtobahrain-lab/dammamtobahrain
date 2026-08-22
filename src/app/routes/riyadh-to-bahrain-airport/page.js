@@ -71,7 +71,7 @@ export default function RiyadhAirportRoutePage() {
                                 <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '1rem' }}>
                                     100% satisfaction guarantee · No hidden fees · Free cancellation up to 24hrs
                                 </p>
-                                <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '12px 36px', fontSize: '1rem' }}>
+                                <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ padding: '12px 36px', fontSize: '1rem' }}>
                                     BOOK ON WHATSAPP
                                 </Link>
                             </div>
@@ -88,7 +88,7 @@ export default function RiyadhAirportRoutePage() {
                                     <li><strong>Vehicle:</strong> Lexus/Yukon Only</li>
                                 </ul>
                                 <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-                                    <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem', width: '100%', display: 'block' }}>
+                                    <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem', width: '100%', display: 'block' }}>
                                         BOOK ON WHATSAPP
                                     </Link>
                                 </div>

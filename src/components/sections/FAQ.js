@@ -87,7 +87,7 @@ export default function FAQ() {
                 <div style={{ textAlign: 'center', marginTop: '4rem', background: 'var(--color-primary)', padding: '2.5rem', borderRadius: '24px', color: 'white' }}>
                     <h3 style={{ color: 'white', marginBottom: '0.5rem', fontSize: '1.1rem', fontWeight: '700' }}>Still Unsure About the Process?</h3>
                     <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '1.5rem', fontSize: '0.8rem' }}>Our bilingual support team provides 24/7 assistance for all your cross-border questions.</p>
-                    <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ background: '#25D366', color: 'white', border: 'none', padding: '0.8rem 1.75rem', display: 'inline-flex', alignItems: 'center', gap: '8px', fontSize: '0.9rem', fontWeight: '700', borderRadius: '8px' }}>
+                    <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ background: '#25D366', color: 'white', border: 'none', padding: '0.8rem 1.75rem', display: 'inline-flex', alignItems: 'center', gap: '8px', fontSize: '0.9rem', fontWeight: '700', borderRadius: '8px' }}>
                         <MessageCircle size={20} /> TALK TO US ON WHATSAPP
                     </Link>
                 </div>

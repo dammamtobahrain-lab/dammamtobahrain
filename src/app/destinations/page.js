@@ -113,7 +113,7 @@ export default function DestinationsPage() {
                                         View Details →
                                     </Link>
                                     <Link
-                                        href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20${encodeURIComponent(dest.name)}%20in%20Bahrain.`}
+                                        href={`https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20${encodeURIComponent(dest.name)}%20in%20Bahrain.`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         style={{ background: '#25D366', color: 'white', padding: '10px 18px', borderRadius: '8px', fontSize: '0.8rem', fontWeight: '700', textDecoration: 'none', textAlign: 'center', whiteSpace: 'nowrap' }}
@@ -146,7 +146,7 @@ export default function DestinationsPage() {
                                             <td style={{ padding: '10px 12px', textAlign: 'center', color: '#666' }}>{c.time}</td>
                                             <td style={{ padding: '10px 12px', textAlign: 'center' }}>
                                                 <Link
-                                                    href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(c.from)}%20to%20${encodeURIComponent(c.to)}%20in%20Bahrain.`}
+                                                    href={`https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(c.from)}%20to%20${encodeURIComponent(c.to)}%20in%20Bahrain.`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     style={{ background: '#25D366', color: 'white', padding: '6px 12px', borderRadius: '6px', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none' }}
@@ -168,7 +168,7 @@ export default function DestinationsPage() {
                             We drop off anywhere in Bahrain — hotels, compounds, hospitals, universities, restaurants. Send us your destination and we'll confirm the price instantly.
                         </p>
                         <Link
-                            href="https://wa.me/966569487569?text=Hi%2C%20I%20need%20a%20quote%20for%20a%20taxi%20to%20a%20custom%20destination%20in%20Bahrain."
+                            href="https://wa.me/966590209905?text=Hi%2C%20I%20need%20a%20quote%20for%20a%20taxi%20to%20a%20custom%20destination%20in%20Bahrain."
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none' }}

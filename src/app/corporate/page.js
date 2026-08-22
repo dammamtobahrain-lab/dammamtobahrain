@@ -47,7 +47,7 @@ export default function CorporatePage() {
                             <div style={{ background: 'var(--color-background-alt)', padding: '2rem', borderRadius: '16px', border: '1px solid var(--color-border)', textAlign: 'center' }}>
                                 <h4 style={{ fontSize: '0.9rem', textTransform: 'uppercase', fontWeight: '800', marginBottom: '0.5rem' }}>IMMEDIATE BUSINESS REQUEST?</h4>
                                 <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>Book a guest trip instantly while your account is being processed.</p>
-                                <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '12px 24px' }}>BOOK BUSINESS RIDE</Link>
+                                <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ padding: '12px 24px' }}>BOOK BUSINESS RIDE</Link>
                             </div>
                         </div>
 

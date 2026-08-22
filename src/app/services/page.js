@@ -44,7 +44,7 @@ export default function Services() {
                         </p>
                         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link
-                                href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20service."
+                                href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20service."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem' }}
@@ -52,7 +52,7 @@ export default function Services() {
                                 GET QUOTE ON WHATSAPP
                             </Link>
                             <Link
-                                href="tel:+966569487569"
+                                href="tel:+966590209905"
                                 style={{ display: 'inline-block', background: 'rgba(255,255,255,0.1)', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem', border: '1px solid rgba(255,255,255,0.3)' }}
                             >
                                 CALL US NOW
@@ -96,7 +96,7 @@ export default function Services() {
                                             <td style={{ padding: '10px 16px', fontWeight: '600', fontFamily: '"Courier New", Courier, monospace', fontSize: '0.85rem' }}>{dest}</td>
                                             <td style={{ padding: '10px 16px', textAlign: 'center' }}>
                                                 <Link
-                                                    href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20${encodeURIComponent(dest.toLowerCase())}.`}
+                                                    href={`https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20${encodeURIComponent(dest.toLowerCase())}.`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '5px 14px', borderRadius: '6px', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none' }}

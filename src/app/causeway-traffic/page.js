@@ -103,7 +103,7 @@ export default function CausewayTrafficPage() {
                             <h3 style={{ color: 'white', fontSize: '1.1rem', marginBottom: '0.25rem' }}>Need a Taxi Across the Causeway?</h3>
                             <p style={{ color: 'rgba(255,255,255,0.7)', margin: 0, fontSize: '0.85rem' }}>We time your pickup around this traffic data. Get a fixed quote either direction.</p>
                         </div>
-                        <Link href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20causeway%20crossing." style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.9rem', whiteSpace: 'nowrap' }} data-track="quote_start" data-track-label="Causeway Mid-page CTA">
+                        <Link href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20causeway%20crossing." style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.9rem', whiteSpace: 'nowrap' }} data-track="quote_start" data-track-label="Causeway Mid-page CTA">
                             GET YOUR QUOTE
                         </Link>
                     </div>
@@ -200,7 +200,7 @@ export default function CausewayTrafficPage() {
                             <Link href="/fare-calculator/" style={{ background: 'white', color: '#0a0a0a', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.9rem' }}>
                                 CHECK PRICES
                             </Link>
-                            <Link href="https://wa.me/966569487569" target="_blank" rel="noopener noreferrer" style={{ background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.9rem' }} data-track="quote_start" data-track-label="Causeway Bottom CTA">
+                            <Link href="https://wa.me/966590209905" target="_blank" rel="noopener noreferrer" style={{ background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.9rem' }} data-track="quote_start" data-track-label="Causeway Bottom CTA">
                                 BOOK ON WHATSAPP
                             </Link>
                         </div>

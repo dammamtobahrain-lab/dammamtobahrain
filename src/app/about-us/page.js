@@ -82,7 +82,7 @@ export default function AboutUs() {
                         <div style={{ background: 'var(--color-primary)', color: 'white', padding: '2.5rem', borderRadius: '16px', textAlign: 'center' }}>
                              <h4 style={{ marginBottom: '0.75rem', fontSize: '1.1rem' }}>Ready to Experience VIP Travel?</h4>
                              <p style={{ fontSize: '0.85rem', opacity: 0.8, marginBottom: '1.5rem' }}>Join 5,000+ happy travelers this year.</p>
-                             <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '12px 24px', width: '100%', border: 'none' }}>
+                             <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '12px 24px', width: '100%', border: 'none' }}>
                                 BOOK ON WHATSAPP
                              </Link>
                         </div>

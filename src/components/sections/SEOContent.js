@@ -140,7 +140,7 @@ export default function SEOContent() {
                                 <li style={{ display: 'flex', gap: '12px', fontSize: '1rem' }}><CheckCircle2 size={24} color="var(--color-accent)" strokeWidth={3} />Premium GMC & Lexus VIP Fleet Only</li>
                                 <li style={{ display: 'flex', gap: '12px', fontSize: '1rem' }}><CheckCircle2 size={24} color="var(--color-accent)" strokeWidth={3} />Bilingual Drivers (Arabic/English)</li>
                              </ul>
-                             <Link href="https://wa.me/966569487569" className="pulse-btn" style={{ display: 'block', padding: '14px 28px', textAlign: 'center', background: 'var(--color-accent)', color: 'var(--color-primary)', fontWeight: '700', borderRadius: '10px', fontSize: '0.9rem', textDecoration: 'none' }}>
+                             <Link href="https://wa.me/966590209905" className="pulse-btn" style={{ display: 'block', padding: '14px 28px', textAlign: 'center', background: 'var(--color-accent)', color: 'var(--color-primary)', fontWeight: '700', borderRadius: '10px', fontSize: '0.9rem', textDecoration: 'none' }}>
                                  BOOK NOW — PAY AT DESTINATION →
                              </Link>
                         </div>

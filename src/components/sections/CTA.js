@@ -15,7 +15,7 @@ export default function CTA() {
                 </p>
                 
                 <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '2.5rem' }}>
-                    <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '10px 28px', fontSize: '0.85rem', fontWeight: '700', borderRadius: '8px', boxShadow: '0 8px 25px rgba(0,0,0,0.2)', border: 'none' }}>
+                    <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ background: 'var(--color-accent)', color: 'var(--color-primary)', padding: '10px 28px', fontSize: '0.85rem', fontWeight: '700', borderRadius: '8px', boxShadow: '0 8px 25px rgba(0,0,0,0.2)', border: 'none' }}>
                          WHATSAPP INSTANT BOOKING →
                     </Link>
                 </div>

@@ -210,7 +210,7 @@ export default function ReviewsPage() {
                         </p>
                         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link
-                                href="https://wa.me/966569487569?text=Hi%2C%20I%20wanted%20to%20leave%20a%20review%20about%20my%20recent%20trip."
+                                href="https://wa.me/966590209905?text=Hi%2C%20I%20wanted%20to%20leave%20a%20review%20about%20my%20recent%20trip."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ background: '#25D366', color: 'white', padding: '12px 24px', borderRadius: '8px', fontWeight: '700', textDecoration: 'none', fontSize: '0.9rem' }}
@@ -218,7 +218,7 @@ export default function ReviewsPage() {
                                 Leave a Review on WhatsApp
                             </Link>
                             <Link
-                                href="https://wa.me/966569487569"
+                                href="https://wa.me/966590209905"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ background: 'rgba(255,255,255,0.1)', color: 'white', padding: '12px 24px', borderRadius: '8px', fontWeight: '700', textDecoration: 'none', fontSize: '0.9rem' }}

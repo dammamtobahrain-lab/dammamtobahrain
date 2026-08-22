@@ -15,7 +15,7 @@ export default function PageHero({
     label = "PREMIUM TRANSPORT",
     image = "/images/hero.png", // Default image if none provided
     ctaText = "Book Now",
-    ctaLink = "https://wa.me/966569487569"
+    ctaLink = "https://wa.me/966590209905"
 }) {
     return (
         <section className="section" style={{ paddingBottom: '0', background: '#fafafa' }}>

@@ -25,8 +25,8 @@ export default function FareCalculatorTool() {
     const vehicleName = vehicles.find(v => v.key === vehicle)?.name || '';
 
     const waLink = from
-        ? `https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(from)}%20to%20Bahrain%20(${encodeURIComponent(vehicleName)}%2C%20${passengers}%20pax${roundTrip ? '%2C%20round%20trip' : ''}).`
-        : 'https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Bahrain.';
+        ? `https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(from)}%20to%20Bahrain%20(${encodeURIComponent(vehicleName)}%2C%20${passengers}%20pax${roundTrip ? '%2C%20round%20trip' : ''}).`
+        : 'https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Bahrain.';
 
     return (
         <div style={{ background: 'white', borderRadius: '16px', padding: '2.5rem', boxShadow: '0 4px 30px rgba(0,0,0,0.08)', border: '1px solid #eee' }}>

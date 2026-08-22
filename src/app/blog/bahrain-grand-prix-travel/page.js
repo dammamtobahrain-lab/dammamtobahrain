@@ -111,7 +111,7 @@ export default function GrandPrixTravelPage() {
                                     <Link href="/fare-calculator/" style={{ background: 'white', color: '#0a0a0a', padding: '11px 24px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.875rem' }}>
                                         Get a Quote
                                     </Link>
-                                    <Link href="https://wa.me/966569487569" target="_blank" rel="noopener noreferrer" style={{ background: '#25D366', color: 'white', padding: '11px 24px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.875rem' }}>
+                                    <Link href="https://wa.me/966590209905" target="_blank" rel="noopener noreferrer" style={{ background: '#25D366', color: 'white', padding: '11px 24px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '0.875rem' }}>
                                         Book on WhatsApp
                                     </Link>
                                 </div>

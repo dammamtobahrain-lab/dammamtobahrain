@@ -45,7 +45,7 @@ export default function AirportTransfersPageContent() {
                             />
 
                             <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-                                <Link href="https://wa.me/966569487569" className="btn btn-primary btn-large">
+                                <Link href="https://wa.me/966590209905" className="btn btn-primary btn-large">
                                     BOOK ON WHATSAPP
                                 </Link>
                             </div>
@@ -62,7 +62,7 @@ export default function AirportTransfersPageContent() {
                                 </ul>
                                 <UrgencyBanner message={data.urgency.message} slots={data.urgency.slots} small={true} />
                                 <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
-                                    <Link href="https://wa.me/966569487569" className="btn btn-primary full-width">
+                                    <Link href="https://wa.me/966590209905" className="btn btn-primary full-width">
                                         BOOK ON WHATSAPP
                                     </Link>
                                     <p className="secure-badge">🔒 Flight Tracking Included</p>

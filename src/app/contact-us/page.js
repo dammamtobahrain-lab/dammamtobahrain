@@ -75,7 +75,7 @@ export default function ContactUs() {
                             <p style={{ marginTop: '1rem' }}>
                                 For immediate assistance, please click the button below to chat with our operations team.
                             </p>
-                            <a href="https://wa.me/966569487569" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', borderRadius: '0' }}>
+                            <a href="https://wa.me/966590209905" className="btn btn-primary" style={{ marginTop: '1rem', display: 'inline-block', borderRadius: '0' }}>
                                 OPEN WHATSAPP CHAT
                             </a>
                         </div>
@@ -85,7 +85,7 @@ export default function ContactUs() {
                             <p style={{ marginBottom: '1.5rem', fontSize: '1rem', lineHeight: '1.6', opacity: '0.9' }}>
                                 We have moved to a direct WhatsApp booking system for faster responses and real-time coordination. Our team is available 24/7.
                             </p>
-                            <a href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '1.2rem 2.5rem', fontSize: '1.1rem', background: '#25D366', borderColor: '#25D366' }}>
+                            <a href="https://wa.me/966590209905" className="btn btn-primary" style={{ padding: '1.2rem 2.5rem', fontSize: '1.1rem', background: '#25D366', borderColor: '#25D366' }}>
                                 CHAT ON WHATSAPP
                             </a>
                         </div>

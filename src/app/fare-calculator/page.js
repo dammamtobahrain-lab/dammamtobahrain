@@ -48,7 +48,7 @@ export default function GetQuotePage() {
                         </p>
                         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                             <Link
-                                href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Bahrain.%20Pickup%3A%20%5BYour%20City%5D%2C%20Vehicle%3A%20%5BSedan%2FSUV%2FVan%5D%2C%20Passengers%3A%20%5BNumber%5D%2C%20Date%3A%20%5BDate%5D"
+                                href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20to%20Bahrain.%20Pickup%3A%20%5BYour%20City%5D%2C%20Vehicle%3A%20%5BSedan%2FSUV%2FVan%5D%2C%20Passengers%3A%20%5BNumber%5D%2C%20Date%3A%20%5BDate%5D"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#25D366', color: 'white', padding: '14px 32px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem' }}
@@ -58,7 +58,7 @@ export default function GetQuotePage() {
                                 GET QUOTE ON WHATSAPP
                             </Link>
                             <Link
-                                href="tel:+966569487569"
+                                href="tel:+966590209905"
                                 style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: '#0a0a0a', color: 'white', padding: '14px 32px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none', fontSize: '1rem' }}
                             >
                                 CALL US NOW
@@ -141,7 +141,7 @@ export default function GetQuotePage() {
                                             <td style={{ padding: '10px 12px', textAlign: 'center', color: '#555' }}>{r.time}</td>
                                             <td style={{ padding: '10px 12px', textAlign: 'center' }}>
                                                 <Link
-                                                    href={`https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(r.from)}%20to%20Bahrain.`}
+                                                    href={`https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20${encodeURIComponent(r.from)}%20to%20Bahrain.`}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '5px 14px', borderRadius: '6px', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none' }}
@@ -159,7 +159,7 @@ export default function GetQuotePage() {
                     <div style={{ background: '#0a0a0a', color: 'white', borderRadius: '16px', padding: '2rem', textAlign: 'center' }}>
                         <h3 style={{ color: 'white', marginBottom: '0.5rem' }}>Don't See Your City?</h3>
                         <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '1rem', fontSize: '0.875rem' }}>We cover 47+ locations. Send us a message for a custom quote on any route.</p>
-                        <Link href="https://wa.me/966569487569" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none' }}>
+                        <Link href="https://wa.me/966590209905" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none' }}>
                             GET CUSTOM QUOTE
                         </Link>
                     </div>

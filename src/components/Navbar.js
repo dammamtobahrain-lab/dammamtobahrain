@@ -52,8 +52,8 @@ export default function Navbar() {
             <Link href="/fare-calculator" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Prices</Link>
             <Link href="/causeway-traffic" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Traffic</Link>
             <Link href="/locations" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Locations</Link>
-            <Link href="https://wa.me/966569487569" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
-            <Link href="https://wa.me/966569487569" className="btn btn-primary" style={{ padding: '0.6rem 1.25rem' }} data-track="quote_start" data-track-label="Navbar Book Now">
+            <Link href="https://wa.me/966590209905" style={{ color: 'var(--color-text-main)', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
+            <Link href="https://wa.me/966590209905" className="btn btn-primary" style={{ padding: '0.6rem 1.25rem' }} data-track="quote_start" data-track-label="Navbar Book Now">
               Book Now
             </Link>
           </nav>
@@ -93,8 +93,8 @@ export default function Navbar() {
             <Link href="/fleet" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Fleet</Link>
             <Link href="/locations" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Locations</Link>
             <Link href="/drivers" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Our Drivers</Link>
-            <Link href="https://wa.me/966569487569" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Contact</Link>
-            <Link href="https://wa.me/966569487569" className="btn btn-primary" onClick={() => setIsOpen(false)} style={{ textAlign: 'center' }}>
+            <Link href="https://wa.me/966590209905" onClick={() => setIsOpen(false)} style={{ fontSize: '1.1rem', fontWeight: 600 }}>Contact</Link>
+            <Link href="https://wa.me/966590209905" className="btn btn-primary" onClick={() => setIsOpen(false)} style={{ textAlign: 'center' }}>
               Book Now
             </Link>
           </div>

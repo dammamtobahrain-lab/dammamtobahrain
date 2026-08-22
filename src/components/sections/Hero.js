@@ -55,7 +55,7 @@ export default function Hero() {
 
                         <div className="hero-cta-row">
                             <Link
-                                href="https://wa.me/966569487569?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20to%20Bahrain.%20Pickup%3A%20%5B%5D%2C%20Destination%3A%20%5B%5D%2C%20Date%3A%20%5B%5D%2C%20Time%3A%20%5B%5D%2C%20Passengers%3A%20%5B%5D"
+                                href="https://wa.me/966590209905?text=Hi%2C%20I%27d%20like%20a%20quote%20for%20a%20taxi%20from%20Dammam%20to%20Bahrain.%20Pickup%3A%20%5B%5D%2C%20Destination%3A%20%5B%5D%2C%20Date%3A%20%5B%5D%2C%20Time%3A%20%5B%5D%2C%20Passengers%3A%20%5B%5D"
                                 className="btn btn-primary hero-cta-btn"
                                 data-track="quote_start"
                                 data-track-label="Hero Primary WhatsApp CTA"

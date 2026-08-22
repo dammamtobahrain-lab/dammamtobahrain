@@ -117,7 +117,7 @@ export default function EidTravelPage() {
                             <div style={{ background: '#0a0a0a', color: 'white', borderRadius: '12px', padding: '2rem', marginTop: '2rem', textAlign: 'center' }}>
                                 <h3 style={{ color: 'white', marginBottom: '0.5rem' }}>Book Your Eid Transfer Now</h3>
                                 <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '1.5rem', fontSize: '0.875rem' }}>Slots fill up 2 weeks before Eid. Don't miss out.</p>
-                                <Link href="https://wa.me/966569487569" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none' }}>
+                                <Link href="https://wa.me/966590209905" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', background: '#25D366', color: 'white', padding: '12px 28px', borderRadius: '8px', fontWeight: '800', textDecoration: 'none' }}>
                                     WHATSAPP TO BOOK
                                 </Link>
                             </div>
@@ -152,7 +152,7 @@ export default function EidTravelPage() {
                                 <Link href="/fare-calculator/" style={{ display: 'block', background: 'white', color: '#0a0a0a', padding: '10px', borderRadius: '8px', fontWeight: '700', textDecoration: 'none', fontSize: '0.85rem', marginBottom: '0.5rem' }}>
                                     Fare Calculator →
                                 </Link>
-                                <Link href="https://wa.me/966569487569" target="_blank" rel="noopener noreferrer" style={{ display: 'block', background: '#25D366', color: 'white', padding: '10px', borderRadius: '8px', fontWeight: '700', textDecoration: 'none', fontSize: '0.85rem' }}>
+                                <Link href="https://wa.me/966590209905" target="_blank" rel="noopener noreferrer" style={{ display: 'block', background: '#25D366', color: 'white', padding: '10px', borderRadius: '8px', fontWeight: '700', textDecoration: 'none', fontSize: '0.85rem' }}>
                                     Book Now →
                                 </Link>
                             </div>
